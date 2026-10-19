@@ -9,6 +9,7 @@
 - 答錯自動加入星號
 - 星號題目練習
 - 題目總覽、搜尋與作答紀錄
+- 可由首頁直接開啟、持續更新的化原筆記
 - 瀏覽器本機進度儲存
 - 可選用的 Supabase 帳號與跨裝置同步
 
@@ -19,6 +20,7 @@
 ```text
 chemistry-midterm-web/
 ├─ index.html
+├─ notes.html
 ├─ app.js
 ├─ style.css
 ├─ config.js
