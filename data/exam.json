@@ -1,0 +1,6291 @@
+[
+  {
+    "id": "dd116-q01",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A molecule with very polar bonds can be nonpolar."
+      },
+      {
+        "id": "B",
+        "text": "The electrons in a polar bond are found nearer to the more electronegative element."
+      },
+      {
+        "id": "C",
+        "text": "Linear molecules cannot have a net dipole moment."
+      },
+      {
+        "id": "D",
+        "text": "Dipole moments result from the unequal distribution of electrons in a molecule."
+      },
+      {
+        "id": "E",
+        "text": "Ionic bonding results from the transfer of electrons from one atom to another."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Linear molecules can have a net dipole when the bond dipoles do not cancel (for example, HCN).",
+    "explanation": "Linear molecules can have a net dipole when the bond dipoles do not cancel (for example, HCN).",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 1,
+      "page": 1,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q02",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of these statements is a consequence (follows from) the Law of Multiple Proportions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All samples of chlorine contain 35Cl and 37Cl in the same (definite) ratio."
+      },
+      {
+        "id": "B",
+        "text": "The mass of oxygen that is combined with a fixed mass of nitrogen in each of the binary nitrogen oxides can be expressed as a ratio of small whole numbers."
+      },
+      {
+        "id": "C",
+        "text": "The atomic masses of all of the elements in the periodic table have fixed values."
+      },
+      {
+        "id": "D",
+        "text": "The % lead by mass in the compound galena is the same for all pure samples obtained from any source."
+      },
+      {
+        "id": "E",
+        "text": "None of these is correct"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The law of multiple proportions is illustrated by small whole-number ratios of oxygen masses combining with a fixed mass of nitrogen; choice B.",
+    "explanation": "The law of multiple proportions is illustrated by small whole-number ratios of oxygen masses combining with a fixed mass of nitrogen; choice B.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 2,
+      "page": 1,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q03",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following arrangements is in order of increasing size?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S2– > Cl– > K+ > Ca2+ > Ga3+"
+      },
+      {
+        "id": "B",
+        "text": "Ga3+ > Ca2+ > S2– > K+ > Cl–"
+      },
+      {
+        "id": "C",
+        "text": "Ga3+ > Ca2+ > S2– > Cl– > K+"
+      },
+      {
+        "id": "D",
+        "text": "Ga3+ > Ca2+ > K+ > Cl– > S2–"
+      },
+      {
+        "id": "E",
+        "text": "Ga3+ > S2– > Ca2+ > Cl– > K+"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "For the isoelectronic 18-electron series, radius decreases as nuclear charge increases. The intended increasing-size sequence is Ga3+ < Ca2+ < K+ < Cl- < S2-, corresponding to the listed order in D despite the source using '>' signs.",
+    "explanation": "For the isoelectronic 18-electron series, radius decreases as nuclear charge increases. The intended increasing-size sequence is Ga3+ < Ca2+ < K+ < Cl- < S2-, corresponding to the listed order in D despite the source using '>' signs.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 3,
+      "page": 2,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q04",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements about quantum theory is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The energy and position of an electron cannot be determined simultaneously."
+      },
+      {
+        "id": "B",
+        "text": "Lower energy orbitals are filled with electrons before higher energy orbitals."
+      },
+      {
+        "id": "C",
+        "text": "When filling orbitals of equal energy, two electrons will occupy the same orbital before filling a new orbital."
+      },
+      {
+        "id": "D",
+        "text": "No two electrons can have the same four quantum numbers."
+      },
+      {
+        "id": "E",
+        "text": "All of these are correct."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Hund's rule requires degenerate orbitals to be singly occupied before pairing, so C is incorrect.",
+    "explanation": "Hund's rule requires degenerate orbitals to be singly occupied before pairing, so C is incorrect.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 4,
+      "page": 2,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q05",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements about the species CN– is false?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is paramagnetic."
+      },
+      {
+        "id": "B",
+        "text": "The total number of electrons is 14."
+      },
+      {
+        "id": "C",
+        "text": "Its bond order is 3."
+      },
+      {
+        "id": "D",
+        "text": "It has two pi bonds."
+      },
+      {
+        "id": "E",
+        "text": "All of these are true."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "CN- is isoelectronic with N2, has bond order 3, and is diamagnetic; statement A is false.",
+    "explanation": "CN- is isoelectronic with N2, has bond order 3, and is diamagnetic; statement A is false.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 5,
+      "page": 3,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q06",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Consider HF, NH3 and CO2, which of the following statements are true? I. The electrons in each molecule tend to orient themselves around the most electronegative element. II. Each molecular drawing follows the localized electron model. III. Both HF and CO2 are linear molecules and therefore polar . IV. The bond angles of NH3 are slightly less than 109.5° because the lone pair compresses the angles between the bonding pairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I, III, IV"
+      },
+      {
+        "id": "B",
+        "text": "I, II, IV"
+      },
+      {
+        "id": "C",
+        "text": "I, II, III"
+      },
+      {
+        "id": "D",
+        "text": "II, IV"
+      },
+      {
+        "id": "E",
+        "text": "All of the above statements are correct."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "I, II and IV are true. CO2 is linear but nonpolar because its bond dipoles cancel, so III is false.",
+    "explanation": "I, II and IV are true. CO2 is linear but nonpolar because its bond dipoles cancel, so III is false.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 6,
+      "page": 3,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q07",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Consider the molecule: Specify the hybridization of each carbon atom. C-1 C-2 C-3 C-4 C-5",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp2 sp2 sp3 sp3 sp3"
+      },
+      {
+        "id": "B",
+        "text": "sp2 sp2 sp3 sp3 sp2"
+      },
+      {
+        "id": "C",
+        "text": "sp2 sp sp sp2 sp"
+      },
+      {
+        "id": "D",
+        "text": "sp2 sp2 sp2 sp3 sp3"
+      },
+      {
+        "id": "E",
+        "text": "sp2 sp2 sp2 sp3 sp"
+      }
+    ],
+    "correctAnswers": [],
+    "answerText": "The source PDF does not contain the molecular structure needed to assign C-1 through C-5, so this item cannot be scored without inventing missing information.",
+    "explanation": "The source PDF does not contain the molecular structure needed to assign C-1 through C-5, so this item cannot be scored without inventing missing information.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "source_incomplete",
+    "excludeFromScoring": true,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 7,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": null,
+      "answerDiscrepancy": false,
+      "notes": "The source PDF itself omits the molecular diagram and red response."
+    }
+  },
+  {
+    "id": "dd116-q08",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following postulates of Dalton's atomic theory are still scientifically accepted? I. All atoms of the same element are identical. II. Compounds are combinations of different atoms. III. A chemical reaction changes the way atoms are grouped together. IV. Atoms are indestructible.",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "3"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Modern chemistry retains compound formation and atomic rearrangement in reactions; identical atoms and absolute atomic indestructibility are not universally valid. Two statements remain.",
+    "explanation": "Modern chemistry retains compound formation and atomic rearrangement in reactions; identical atoms and absolute atomic indestructibility are not universally valid. Two statements remain.",
+    "chapter": "Ch02",
+    "topics": [
+      "atoms and ions"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 8,
+      "page": 4,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q09",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which charge(s) on an N2 ion would give a bond order of 2.5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2"
+      },
+      {
+        "id": "B",
+        "text": "-1"
+      },
+      {
+        "id": "C",
+        "text": "+1"
+      },
+      {
+        "id": "D",
+        "text": "+2"
+      },
+      {
+        "id": "E",
+        "text": "two of the choices"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Both adding one electron to an antibonding orbital and removing one bonding electron lower N2 bond order from 3 to 2.5; N2- and N2+ both qualify.",
+    "explanation": "Both adding one electron to an antibonding orbital and removing one bonding electron lower N2 bond order from 3 to 2.5; N2- and N2+ both qualify.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 9,
+      "page": 5,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q10",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is (are) true? I. An excited atom can return to its ground state by absorbing electromagnetic radiation. II. The energy of an atom is increased when electromagnetic radiation is emitted from it. III. The energy of electromagnetic radiation increases as its frequency increases. IV. An electron in the n = 4 state in the hydrogen atom can go to the n = 2 state by emitting electromagnetic radiation at the appropriate frequency. V. The frequency and wavelength of electromagnetic radiation are inversely proportional to each other.",
+    "options": [
+      {
+        "id": "A",
+        "text": "III, V"
+      },
+      {
+        "id": "B",
+        "text": "I, II, III"
+      },
+      {
+        "id": "C",
+        "text": "I, II, IV"
+      },
+      {
+        "id": "D",
+        "text": "III, IV, V"
+      },
+      {
+        "id": "E",
+        "text": "II, III, iV"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "III, IV and V are true: E=hν, the n=4 to n=2 transition emits a photon, and c=λν.",
+    "explanation": "III, IV and V are true: E=hν, the n=4 to n=2 transition emits a photon, and c=λν.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 10,
+      "page": 5,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q11",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is false?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A 2p orbital is more penetrating than a 2s; i.e., it has a higher electron density near the nucleus and inside the charge cloud of a 1s orbital."
+      },
+      {
+        "id": "B",
+        "text": "The spin quantum number of an electron must be either +½ or –½."
+      },
+      {
+        "id": "C",
+        "text": "The electron density at a point is proportional to Ψ2 at that point."
+      },
+      {
+        "id": "D",
+        "text": "An orbital can accommodate at most two electrons."
+      },
+      {
+        "id": "E",
+        "text": "In the usual order of filling, the 6s orbital is filled before the 4f orbital."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "A 2s orbital penetrates more strongly than a 2p orbital, so A is false.",
+    "explanation": "A 2s orbital penetrates more strongly than a 2p orbital, so A is false.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 11,
+      "page": 6,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q12",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following molecules (or ions) has a dipole moment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CO2"
+      },
+      {
+        "id": "B",
+        "text": "CO32–"
+      },
+      {
+        "id": "C",
+        "text": "NH4+"
+      },
+      {
+        "id": "D",
+        "text": "PF3"
+      },
+      {
+        "id": "E",
+        "text": "two of them"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "PF3 is trigonal pyramidal and its P-F bond dipoles do not cancel.",
+    "explanation": "PF3 is trigonal pyramidal and its P-F bond dipoles do not cancel.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 12,
+      "page": 6,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q13",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The statement that the first ionization energy for an oxygen atom is lower than the first ionization energy for a nitrogen atom is",
+    "options": [
+      {
+        "id": "A",
+        "text": "incorrect"
+      },
+      {
+        "id": "B",
+        "text": "consistent with the general trend relating changes in ionization energy across a period from left to right, because it is harder to take an electron from an oxygen atom than from a nitrogen atom"
+      },
+      {
+        "id": "C",
+        "text": "consistent with the general trend relating changes in ionization energy across a period from left to right, because it is easier to take an electron from an oxygen atom than from a nitrogen atom"
+      },
+      {
+        "id": "D",
+        "text": "inconsistent with the general trend relating changes in ionization energy across a period from left to right, due to the fact that oxygen has one doubly-occupied 2p orbital and nitrogen does not"
+      },
+      {
+        "id": "E",
+        "text": "inconsistent with the general trend relating changes in ionization energy across a period from left to right, due to the fact that the oxygen atom has two doubly- occupied 2p orbitals and nitrogen has only one"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Oxygen's first ionization energy is anomalously lower than nitrogen's because O has a paired 2p electron, increasing electron-electron repulsion.",
+    "explanation": "Oxygen's first ionization energy is anomalously lower than nitrogen's because O has a paired 2p electron, increasing electron-electron repulsion.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 13,
+      "page": 7,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q14",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Consider the following gas samples: Sample A Sample B S2(g) O2(g) n = 1 mol n = 2 mol T = 800 K T = 400 K P = 0.20 atm P = 0.40 atm Which of the following statements is false?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assuming identical intermolecular forces in the two samples, sample A should be more nearly ideal than sample B."
+      },
+      {
+        "id": "B",
+        "text": "The volume of sample A is twice the volume of sample B."
+      },
+      {
+        "id": "C",
+        "text": "The fraction of molecules in sample A, having a kinetic energy greater than some high fixed value, is larger than the fraction of molecules in sample B, having kinetic energies greater than that same high fixed value."
+      },
+      {
+        "id": "D",
+        "text": "The average kinetic energy of the molecules in sample A is twice the average kinetic energy of the molecules in sample B"
+      },
+      {
+        "id": "E",
+        "text": "The mean square velocity of molecules in sample A is twice as large as the mean square velocity of molecules in sample B."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Mean-square speed is proportional to T/M. The two samples have the same T/M, not a factor of two, so E is false.",
+    "explanation": "Mean-square speed is proportional to T/M. The two samples have the same T/M, not a factor of two, so E is false.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 14,
+      "page": 7,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q15",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "What is the correct order of the following bonds in terms of decreasing polarity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As-Cl, P-Cl, N-Cl"
+      },
+      {
+        "id": "B",
+        "text": "P-Cl, As-Cl, N-Cl"
+      },
+      {
+        "id": "C",
+        "text": "N-Cl, P-Cl, As-Cl"
+      },
+      {
+        "id": "D",
+        "text": "P-Cl, N-Cl, As-Cl"
+      },
+      {
+        "id": "E",
+        "text": "As-Cl, N-Cl, P-Cl"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Using electronegativity differences, As-Cl is slightly more polar than P-Cl, and both greatly exceed N-Cl.",
+    "explanation": "Using electronegativity differences, As-Cl is slightly more polar than P-Cl, and both greatly exceed N-Cl.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 15,
+      "page": 8,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q16",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following species has the largest dissociation energy? Bond dissociation energy 鍵離解能",
+    "options": [
+      {
+        "id": "A",
+        "text": "O22+"
+      },
+      {
+        "id": "B",
+        "text": "O2"
+      },
+      {
+        "id": "C",
+        "text": "O22–"
+      },
+      {
+        "id": "D",
+        "text": "O2+"
+      },
+      {
+        "id": "E",
+        "text": "O2–"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Removing both electrons from O2 π* orbitals gives O2^2+ bond order 3, the largest among the choices.",
+    "explanation": "Removing both electrons from O2 π* orbitals gives O2^2+ bond order 3, the largest among the choices.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 16,
+      "page": 8,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q17",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The hybridization of the central atom in ClF2+ is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "d2sp3"
+      },
+      {
+        "id": "B",
+        "text": "sp2"
+      },
+      {
+        "id": "C",
+        "text": "dsp3"
+      },
+      {
+        "id": "D",
+        "text": "sp"
+      },
+      {
+        "id": "E",
+        "text": "sp3"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "ClF2+ has four electron domains (two bonds and two lone pairs), so the central Cl is sp3 hybridized.",
+    "explanation": "ClF2+ has four electron domains (two bonds and two lone pairs), so the central Cl is sp3 hybridized.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 17,
+      "page": 9,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q18",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "As part of the calibration of a new laboratory balance, a 1.000-g mass is weighed with the following results: Trial Mass 1 1.201 ± 0.001 2 1.202 ± 0.002 3 1.199 ± 0.001 The balance is",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both inaccurate and imprecise."
+      },
+      {
+        "id": "B",
+        "text": "Accuracy and precision are impossible to determine with the available information."
+      },
+      {
+        "id": "C",
+        "text": "Accurate but imprecise."
+      },
+      {
+        "id": "D",
+        "text": "Both accurate and precise."
+      },
+      {
+        "id": "E",
+        "text": "Precise but inaccurate."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "The repeated values cluster tightly but are far from 1.000 g: precise but inaccurate.",
+    "explanation": "The repeated values cluster tightly but are far from 1.000 g: precise but inaccurate.",
+    "chapter": "Ch01",
+    "topics": [
+      "measurement"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 18,
+      "page": 9,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q19",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following properties of a real gas is related to the b coefficient in the van der Waals equation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Real gases consist of molecules or atoms that have volume."
+      },
+      {
+        "id": "B",
+        "text": "The average speed of the molecules of a real gas increases with temperature."
+      },
+      {
+        "id": "C",
+        "text": "There are attractive forces between atoms or molecules of a real gas."
+      },
+      {
+        "id": "D",
+        "text": "The rate of effusion of a gas is inversely proportional to the square root of the molecular weight of the gas"
+      },
+      {
+        "id": "E",
+        "text": "None of these."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The van der Waals b parameter corrects for the finite molecular volume.",
+    "explanation": "The van der Waals b parameter corrects for the finite molecular volume.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 19,
+      "page": 10,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q20",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following is a reasonable criticism of the Bohr model of the atom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It shows the electrons to exist outside of the nucleus."
+      },
+      {
+        "id": "B",
+        "text": "It does not adequately predict the ionization energy of the valence electron(s) for elements other than hydrogen."
+      },
+      {
+        "id": "C",
+        "text": "It makes no attempt to explain why the negative electron does not eventually fall into the positive nucleus."
+      },
+      {
+        "id": "D",
+        "text": "It does not adequately predict the ionization energy of the first energy level electrons for one-electron species for elements other than hydrogen."
+      },
+      {
+        "id": "E",
+        "text": "It does not adequately predict the line spectrum of hydrogen."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The Bohr model works for one-electron species but fails to predict multielectron valence ionization energies adequately.",
+    "explanation": "The Bohr model works for one-electron species but fails to predict multielectron valence ionization energies adequately.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 20,
+      "page": 10,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q21",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following: F2, B2, O2, N2 , are paramagnetic?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "B2 and O2 are paramagnetic; F2 and N2 are diamagnetic, so the count is two.",
+    "explanation": "B2 and O2 are paramagnetic; F2 and N2 are diamagnetic, so the count is two.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 21,
+      "page": 11,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q22",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following is/are incorrect? i. The importance of the equation E = mc2 is that energy has mass. ii. Electromagnetic radiation can be thought of as a stream of particles called photons. iii. Electromagnetic radiation exhibits wave properties. iv. Energy can only occur in discrete units called quanta.",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      },
+      {
+        "id": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "All four listed statements are valid in the lecture model, so zero are incorrect.",
+    "explanation": "All four listed statements are valid in the lecture model, so zero are incorrect.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 22,
+      "page": 11,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q23",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "At a given temperature and pressure, a sample of Gas A is observed to diffuse twice as fast as a sample of a different gas, B. Based on this:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The molar mass of A is one half that of B"
+      },
+      {
+        "id": "B",
+        "text": "The molar mass of A is one fourth that of B"
+      },
+      {
+        "id": "C",
+        "text": "The molar mass of A is 1.414 times that of B"
+      },
+      {
+        "id": "D",
+        "text": "The molar mass of A is four times that of B"
+      },
+      {
+        "id": "E",
+        "text": "The molar mass of A is 0.707 times that of B"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Graham's law gives 2=sqrt(MB/MA), hence MA=MB/4.",
+    "explanation": "Graham's law gives 2=sqrt(MB/MA), hence MA=MB/4.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 23,
+      "page": 12,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q24",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The force between two bodies having identical electric charges",
+    "options": [
+      {
+        "id": "A",
+        "text": "is directly proportional to the distance between them"
+      },
+      {
+        "id": "B",
+        "text": "is a force of repulsion if the charges are negative, and one of attraction if they are positive"
+      },
+      {
+        "id": "C",
+        "text": "is a force of repulsion"
+      },
+      {
+        "id": "D",
+        "text": "is independent of the distance between them"
+      },
+      {
+        "id": "E",
+        "text": "increases as the bodies are moved further apart"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Identical electric charges repel.",
+    "explanation": "Identical electric charges repel.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 24,
+      "page": 12,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q25",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "When comparing Be2 and H2: I. Be2 is more stable because it contains both bonding and antibonding valence electrons. II. H2 has a higher bond order than Be2. III. H2 is more stable because it only contains 1s electrons. IV. H2 is more stable because it is diamagnetic, whereas Be2 is paramagnetic.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I, II"
+      },
+      {
+        "id": "B",
+        "text": "III, IV"
+      },
+      {
+        "id": "C",
+        "text": "II, III, IV"
+      },
+      {
+        "id": "D",
+        "text": "III only"
+      },
+      {
+        "id": "E",
+        "text": "II, III"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "H2 has bond order 1 and is stable; the simplified MO diagram gives Be2 bond order 0. Statements II and III are the intended pair.",
+    "explanation": "H2 has bond order 1 and is stable; the simplified MO diagram gives Be2 bond order 0. Statements II and III are the intended pair.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 25,
+      "page": 13,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q26",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many the following name(s) is(are) incorrect? 1. HCN, cyanic acid Hydrocyanic acid 2. H2SO3, sulfurous acid 3. NH4Br, ammonia bromide ammonium bromide 4. FeO, iron oxide 5. Mg(OH)2, magnesium dihydroxide",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "HCN, NH4Br, FeO, and Mg(OH)2 are misnamed as written; only sulfurous acid is correct, so four names are incorrect.",
+    "explanation": "HCN, NH4Br, FeO, and Mg(OH)2 are misnamed as written; only sulfurous acid is correct, so four names are incorrect.",
+    "chapter": "Ch02",
+    "topics": [
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 26,
+      "page": 13,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q27",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "For the molecule NO, the molecular orbital model is preferred over the localized electron model because NO contains an unpaired electron."
+      },
+      {
+        "id": "B",
+        "text": "Electrons in antibonding orbitals will cause a molecule to be paramagnetic."
+      },
+      {
+        "id": "C",
+        "text": "According to the molecular orbital model, when bonding occurs between hydrogen and bromine to make HBr, the 1s orbital of the hydrogen atom no longer exists."
+      },
+      {
+        "id": "D",
+        "text": "Antibonding electrons are higher in energy than the atomic orbitals from which they came."
+      },
+      {
+        "id": "E",
+        "text": "At least two of the above are incorrect."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Occupation of an antibonding orbital does not by itself imply paramagnetism; unpaired electrons determine paramagnetism.",
+    "explanation": "Occupation of an antibonding orbital does not by itself imply paramagnetism; unpaired electrons determine paramagnetism.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 27,
+      "page": 14,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q28",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is least likely to be true of a sample of nitrogen gas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The average kinetic energy of the gaseous nitrogen is proportional to the absolute temperature of the gas."
+      },
+      {
+        "id": "B",
+        "text": "The volume of the sample would be zero at –273°C."
+      },
+      {
+        "id": "C",
+        "text": "Molecules of gaseous nitrogen are in constant random motion."
+      },
+      {
+        "id": "D",
+        "text": "The pressure exerted by gaseous nitrogen is due to collisions of the molecules with the walls of the container."
+      },
+      {
+        "id": "E",
+        "text": "Collisions between the gaseous molecules are elastic."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Extrapolating gas volume to zero at -273 °C is not physically valid for a real nitrogen sample because it condenses first.",
+    "explanation": "Extrapolating gas volume to zero at -273 °C is not physically valid for a real nitrogen sample because it condenses first.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 28,
+      "page": 14,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q29",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "For tetracyanoethylene, (NC)2C=C(CN)2,: How many nonbonded electron pairs are in the molecule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Tetracyanoethylene, (NC)2C=C(CN)2, has four nitrile nitrogens, each with one lone pair.",
+    "explanation": "Tetracyanoethylene, (NC)2C=C(CN)2, has four nitrile nitrogens, each with one lone pair.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 29,
+      "page": 15,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q30",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following combinations of quantum numbers is not allowed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n = 4, l = 2, ml = 0, ms =½"
+      },
+      {
+        "id": "B",
+        "text": "n = 3, l = 0, ml = 0, ms = -½"
+      },
+      {
+        "id": "C",
+        "text": "n = 1, l = 1, ml = 0, ms =½"
+      },
+      {
+        "id": "D",
+        "text": "n = 2, l = 1, ml = -1, ms =½"
+      },
+      {
+        "id": "E",
+        "text": "n = 4, l = 3, ml = -2, ms = -½"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "For n=1, l can only be 0; n=1, l=1 is forbidden.",
+    "explanation": "For n=1, l can only be 0; n=1, l=1 is forbidden.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 30,
+      "page": 15,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q31",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following effects will make PV/nRT less than one for a real gas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The gas molecules are large enough to occupy a substantial amount of space."
+      },
+      {
+        "id": "B",
+        "text": "A large number of molecules have speeds greater than the average speed."
+      },
+      {
+        "id": "C",
+        "text": "The gas molecules have a very low molar mass."
+      },
+      {
+        "id": "D",
+        "text": "The gas molecules attract one another."
+      },
+      {
+        "id": "E",
+        "text": "None of these."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Attractive intermolecular forces lower the measured pressure and can make Z=PV/nRT less than 1.",
+    "explanation": "Attractive intermolecular forces lower the measured pressure and can make Z=PV/nRT less than 1.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 31,
+      "page": 16,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q32",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The statement that \"the lowest energy configuration for an atom is the one having the maximum number of unpaired electrons allowed by the Pauli principle in a particular set of degenerate orbitals\" is known as",
+    "options": [
+      {
+        "id": "A",
+        "text": "the Pauli exclusion principle"
+      },
+      {
+        "id": "B",
+        "text": "the aufbau principle"
+      },
+      {
+        "id": "C",
+        "text": "Hund's rule"
+      },
+      {
+        "id": "D",
+        "text": "the quantum model"
+      },
+      {
+        "id": "E",
+        "text": "Heisenberg uncertainty principle"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "The maximum-unpaired-electron rule for degenerate orbitals is Hund's rule.",
+    "explanation": "The maximum-unpaired-electron rule for degenerate orbitals is Hund's rule.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 32,
+      "page": 16,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q33",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Order the following from shortest to longest bond: C2, B2, H2, N2",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2, N2, C2, B2"
+      },
+      {
+        "id": "B",
+        "text": "N2, C2, B2, H2"
+      },
+      {
+        "id": "C",
+        "text": "C2, N2, H2, B2"
+      },
+      {
+        "id": "D",
+        "text": "C2, B2, H2, N2"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Actual bond lengths follow H2 < N2 < C2 < B2; bond order is important, but atomic size also matters.",
+    "explanation": "Actual bond lengths follow H2 < N2 < C2 < B2; bond order is important, but atomic size also matters.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 33,
+      "page": 17,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q34",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "For tetracyanoethylene, (NC)2C=C(CN)2, How many sigma and pi bonds are in the molecule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 sigma and 8 pi"
+      },
+      {
+        "id": "B",
+        "text": "9 sigma and 9 pi"
+      },
+      {
+        "id": "C",
+        "text": "4 sigma and 5 pi"
+      },
+      {
+        "id": "D",
+        "text": "6 sigma and 8 pi"
+      },
+      {
+        "id": "E",
+        "text": "5 sigma and 8 pi"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Tetracyanoethylene contains 9 sigma bonds and 9 pi bonds.",
+    "explanation": "Tetracyanoethylene contains 9 sigma bonds and 9 pi bonds.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 34,
+      "page": 17,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q35",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "ClF2+",
+    "options": [
+      {
+        "id": "A",
+        "text": "linear"
+      },
+      {
+        "id": "B",
+        "text": "trigonal planar"
+      },
+      {
+        "id": "C",
+        "text": "tetrahedral"
+      },
+      {
+        "id": "D",
+        "text": "bent"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "ClF2+ is AX2E2: bent molecular geometry.",
+    "explanation": "ClF2+ is AX2E2: bent molecular geometry.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 35,
+      "page": 18,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q36",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "A plastic bag is weighed and then filled successively with two gases, X and Y. The following data are gathered: Temperature: 0.0°C (273 K) Pressure: 1.00 atmosphere Mass of empty bag: 20.77 g Mass of bag filled with gas X: 24.97 g Mass of 1.12 liters of air at conditions given: 1.30 g Volume of bag: 1.12 liter Molar volume at STP: 22.4 liters The bag is emptied and refilled, successively, with gases X and Y , this time at 1 atm pressure and a temperature 30°C higher. Assume that the volume of the bag is the same as before. Which one of the following statements is wrong?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The average velocity of the molecules of gas X at 30°C is higher than it was at 0.0°C"
+      },
+      {
+        "id": "B",
+        "text": "The full bag contains fewer molecules of each gas than it did at 0.0°C."
+      },
+      {
+        "id": "C",
+        "text": "The mass of each gas filling the bag is now 303/273 times the mass held at 0.0°C."
+      },
+      {
+        "id": "D",
+        "text": "The molar masses of the two gases are the same as they were at 0.0°C."
+      },
+      {
+        "id": "E",
+        "text": "The ratio of the density of gas Y to the density of gas X is the same as at 0.0°C."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "At fixed P and V, n is inversely proportional to T. The gas mass becomes 273/303 of its original value, not 303/273.",
+    "explanation": "At fixed P and V, n is inversely proportional to T. The gas mass becomes 273/303 of its original value, not 303/273.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 36,
+      "page": 18,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q37",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "This molecule contains a carbon atom with trigonal planar geometry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "CH3CHO"
+      },
+      {
+        "id": "B",
+        "text": "CO2"
+      },
+      {
+        "id": "C",
+        "text": "CH3Cl"
+      },
+      {
+        "id": "D",
+        "text": "C2H6"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The carbonyl carbon in CH3CHO is sp2 and trigonal planar.",
+    "explanation": "The carbonyl carbon in CH3CHO is sp2 and trigonal planar.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 37,
+      "page": 19,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q38",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "A π (pi) bond is the result of the",
+    "options": [
+      {
+        "id": "A",
+        "text": "sidewise overlap of two parallel p orbitals"
+      },
+      {
+        "id": "B",
+        "text": "overlap of two p orbitals along their axes"
+      },
+      {
+        "id": "C",
+        "text": "overlap of an s orbital and a p orbital"
+      },
+      {
+        "id": "D",
+        "text": "sidewise overlap of two s orbitals"
+      },
+      {
+        "id": "E",
+        "text": "overlap of two s orbitals"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "A pi bond results from side-by-side overlap of parallel p orbitals.",
+    "explanation": "A pi bond results from side-by-side overlap of parallel p orbitals.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 38,
+      "page": 19,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q39",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements are true concerning ionic bonding?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ionic bonding occurs between a metal, which has a high affinity for electrons, and a nonmetal, which loses electrons relatively easy."
+      },
+      {
+        "id": "B",
+        "text": "CaCl2 forms because Ca2+ is always a more stable species than the calcium atom alone."
+      },
+      {
+        "id": "C",
+        "text": "Compounds with ionic bonds tend to have low melting points."
+      },
+      {
+        "id": "D",
+        "text": "The electronegativity difference between the bonding atoms of ionic compounds is small since the electrons are not shared but rather held together by electrostatic forces."
+      },
+      {
+        "id": "E",
+        "text": "All of the above statements are false."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "All four statements A-D reverse or misstate standard ionic-bonding properties, so E is correct.",
+    "explanation": "All four statements A-D reverse or misstate standard ionic-bonding properties, so E is correct.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 39,
+      "page": 20,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q40",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The electron configuration of a particular diatomic species is (σ2s)2(σ*2s)2(σ2p)2(π2p)4(π*2p)2. What is the bond order for this species?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.5"
+      },
+      {
+        "id": "B",
+        "text": "2.5"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "1.5"
+      },
+      {
+        "id": "E",
+        "text": "2"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "The configuration has 8 bonding and 4 antibonding electrons, giving bond order (8-4)/2=2.",
+    "explanation": "The configuration has 8 bonding and 4 antibonding electrons, giving bond order (8-4)/2=2.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 40,
+      "page": 20,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q41",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "For which of the following diatomic molecules would the bond order become greater if an electron is removed (i.e., if the molecule is converted to the positive ion in its ground state)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C2"
+      },
+      {
+        "id": "B",
+        "text": "Na2"
+      },
+      {
+        "id": "C",
+        "text": "P2"
+      },
+      {
+        "id": "D",
+        "text": "B2"
+      },
+      {
+        "id": "E",
+        "text": "F2"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "F2 has electrons in its highest occupied antibonding orbitals; removing one increases bond order.",
+    "explanation": "F2 has electrons in its highest occupied antibonding orbitals; removing one increases bond order.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 41,
+      "page": 21,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q42",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Consider the benzene molecule. Which of the following statements about the molecule is false?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The pi bonds of carbon involve sp2 orbitals."
+      },
+      {
+        "id": "B",
+        "text": "The localized electron model must invoke resonance to account for the six equal C–C bonds."
+      },
+      {
+        "id": "C",
+        "text": "Each carbon atom is sp2 hybridized."
+      },
+      {
+        "id": "D",
+        "text": "It has delocalized pi bonding in the molecule."
+      },
+      {
+        "id": "E",
+        "text": "All six C–C bonds are known to be equivalent."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Pi bonding uses unhybridized p orbitals, not sp2 hybrid orbitals, so A is false.",
+    "explanation": "Pi bonding uses unhybridized p orbitals, not sp2 hybrid orbitals, so A is false.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bonding and molecular structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 42,
+      "page": 21,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q43",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "In the quantum theory, the magnetic orbital momentum quantum number is most directly associated with which property of orbitals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "energy"
+      },
+      {
+        "id": "B",
+        "text": "orientation"
+      },
+      {
+        "id": "C",
+        "text": "shape"
+      },
+      {
+        "id": "D",
+        "text": "size"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The magnetic quantum number ml specifies orbital orientation.",
+    "explanation": "The magnetic quantum number ml specifies orbital orientation.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 43,
+      "page": 22,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q44",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following molecules have all of their atoms in the same plane? H2C=CH2 OF2 H2CO NH3 CO2 BeCl2",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "All listed species except NH3 have all atoms in one plane; the count is five.",
+    "explanation": "All listed species except NH3 have all atoms in one plane; the count is five.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 44,
+      "page": 22,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q45",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electrons are never found in an antibonding MO."
+      },
+      {
+        "id": "B",
+        "text": "All antibonding MOs are higher in energy than the atomic orbitals of which they are composed."
+      },
+      {
+        "id": "C",
+        "text": "Antibonding MOs have electron density mainly outside the space between the two nuclei."
+      },
+      {
+        "id": "D",
+        "text": "None of the above is true."
+      },
+      {
+        "id": "E",
+        "text": "Two of the above statements are true."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Statements B and C are true; therefore 'two of the above' is correct.",
+    "explanation": "Statements B and C are true; therefore 'two of the above' is correct.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 45,
+      "page": 23,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": true,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q46",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Given a cylinder of fixed volume filled with 1 mol of argon gas, which of the following is correct? (Assume all gases obey the ideal gas law.)",
+    "options": [
+      {
+        "id": "A",
+        "text": "If the temperature of the cylinder is changed from 25°C to 50°C, the pressure inside the cylinder will double"
+      },
+      {
+        "id": "B",
+        "text": "If a second mole of argon is added to the cylinder, the ratio T/P would remain constant."
+      },
+      {
+        "id": "C",
+        "text": "A cylinder of identical volume filled with the same pressure of helium must contain more atoms of gas because He has a smaller atomic radius than argon."
+      },
+      {
+        "id": "D",
+        "text": "Two of the above."
+      },
+      {
+        "id": "E",
+        "text": "None of the above."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "At fixed V, the three proposed statements are false under the ideal-gas law; none is correct.",
+    "explanation": "At fixed V, the three proposed statements are false under the ideal-gas law; none is correct.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 46,
+      "page": 23,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q47",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Consider the following representation of a 2p-orbital: Which of the following statements best describes the movement of electrons in a p- orbital?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The electrons are only moving in one lobe at any given time."
+      },
+      {
+        "id": "B",
+        "text": "The electron movement cannot be exactly determined."
+      },
+      {
+        "id": "C",
+        "text": "The electrons are concentrated at the center (node) of the two lobes."
+      },
+      {
+        "id": "D",
+        "text": "The electrons move along the outer surface of the p-orbital, similar to a “figure 8” type of movement"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Quantum mechanics gives a probability distribution, not an exactly determined electron path.",
+    "explanation": "Quantum mechanics gives a probability distribution, not an exactly determined electron path.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 47,
+      "page": 24,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q48",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following is true about the kinetic molecular theory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adding an ideal gas to a closed container will cause an increase in temperature."
+      },
+      {
+        "id": "B",
+        "text": "Gas particles repel each other, but do not attract one another ."
+      },
+      {
+        "id": "C",
+        "text": "At least two of the above statements are correct."
+      },
+      {
+        "id": "D",
+        "text": "The volume of a gas particle is considered to be small – about 0.10 mL"
+      },
+      {
+        "id": "E",
+        "text": "Pressure is due to the collisions of the gas particles with the walls of the container."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Gas pressure arises from collisions of particles with the container walls.",
+    "explanation": "Gas pressure arises from collisions of particles with the container walls.",
+    "chapter": "Ch05",
+    "topics": [
+      "gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 48,
+      "page": 24,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q49",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following exhibits the correct orders for both atomic radius and ionization energy, respectively? (smallest to largest)",
+    "options": [
+      {
+        "id": "A",
+        "text": "S, O, F, and F, O, S"
+      },
+      {
+        "id": "B",
+        "text": "F, S, O, and O, S, F"
+      },
+      {
+        "id": "C",
+        "text": "S, F, O, and S, F, O"
+      },
+      {
+        "id": "D",
+        "text": "F, O, S, and S, O, F"
+      },
+      {
+        "id": "E",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Atomic radius increases F < O < S, while first ionization energy increases S < O < F.",
+    "explanation": "Atomic radius increases F < O < S, while first ionization energy increases S < O < F.",
+    "chapter": "Ch07",
+    "topics": [
+      "atomic structure and periodicity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 49,
+      "page": 24,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "dd116-q50",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following molecules or ions are linear? NH3 OF2 HCN CO2 NO2",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      },
+      {
+        "id": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "HCN and CO2 are linear; NH3, OF2 and NO2 are not. The count is two.",
+    "explanation": "HCN and CO2 are linear; NH3, OF2 and NO2 are not. The count is two.",
+    "chapter": "Ch01-Ch09",
+    "topics": [
+      "general chemistry"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "DD116 化原第一次考試.pdf",
+      "question": 50,
+      "page": 24,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Red response is preserved separately from the chemistry-verified answer."
+    }
+  },
+  {
+    "id": "ym112-q02",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is FALSE according to Dalton's Atomic Theory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All atoms of chlorine have identical properties that distinguish them from other elements."
+      },
+      {
+        "id": "B",
+        "text": "An atom of nitrogen can be broken down into smaller particles that will still have the unique properties of nitrogen."
+      },
+      {
+        "id": "C",
+        "text": "Atoms combine in simple whole number ratios to form compounds."
+      },
+      {
+        "id": "D",
+        "text": "One carbon atom will combine with one oxygen atom to form a molecule of carbon monoxide."
+      },
+      {
+        "id": "E",
+        "text": "Atoms of sodium do not change into another element during chemical reaction with chlorine."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "If nitrogen is divided into subatomic particles, those particles no longer retain the chemical identity of nitrogen.",
+    "explanation": "If nitrogen is divided into subatomic particles, those particles no longer retain the chemical identity of nitrogen.",
+    "chapter": "Ch02",
+    "topics": [
+      "Dalton atomic theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 2,
+      "page": 1,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q03",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "All samples of a given compound, regardless of their source or how they were prepared, have the same proportions of their constituent elements. Which law does this refer to?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Law of Definite Proportions"
+      },
+      {
+        "id": "B",
+        "text": "First Law of Thermodynamics"
+      },
+      {
+        "id": "C",
+        "text": "Law of Modern Atomic Theory"
+      },
+      {
+        "id": "D",
+        "text": "Law of the Conservation of Mass"
+      },
+      {
+        "id": "E",
+        "text": "Law of Multiple Proportions"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "A fixed elemental composition is the law of definite proportions.",
+    "explanation": "A fixed elemental composition is the law of definite proportions.",
+    "chapter": "Ch02",
+    "topics": [
+      "fundamental chemical laws"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 3,
+      "page": 1,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q04",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Aluminum metal reacts with aqueous iron(II) chloride to form aqueous aluminum chloride and iron metal. What is the stoichiometric coefficient for aluminum when the equation is balanced with the lowest whole-number coefficients?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "2Al + 3FeCl2 -> 2AlCl3 + 3Fe, so aluminum's coefficient is 2.",
+    "explanation": "2Al + 3FeCl2 -> 2AlCl3 + 3Fe, so aluminum's coefficient is 2.",
+    "chapter": "Ch03",
+    "topics": [
+      "balancing equations"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 4,
+      "page": 1,
+      "sourceAnswer": null,
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q06",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "What is the formal charge on N in NO2?",
+    "options": [],
+    "correctAnswers": [
+      "+1"
+    ],
+    "acceptedAnswers": [
+      "+1"
+    ],
+    "answerText": "+1",
+    "explanation": "In the common Lewis structure of neutral NO2, nitrogen has formal charge +1 and one oxygen has -1.",
+    "chapter": "Ch08",
+    "topics": [
+      "formal charge",
+      "Lewis structure"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 6,
+      "page": 1,
+      "sourceAnswer": null,
+      "verifiedAnswer": "+1",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q07",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "How many of the following species are polar: XeO2, SiCl2Br2, C2Cl2, SeBr2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      },
+      {
+        "id": "E",
+        "text": "0"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "XeO2 and SeBr2 are bent, and tetrahedral SiCl2Br2 is unsymmetrical; linear C2Cl2 is nonpolar. Three are polar.",
+    "explanation": "XeO2 and SeBr2 are bent, and tetrahedral SiCl2Br2 is unsymmetrical; linear C2Cl2 is nonpolar. Three are polar.",
+    "chapter": "Ch08",
+    "topics": [
+      "molecular polarity",
+      "VSEPR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 7,
+      "page": 1,
+      "sourceAnswer": null,
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q08",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "Which quantum number describes the shape of an orbital?",
+    "options": [],
+    "correctAnswers": [
+      "l"
+    ],
+    "acceptedAnswers": [
+      "l"
+    ],
+    "answerText": "l",
+    "explanation": "The angular-momentum (azimuthal) quantum number l identifies the subshell and orbital shape.",
+    "chapter": "Ch07",
+    "topics": [
+      "quantum numbers"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 8,
+      "page": 2,
+      "sourceAnswer": null,
+      "verifiedAnswer": "l",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q09",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ml describes the orientation of an orbital."
+      },
+      {
+        "id": "B",
+        "text": "l describes the size and energy of an orbital."
+      },
+      {
+        "id": "C",
+        "text": "An orbital is a fixed path on which an electron travels."
+      },
+      {
+        "id": "D",
+        "text": "n describes the shape of an orbital."
+      },
+      {
+        "id": "E",
+        "text": "All of the above are correct."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "ml specifies orbital orientation; the other statements confuse quantum numbers with classical paths.",
+    "explanation": "ml specifies orbital orientation; the other statements confuse quantum numbers with classical paths.",
+    "chapter": "Ch07",
+    "topics": [
+      "quantum numbers"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 9,
+      "page": 2,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q10",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Real gases deviate most strongly from ideal behavior under which conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High pressure and low temperature"
+      },
+      {
+        "id": "B",
+        "text": "High pressure only"
+      },
+      {
+        "id": "C",
+        "text": "High pressure and high temperature"
+      },
+      {
+        "id": "D",
+        "text": "Low pressure and low temperature"
+      },
+      {
+        "id": "E",
+        "text": "Low pressure and high temperature"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "High pressure makes molecular volume important, and low temperature makes attractions important.",
+    "explanation": "High pressure makes molecular volume important, and low temperature makes attractions important.",
+    "chapter": "Ch05",
+    "topics": [
+      "real gases"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 10,
+      "page": 2,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q11",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "Rank F2, SF6, Ne and Kr in decreasing rate of effusion.",
+    "options": [],
+    "correctAnswers": [
+      "Ne > F2 > Kr > SF6"
+    ],
+    "acceptedAnswers": [
+      "Ne > F2 > Kr > SF6",
+      "Ne, F2, Kr, SF6"
+    ],
+    "answerText": "Ne > F2 > Kr > SF6",
+    "explanation": "By Graham's law, effusion rate is inversely proportional to the square root of molar mass.",
+    "chapter": "Ch05",
+    "topics": [
+      "Graham law",
+      "effusion"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 11,
+      "page": 2,
+      "sourceAnswer": null,
+      "verifiedAnswer": "Ne > F2 > Kr > SF6",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q13",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "One mole of He and one mole of Ne are placed in the same rigid container at the same temperature. Which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They contribute equally to the density."
+      },
+      {
+        "id": "B",
+        "text": "They have the same average kinetic energy."
+      },
+      {
+        "id": "C",
+        "text": "They have the same molecular speed."
+      },
+      {
+        "id": "D",
+        "text": "The total volume is 22.4 L."
+      },
+      {
+        "id": "E",
+        "text": "All of the above are correct."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Average translational kinetic energy depends only on absolute temperature, not gas identity.",
+    "explanation": "Average translational kinetic energy depends only on absolute temperature, not gas identity.",
+    "chapter": "Ch05",
+    "topics": [
+      "kinetic molecular theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 13,
+      "page": 3,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q16",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement about molecular orbitals is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two atomic orbitals combine to form one molecular orbital lower and one higher in energy than the original atomic orbitals."
+      },
+      {
+        "id": "B",
+        "text": "Electrons in an antibonding orbital always stabilize an ion or molecule."
+      },
+      {
+        "id": "C",
+        "text": "A bond order of zero represents the most stable species."
+      },
+      {
+        "id": "D",
+        "text": "All of the above are true."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Two AOs yield a bonding and an antibonding MO; antibonding electrons destabilize, and bond order zero predicts no net bond.",
+    "explanation": "Two AOs yield a bonding and an antibonding MO; antibonding electrons destabilize, and bond order zero predicts no net bond.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 16,
+      "page": 3,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q17",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "Rank the bond angles of N2O, NCl3 and NO2- from smallest to largest.",
+    "options": [],
+    "correctAnswers": [
+      "NCl3 < NO2- < N2O"
+    ],
+    "acceptedAnswers": [
+      "NCl3 < NO2- < N2O"
+    ],
+    "answerText": "NCl3 < NO2- < N2O",
+    "explanation": "NCl3 is trigonal pyramidal (~107°), NO2- is bent (~115°), and N2O is linear (180°).",
+    "chapter": "Ch08",
+    "topics": [
+      "VSEPR",
+      "bond angles"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 17,
+      "page": 3,
+      "sourceAnswer": null,
+      "verifiedAnswer": "NCl3 < NO2- < N2O",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q18",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "Describe a pi bond.",
+    "options": [],
+    "correctAnswers": [
+      "Side-by-side overlap of parallel unhybridized p orbitals"
+    ],
+    "acceptedAnswers": [
+      "Side-by-side overlap of parallel unhybridized p orbitals"
+    ],
+    "answerText": "Side-by-side overlap of parallel unhybridized p orbitals",
+    "explanation": "A pi bond places electron density above and below the internuclear axis.",
+    "chapter": "Ch09",
+    "topics": [
+      "pi bond"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 18,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": "Side-by-side overlap of parallel unhybridized p orbitals",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q20",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "How many sigma and pi bonds are present in CH3CH2C≡CH?",
+    "options": [],
+    "correctAnswers": [
+      "9 sigma and 2 pi"
+    ],
+    "acceptedAnswers": [
+      "9 sigma and 2 pi"
+    ],
+    "answerText": "9 sigma and 2 pi",
+    "explanation": "Six C-H sigma bonds plus three C-C sigma bonds give nine sigma bonds; the triple bond contributes two pi bonds.",
+    "chapter": "Ch09",
+    "topics": [
+      "sigma and pi bonds"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 20,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": "9 sigma and 2 pi",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q21",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A covalent bond has a lower potential energy than the two separated atoms."
+      },
+      {
+        "id": "B",
+        "text": "It is impossible for two atoms to share more than two electrons."
+      },
+      {
+        "id": "C",
+        "text": "Single bonds are shorter than double bonds."
+      },
+      {
+        "id": "D",
+        "text": "A pair of electrons involved in a covalent bond is called a lone pair."
+      },
+      {
+        "id": "E",
+        "text": "A covalent bond is formed through complete electron transfer."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "A stable covalent bond forms at a lower potential energy than the separated atoms.",
+    "explanation": "A stable covalent bond forms at a lower potential energy than the separated atoms.",
+    "chapter": "Ch08",
+    "topics": [
+      "covalent bonding"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 21,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q22",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Once dissolved in water, ionic compounds rarely conduct electricity."
+      },
+      {
+        "id": "B",
+        "text": "Ionic compounds at room temperature typically conduct electricity as solids."
+      },
+      {
+        "id": "C",
+        "text": "An ionic bond is formed through electron sharing."
+      },
+      {
+        "id": "D",
+        "text": "An ionic bond is always much stronger than most covalent bonds."
+      },
+      {
+        "id": "E",
+        "text": "None of the above are true."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "A-D are false: mobile ions conduct in solution or melt, solid ions are fixed, ionic bonding is electrostatic after transfer, and bond-strength comparisons are not absolute.",
+    "explanation": "A-D are false: mobile ions conduct in solution or melt, solid ions are fixed, ionic bonding is electrostatic after transfer, and bond-strength comparisons are not absolute.",
+    "chapter": "Ch08",
+    "topics": [
+      "ionic bonding"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 22,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q23",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "State the Heisenberg uncertainty principle.",
+    "options": [],
+    "correctAnswers": [
+      "Position and momentum cannot both be known exactly at the same time"
+    ],
+    "acceptedAnswers": [
+      "Position and momentum cannot both be known exactly at the same time"
+    ],
+    "answerText": "Position and momentum cannot both be known exactly at the same time",
+    "explanation": "Their uncertainties obey ΔxΔp >= ħ/2.",
+    "chapter": "Ch07",
+    "topics": [
+      "uncertainty principle"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 23,
+      "page": 4,
+      "sourceAnswer": null,
+      "verifiedAnswer": "Position and momentum cannot both be known exactly at the same time",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q26",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "According to MO theory, overlap of two s atomic orbitals produces ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "two bonding molecular orbitals and one antibonding molecular orbital"
+      },
+      {
+        "id": "B",
+        "text": "one bonding molecular orbital and one antibonding molecular orbital"
+      },
+      {
+        "id": "C",
+        "text": "one bonding molecular orbital and one hybrid orbital"
+      },
+      {
+        "id": "D",
+        "text": "two bonding molecular orbitals and two antibonding molecular orbitals"
+      },
+      {
+        "id": "E",
+        "text": "two bonding molecular orbitals"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The number of molecular orbitals equals the number of combining atomic orbitals: one σs and one σ*s.",
+    "explanation": "The number of molecular orbitals equals the number of combining atomic orbitals: one σs and one σ*s.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 26,
+      "page": 5,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q28",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "In a given atom, no two electrons can have the same set of four quantum numbers. What principle is this?",
+    "options": [],
+    "correctAnswers": [
+      "Pauli exclusion principle"
+    ],
+    "acceptedAnswers": [
+      "Pauli exclusion principle"
+    ],
+    "answerText": "Pauli exclusion principle",
+    "explanation": "This is the definition of the Pauli exclusion principle.",
+    "chapter": "Ch07",
+    "topics": [
+      "Pauli exclusion principle"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 28,
+      "page": 5,
+      "sourceAnswer": null,
+      "verifiedAnswer": "Pauli exclusion principle",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q29",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement about kinetic molecular theory is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Particle size is large compared with container volume."
+      },
+      {
+        "id": "B",
+        "text": "A single particle does not move in a straight line between collisions."
+      },
+      {
+        "id": "C",
+        "text": "Particle collisions are completely elastic."
+      },
+      {
+        "id": "D",
+        "text": "Average kinetic energy is not proportional to absolute temperature."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Ideal-gas particles undergo perfectly elastic collisions.",
+    "explanation": "Ideal-gas particles undergo perfectly elastic collisions.",
+    "chapter": "Ch05",
+    "topics": [
+      "kinetic molecular theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 29,
+      "page": 5,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q30",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Outer electrons shield one another completely from nuclear charge."
+      },
+      {
+        "id": "B",
+        "text": "Core electrons are easiest to remove."
+      },
+      {
+        "id": "C",
+        "text": "Outer electrons are shielded by core electrons from nuclear charge."
+      },
+      {
+        "id": "D",
+        "text": "Outer electrons are hardest to remove."
+      },
+      {
+        "id": "E",
+        "text": "All of the above are true."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Core electrons shield valence electrons, reducing the effective nuclear charge they experience.",
+    "explanation": "Core electrons shield valence electrons, reducing the effective nuclear charge they experience.",
+    "chapter": "Ch07",
+    "topics": [
+      "shielding",
+      "effective nuclear charge"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 30,
+      "page": 5,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q34",
+    "bank": "exam",
+    "type": "short_answer",
+    "prompt": "Using the given average bond energies, estimate ΔH°rxn for 2 Br2(g) + C2H2(g) -> C2H2Br4(l). Given: Br-Br 193, C≡C 837, C-C 347, C-Br 276, C-H 414 kJ/mol.",
+    "options": [],
+    "correctAnswers": [
+      "-228 kJ/mol"
+    ],
+    "acceptedAnswers": [
+      "-228 kJ/mol"
+    ],
+    "answerText": "-228 kJ/mol",
+    "explanation": "Break two Br-Br and one C≡C; form four C-Br and one C-C. ΔH=(2×193+837)-(4×276+347)=-228 kJ/mol.",
+    "chapter": "Ch08",
+    "topics": [
+      "bond energies",
+      "reaction enthalpy"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 34,
+      "page": 6,
+      "sourceAnswer": null,
+      "verifiedAnswer": "-228 kJ/mol",
+      "answerDiscrepancy": false,
+      "notes": "No answer was printed in the source; the answer was derived from the lecture content."
+    }
+  },
+  {
+    "id": "ym112-q36",
+    "bank": "exam",
+    "type": "multiple",
+    "prompt": "Which statements about subatomic particles and isotopes are correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neutrons and protons have opposite charges of equal magnitude."
+      },
+      {
+        "id": "B",
+        "text": "A neutral atom has equal numbers of protons and neutrons."
+      },
+      {
+        "id": "C",
+        "text": "Neutrons and electrons are in the nucleus."
+      },
+      {
+        "id": "D",
+        "text": "A proton has approximately the same mass as an electron."
+      },
+      {
+        "id": "E",
+        "text": "Electrons account for most of an atom's mass."
+      },
+      {
+        "id": "F",
+        "text": "An element may have three or more isotopes."
+      },
+      {
+        "id": "G",
+        "text": "Isotopes have the same numbers of electrons and neutrons."
+      },
+      {
+        "id": "H",
+        "text": "Isotopes have identical physical properties."
+      }
+    ],
+    "correctAnswers": [
+      "F"
+    ],
+    "answerText": "Only F is correct; isotopes share proton number but differ in neutron number and can differ in physical properties.",
+    "explanation": "Only F is correct; isotopes share proton number but differ in neutron number and can differ in physical properties.",
+    "chapter": "Ch02",
+    "topics": [
+      "subatomic particles",
+      "isotopes"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 36,
+      "page": 6,
+      "sourceAnswer": null,
+      "verifiedAnswer": [
+        "F"
+      ],
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q37",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which option is not a postulate of the kinetic molecular theory of ideal gases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atoms are neither created nor destroyed by ordinary chemical reactions."
+      },
+      {
+        "id": "B",
+        "text": "Attractive and repulsive forces between gas molecules are negligible."
+      },
+      {
+        "id": "C",
+        "text": "Collisions between gas molecules do not result in loss of kinetic energy."
+      },
+      {
+        "id": "D",
+        "text": "The volume occupied by the molecules is negligible compared with the container volume."
+      },
+      {
+        "id": "E",
+        "text": "Gas molecules are in continuous random motion."
+      },
+      {
+        "id": "F",
+        "text": "Average kinetic energy is proportional to absolute temperature."
+      },
+      {
+        "id": "G",
+        "text": "A particle moves in a straight line between collisions."
+      },
+      {
+        "id": "H",
+        "text": "Collisions are completely elastic."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "A is a statement from Dalton's atomic theory; B-H are kinetic-molecular postulates or consequences.",
+    "explanation": "A is a statement from Dalton's atomic theory; B-H are kinetic-molecular postulates or consequences.",
+    "chapter": "Ch05",
+    "topics": [
+      "kinetic molecular theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 37,
+      "page": 6,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "ym112-q39",
+    "bank": "exam",
+    "type": "multiple",
+    "prompt": "Which chemical names are correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sn(SO4)2 — tin(II) sulfite"
+      },
+      {
+        "id": "B",
+        "text": "TiCO3 — titanium(II) carbonate"
+      },
+      {
+        "id": "C",
+        "text": "NaHSO3 — sodium hydrogen sulfate"
+      },
+      {
+        "id": "D",
+        "text": "P4O6 — phosphorus oxide"
+      },
+      {
+        "id": "E",
+        "text": "NaClO4 — sodium perchlorate"
+      },
+      {
+        "id": "F",
+        "text": "MgCl2 — magnesium(2+) dichloride"
+      },
+      {
+        "id": "G",
+        "text": "H2SO3 — sulfurous acid"
+      },
+      {
+        "id": "H",
+        "text": "N2O4 — nitrogen oxide"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "E",
+      "G"
+    ],
+    "answerText": "TiCO3 is titanium(II) carbonate, NaClO4 is sodium perchlorate, and H2SO3 is sulfurous acid. The others misuse ion names, oxidation states, or prefixes.",
+    "explanation": "TiCO3 is titanium(II) carbonate, NaClO4 is sodium perchlorate, and H2SO3 is sulfurous acid. The others misuse ion names, oxidation states, or prefixes.",
+    "chapter": "Ch02",
+    "topics": [
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "112第一次期中考考古.pdf",
+      "question": 39,
+      "page": 7,
+      "sourceAnswer": null,
+      "verifiedAnswer": [
+        "B",
+        "E",
+        "G"
+      ],
+      "answerDiscrepancy": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "exam2018-q01",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Use the molecular orbital diagram shown to determine which of the following is most stable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ne2^2+"
+      },
+      {
+        "id": "B",
+        "text": "O2^2+"
+      },
+      {
+        "id": "C",
+        "text": "F2"
+      },
+      {
+        "id": "D",
+        "text": "F2^2-"
+      },
+      {
+        "id": "E",
+        "text": "F2^2+"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "O2^2+ has bond order 3, the largest among the choices.",
+    "explanation": "O2^2+ has bond order 3, the largest among the choices.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "bond order"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "path": "assets/exam3-q01-03-mo.jpg",
+        "alt": "Source figure for question 1"
+      }
+    ],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 1,
+      "page": 2,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q02",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Use the molecular orbital diagram shown above to determine which of the following is paramagnetic.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ne2^2+"
+      },
+      {
+        "id": "B",
+        "text": "F2^2-"
+      },
+      {
+        "id": "C",
+        "text": "O2^2+"
+      },
+      {
+        "id": "D",
+        "text": "F2^2+"
+      },
+      {
+        "id": "E",
+        "text": "O2^2-"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "F2^2+ is isoelectronic with O2 and has two unpaired π* electrons.",
+    "explanation": "F2^2+ is isoelectronic with O2 and has two unpaired π* electrons.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "paramagnetism"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "path": "assets/exam3-q01-03-mo.jpg",
+        "alt": "Source figure for question 2"
+      }
+    ],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 2,
+      "page": 2,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q03",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Use the molecular orbital diagram shown above to determine which of the following has bond order 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "O2^2-"
+      },
+      {
+        "id": "B",
+        "text": "O2^-"
+      },
+      {
+        "id": "C",
+        "text": "Ne2^2+"
+      },
+      {
+        "id": "D",
+        "text": "F2^2-"
+      },
+      {
+        "id": "E",
+        "text": "F2^2+"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "F2^2+ has 8 bonding and 4 antibonding valence electrons, so bond order is 2.",
+    "explanation": "F2^2+ has 8 bonding and 4 antibonding valence electrons, so bond order is 2.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "bond order"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "path": "assets/exam3-q01-03-mo.jpg",
+        "alt": "Source figure for question 3"
+      }
+    ],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 3,
+      "page": 2,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q04",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Molecular orbital theory correctly predicts paramagnetism of oxygen gas, O2. This is because ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "there are two unpaired electrons in the MO electron configuration of O2"
+      },
+      {
+        "id": "B",
+        "text": "the energy of the π2p MOs is higher than that of the σ2p MO"
+      },
+      {
+        "id": "C",
+        "text": "there are more electrons in bonding orbitals than in antibonding orbitals"
+      },
+      {
+        "id": "D",
+        "text": "the O-O bond distance is relatively short"
+      },
+      {
+        "id": "E",
+        "text": "the bond order in O2 equals 2"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Paramagnetism specifically results from the two unpaired electrons in the degenerate π*2p orbitals.",
+    "explanation": "Paramagnetism specifically results from the two unpaired electrons in the degenerate π*2p orbitals.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "paramagnetism"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 4,
+      "page": 2,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q05",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Read the length of the metal bar with the correct number of significant figures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 cm"
+      },
+      {
+        "id": "B",
+        "text": "15.000 cm"
+      },
+      {
+        "id": "C",
+        "text": "15.0 cm"
+      },
+      {
+        "id": "D",
+        "text": "15.00 cm"
+      },
+      {
+        "id": "E",
+        "text": "20 cm"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "The scale supports reporting 15.00 cm with one estimated digit beyond the smallest marked division.",
+    "explanation": "The scale supports reporting 15.00 cm with one estimated digit beyond the smallest marked division.",
+    "chapter": "Ch01",
+    "topics": [
+      "measurement",
+      "significant figures"
+    ],
+    "assets": [
+      {
+        "type": "image",
+        "path": "assets/exam3-q05-ruler.jpg",
+        "alt": "Source figure for question 5"
+      }
+    ],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 5,
+      "page": 3,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q06",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "What is the correctly rounded result of (0.002843)(12.80184) / 0.00032?",
+    "options": [
+      {
+        "id": "A",
+        "text": "113.73635"
+      },
+      {
+        "id": "B",
+        "text": "1.1 × 10^2"
+      },
+      {
+        "id": "C",
+        "text": "113.736"
+      },
+      {
+        "id": "D",
+        "text": "113.74"
+      },
+      {
+        "id": "E",
+        "text": "113.7"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The unrounded value is about 113.7, but 0.00032 has two significant figures, giving 1.1×10^2.",
+    "explanation": "The unrounded value is about 113.7, but 0.00032 has two significant figures, giving 1.1×10^2.",
+    "chapter": "Ch01",
+    "topics": [
+      "significant figures"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 6,
+      "page": 3,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q07",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Based on the reactions below, which metal is the most active? Pb(NO3)2(aq)+Ni(s)->Ni(NO3)2(aq)+Pb(s); Pb(NO3)2(aq)+Ag(s)->no reaction; Cu(NO3)2(aq)+Ni(s)->Ni(NO3)2(aq)+Cu(s).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ag"
+      },
+      {
+        "id": "B",
+        "text": "Cu"
+      },
+      {
+        "id": "C",
+        "text": "N"
+      },
+      {
+        "id": "D",
+        "text": "Pb"
+      },
+      {
+        "id": "E",
+        "text": "Ni"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Ni displaces both Pb2+ and Cu2+, so it is more active than Pb and Cu; Ag does not displace Pb.",
+    "explanation": "Ni displaces both Pb2+ and Cu2+, so it is more active than Pb and Cu; Ag does not displace Pb.",
+    "chapter": "Ch04",
+    "topics": [
+      "activity series",
+      "redox"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 7,
+      "page": 3,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q08",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The π bond in ethylene, H2C=CH2, results from overlap of ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "p atomic orbitals"
+      },
+      {
+        "id": "B",
+        "text": "s atomic orbitals"
+      },
+      {
+        "id": "C",
+        "text": "sp3 hybrid orbitals"
+      },
+      {
+        "id": "D",
+        "text": "sp hybrid orbitals"
+      },
+      {
+        "id": "E",
+        "text": "sp2 hybrid orbitals"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The π bond is sidewise overlap of the unhybridized p orbitals on the two sp2 carbons.",
+    "explanation": "The π bond is sidewise overlap of the unhybridized p orbitals on the two sp2 carbons.",
+    "chapter": "Ch09",
+    "topics": [
+      "pi bond",
+      "hybridization"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 8,
+      "page": 3,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q09",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "A 4.369 g sample of metal is placed in a flask. Water is added and the total volume is 126.4 mL. The mass of flask plus metal is 268.5 g; the mass of the flask is 139.3 g; water density is 1.000 g/mL. What is the solid's density in g/cm3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.641"
+      },
+      {
+        "id": "B",
+        "text": "3.21"
+      },
+      {
+        "id": "C",
+        "text": "2.78"
+      },
+      {
+        "id": "D",
+        "text": "1.56"
+      },
+      {
+        "id": "E",
+        "text": "0.366"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Water mass is 268.5-139.3-4.369=124.831 g, so water volume is 124.831 mL. Metal volume is 1.569 mL and density is 4.369/1.569=2.78 g/mL.",
+    "explanation": "Water mass is 268.5-139.3-4.369=124.831 g, so water volume is 124.831 mL. Metal volume is 1.569 mL and density is 4.369/1.569=2.78 g/mL.",
+    "chapter": "Ch01",
+    "topics": [
+      "density",
+      "displacement"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 9,
+      "page": 4,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q10",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The type of compound most likely to contain a covalent bond is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "one composed only of nonmetals"
+      },
+      {
+        "id": "B",
+        "text": "one held by electrostatic forces between oppositely charged ions"
+      },
+      {
+        "id": "C",
+        "text": "a solid metal"
+      },
+      {
+        "id": "D",
+        "text": "one composed of a far-left metal and far-right nonmetal"
+      },
+      {
+        "id": "E",
+        "text": "There is no general rule to predict covalency."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Covalent compounds most commonly form between nonmetals.",
+    "explanation": "Covalent compounds most commonly form between nonmetals.",
+    "chapter": "Ch08",
+    "topics": [
+      "covalent bonding"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 10,
+      "page": 4,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q11",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "______ is isoelectronic with argon, and ______ is isoelectronic with neon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "P, N"
+      },
+      {
+        "id": "B",
+        "text": "P3-, N3-"
+      },
+      {
+        "id": "C",
+        "text": "P3+, N3+"
+      },
+      {
+        "id": "D",
+        "text": "N3-, P3-"
+      },
+      {
+        "id": "E",
+        "text": "P2-, N2-"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "P3- has 18 electrons like Ar; N3- has 10 electrons like Ne.",
+    "explanation": "P3- has 18 electrons like Ar; N3- has 10 electrons like Ne.",
+    "chapter": "Ch08",
+    "topics": [
+      "isoelectronic series"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 11,
+      "page": 4,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q12",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "In clinical application, what wavelength region does MRI use?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ultraviolet"
+      },
+      {
+        "id": "B",
+        "text": "X-ray"
+      },
+      {
+        "id": "C",
+        "text": "microwave"
+      },
+      {
+        "id": "D",
+        "text": "visible light"
+      },
+      {
+        "id": "E",
+        "text": "radio frequency"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "MRI excites nuclear spin transitions using radiofrequency radiation.",
+    "explanation": "MRI excites nuclear spin transitions using radiofrequency radiation.",
+    "chapter": "Ch07",
+    "topics": [
+      "electromagnetic spectrum",
+      "NMR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 12,
+      "page": 4,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q13",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "What is the formal charge on nitrogen in NO3-?",
+    "options": [
+      {
+        "id": "A",
+        "text": "+2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "-1"
+      },
+      {
+        "id": "D",
+        "text": "-2"
+      },
+      {
+        "id": "E",
+        "text": "+1"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "In each major nitrate resonance contributor, N has formal charge +1.",
+    "explanation": "In each major nitrate resonance contributor, N has formal charge +1.",
+    "chapter": "Ch08",
+    "topics": [
+      "formal charge",
+      "resonance"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 13,
+      "page": 4,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q14",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which electron configuration represents a violation of the Pauli exclusion principle?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1s[↑↓] 2s[↑] 2p[ ][ ][ ]"
+      },
+      {
+        "id": "B",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑][↑↓][ ]"
+      },
+      {
+        "id": "C",
+        "text": "1s[↑] 2s[↑] 2p[↑][↑][↑]"
+      },
+      {
+        "id": "D",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑][ ][ ]"
+      },
+      {
+        "id": "E",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑↑][↑][↑]"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Two electrons in the same orbital cannot have the same spin; option E places ↑↑ in one 2p orbital.",
+    "explanation": "Two electrons in the same orbital cannot have the same spin; option E places ↑↑ in one 2p orbital.",
+    "chapter": "Ch07",
+    "topics": [
+      "Pauli exclusion principle"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 14,
+      "page": 4,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q15",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following statements is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two electrons in the same atom may have identical values for all four quantum numbers."
+      },
+      {
+        "id": "B",
+        "text": "An orbital that penetrates the core region more is more shielded and therefore higher in energy."
+      },
+      {
+        "id": "C",
+        "text": "Two electrons in the same orbital can have the same spin."
+      },
+      {
+        "id": "D",
+        "text": "No two electrons can have the same four quantum numbers is the Aufbau principle."
+      },
+      {
+        "id": "E",
+        "text": "An orbital that penetrates the core region more is less shielded and therefore lower in energy."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Greater penetration means less shielding, greater effective nuclear attraction, and lower energy.",
+    "explanation": "Greater penetration means less shielding, greater effective nuclear attraction, and lower energy.",
+    "chapter": "Ch07",
+    "topics": [
+      "penetration",
+      "shielding"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 15,
+      "page": 5,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q16",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which of the following molecules or ions exhibit delocalized bonding: SO2, SO3, SO3^2-?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SO3^2- only"
+      },
+      {
+        "id": "B",
+        "text": "SO2, SO3, and SO3^2-"
+      },
+      {
+        "id": "C",
+        "text": "SO2 and SO3"
+      },
+      {
+        "id": "D",
+        "text": "SO3 and SO3^2-"
+      },
+      {
+        "id": "E",
+        "text": "None of them"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "All three have multiple equivalent resonance contributors and delocalized electron density. The first-page key lists C, but B is the chemistry-verified answer.",
+    "explanation": "All three have multiple equivalent resonance contributors and delocalized electron density. The first-page key lists C, but B is the chemistry-verified answer.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "resonance",
+      "delocalization"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 16,
+      "page": 5,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": true,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q17",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "According to MO theory, overlap of two p atomic orbitals produces ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "one bonding molecular orbital and one antibonding molecular orbital"
+      },
+      {
+        "id": "B",
+        "text": "three bonding molecular orbitals and three antibonding molecular orbitals"
+      },
+      {
+        "id": "C",
+        "text": "two bonding molecular orbitals and two antibonding molecular orbitals"
+      },
+      {
+        "id": "D",
+        "text": "two bonding molecular orbitals"
+      },
+      {
+        "id": "E",
+        "text": "two bonding molecular orbitals and one antibonding molecular orbital"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Two interacting atomic orbitals always produce two MOs: one bonding and one antibonding for the chosen symmetry interaction.",
+    "explanation": "Two interacting atomic orbitals always produce two MOs: one bonding and one antibonding for the chosen symmetry interaction.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 17,
+      "page": 5,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q18",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The more effectively two atomic orbitals overlap, ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the higher the energies of both resulting MOs"
+      },
+      {
+        "id": "B",
+        "text": "the fewer antibonding MOs are produced"
+      },
+      {
+        "id": "C",
+        "text": "the higher the bonding MO and the lower the antibonding MO"
+      },
+      {
+        "id": "D",
+        "text": "the lower the bonding MO and the higher the antibonding MO"
+      },
+      {
+        "id": "E",
+        "text": "the more bonding MOs are produced"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Stronger overlap increases the bonding-antibonding energy splitting.",
+    "explanation": "Stronger overlap increases the bonding-antibonding energy splitting.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "orbital overlap"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 18,
+      "page": 5,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q19",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement about isotopes is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isotopes differ only in electron count."
+      },
+      {
+        "id": "B",
+        "text": "A larger neutron number means fewer neutrons."
+      },
+      {
+        "id": "C",
+        "text": "Isotopes of an element do not usually share properties."
+      },
+      {
+        "id": "D",
+        "text": "Some elements have three or more naturally occurring isotopes."
+      },
+      {
+        "id": "E",
+        "text": "Isotopes of an element have the same mass."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Isotopes share proton number but differ in neutron number; many elements have more than two naturally occurring isotopes.",
+    "explanation": "Isotopes share proton number but differ in neutron number; many elements have more than two naturally occurring isotopes.",
+    "chapter": "Ch02",
+    "topics": [
+      "isotopes"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 19,
+      "page": 5,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q20",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which element has the electron configuration 1s2 2s2 2p6 3s2 3p6 4s1 3d5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "chromium"
+      },
+      {
+        "id": "B",
+        "text": "vanadium"
+      },
+      {
+        "id": "C",
+        "text": "titanium"
+      },
+      {
+        "id": "D",
+        "text": "manganese"
+      },
+      {
+        "id": "E",
+        "text": "iron"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "[Ar]4s1 3d5 is chromium's exceptional ground-state configuration.",
+    "explanation": "[Ar]4s1 3d5 is chromium's exceptional ground-state configuration.",
+    "chapter": "Ch07",
+    "topics": [
+      "electron configuration"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 20,
+      "page": 6,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q21",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which resonance structure of OCN- contributes most to the actual structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O(3 lone pairs)-C≡N(1 lone pair)"
+      },
+      {
+        "id": "B",
+        "text": "O(1 lone pair)=C-N(3 lone pairs)"
+      },
+      {
+        "id": "C",
+        "text": "O(1 lone pair)-C(2 lone pairs)-N(1 lone pair)"
+      },
+      {
+        "id": "D",
+        "text": "O(2 lone pairs)-C-N(2 lone pairs)"
+      },
+      {
+        "id": "E",
+        "text": "O(1 lone pair)-C(1 lone pair)-N(1 lone pair)"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "O-C≡N places the -1 formal charge on oxygen, the most electronegative atom, while satisfying octets.",
+    "explanation": "O-C≡N places the -1 formal charge on oxygen, the most electronegative atom, while satisfying octets.",
+    "chapter": "Ch08",
+    "topics": [
+      "resonance",
+      "formal charge"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 21,
+      "page": 6,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q22",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The volume of a gas is inversely proportional to its pressure. This is known as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ideal Gas Law"
+      },
+      {
+        "id": "B",
+        "text": "Boyle's Law"
+      },
+      {
+        "id": "C",
+        "text": "Charles's Law"
+      },
+      {
+        "id": "D",
+        "text": "Avogadro's Law"
+      },
+      {
+        "id": "E",
+        "text": "Dalton's Law"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "At constant n and T, Boyle's law states PV=constant.",
+    "explanation": "At constant n and T, Boyle's law states PV=constant.",
+    "chapter": "Ch05",
+    "topics": [
+      "Boyle law"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 22,
+      "page": 6,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q23",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Identify the number of valence electrons in Cl-.",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Neutral chlorine has seven valence electrons; Cl- has gained one, giving eight.",
+    "explanation": "Neutral chlorine has seven valence electrons; Cl- has gained one, giving eight.",
+    "chapter": "Ch02",
+    "topics": [
+      "valence electrons",
+      "ions"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 23,
+      "page": 6,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q24",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which atom has the largest second ionization energy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cl"
+      },
+      {
+        "id": "B",
+        "text": "Mg"
+      },
+      {
+        "id": "C",
+        "text": "Na"
+      },
+      {
+        "id": "D",
+        "text": "Ca"
+      },
+      {
+        "id": "E",
+        "text": "S"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "After Na loses its 3s electron, Na+ has a noble-gas configuration; removing a second electron breaks into the core.",
+    "explanation": "After Na loses its 3s electron, Na+ has a noble-gas configuration; removing a second electron breaks into the core.",
+    "chapter": "Ch07",
+    "topics": [
+      "ionization energy",
+      "periodic trends"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 24,
+      "page": 6,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q25",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The bond order of a homonuclear diatomic molecule can be decreased by ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "removing electrons from a bonding MO or adding electrons to an antibonding MO"
+      },
+      {
+        "id": "B",
+        "text": "adding electrons to a bonding MO or removing electrons from an antibonding MO"
+      },
+      {
+        "id": "C",
+        "text": "Bond order cannot be decreased."
+      },
+      {
+        "id": "D",
+        "text": "removing electrons from any MO"
+      },
+      {
+        "id": "E",
+        "text": "adding electrons to any MO"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Bond order=(bonding-antibonding)/2, so either change in A lowers it.",
+    "explanation": "Bond order=(bonding-antibonding)/2, so either change in A lowers it.",
+    "chapter": "Ch09",
+    "topics": [
+      "bond order"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 25,
+      "page": 6,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q26",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement about quantum theory is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When filling degenerate orbitals, two electrons occupy the same orbital before a new orbital."
+      },
+      {
+        "id": "B",
+        "text": "No two electrons can have the same four quantum numbers."
+      },
+      {
+        "id": "C",
+        "text": "Electron spin quantum number is +1/2 or -1/2."
+      },
+      {
+        "id": "D",
+        "text": "Lower-energy orbitals fill before higher-energy orbitals."
+      },
+      {
+        "id": "E",
+        "text": "Energy and position cannot be determined simultaneously."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Hund's rule says degenerate orbitals fill singly before pairing.",
+    "explanation": "Hund's rule says degenerate orbitals fill singly before pairing.",
+    "chapter": "Ch07",
+    "topics": [
+      "Hund rule",
+      "quantum theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 26,
+      "page": 6,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q27",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An orbital is the volume in which an electron is most likely to be found."
+      },
+      {
+        "id": "B",
+        "text": "The Bohr model places hydrogen electrons in stationary states or particular orbits."
+      },
+      {
+        "id": "C",
+        "text": "Because electrons have mass, they must always be treated only as particles and never as waves."
+      },
+      {
+        "id": "D",
+        "text": "An element's emission spectrum is characteristic and can identify it."
+      },
+      {
+        "id": "E",
+        "text": "The uncertainty principle prevents exact simultaneous knowledge of location and speed/momentum."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Electrons exhibit wave-particle duality.",
+    "explanation": "Electrons exhibit wave-particle duality.",
+    "chapter": "Ch07",
+    "topics": [
+      "wave-particle duality"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 27,
+      "page": 7,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q28",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "All samples of a given compound have the same proportions of their constituent elements. Which law is this?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Law of Definite Proportions"
+      },
+      {
+        "id": "B",
+        "text": "First Law of Thermodynamics"
+      },
+      {
+        "id": "C",
+        "text": "Law of Modern Atomic Theory"
+      },
+      {
+        "id": "D",
+        "text": "Law of Conservation of Mass"
+      },
+      {
+        "id": "E",
+        "text": "Law of Multiple Proportions"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "This is the law of definite proportions.",
+    "explanation": "This is the law of definite proportions.",
+    "chapter": "Ch02",
+    "topics": [
+      "fundamental chemical laws"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 28,
+      "page": 7,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q29",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The formula for zinc phosphate is Zn3(PO4)2. What is the formula for cadmium arsenate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cd3(AsO4)2"
+      },
+      {
+        "id": "B",
+        "text": "Cd3(AsO3)4"
+      },
+      {
+        "id": "C",
+        "text": "Cd2(AsO4)3"
+      },
+      {
+        "id": "D",
+        "text": "Cd4(AsO2)3"
+      },
+      {
+        "id": "E",
+        "text": "Cd2(AsO4)4"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Cd2+ and AsO4^3- combine in a 3:2 ratio: Cd3(AsO4)2.",
+    "explanation": "Cd2+ and AsO4^3- combine in a 3:2 ratio: Cd3(AsO4)2.",
+    "chapter": "Ch02",
+    "topics": [
+      "ionic formulas",
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 29,
+      "page": 7,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q30",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The molecular geometry of H3O+ is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bent"
+      },
+      {
+        "id": "B",
+        "text": "trigonal pyramidal"
+      },
+      {
+        "id": "C",
+        "text": "tetrahedral"
+      },
+      {
+        "id": "D",
+        "text": "octahedral"
+      },
+      {
+        "id": "E",
+        "text": "linear"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "H3O+ is AX3E: tetrahedral electron geometry and trigonal-pyramidal molecular geometry.",
+    "explanation": "H3O+ is AX3E: tetrahedral electron geometry and trigonal-pyramidal molecular geometry.",
+    "chapter": "Ch08",
+    "topics": [
+      "VSEPR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 30,
+      "page": 7,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q31",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "According to the Lewis structure of carbon monoxide, the hybridizations of carbon and oxygen in CO are ______ and ______, respectively.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp, sp"
+      },
+      {
+        "id": "B",
+        "text": "sp, sp3"
+      },
+      {
+        "id": "C",
+        "text": "sp3, sp2"
+      },
+      {
+        "id": "D",
+        "text": "sp2, sp2"
+      },
+      {
+        "id": "E",
+        "text": "sp2, sp3"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The C≡O triple bond gives each atom two electron domains and sp hybridization.",
+    "explanation": "The C≡O triple bond gives each atom two electron domains and sp hybridization.",
+    "chapter": "Ch09",
+    "topics": [
+      "hybridization"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 31,
+      "page": 7,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q32",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The correct name for HBrO4 is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hydrobromic acid"
+      },
+      {
+        "id": "B",
+        "text": "perbromic acid"
+      },
+      {
+        "id": "C",
+        "text": "bromic acid"
+      },
+      {
+        "id": "D",
+        "text": "bromous acid"
+      },
+      {
+        "id": "E",
+        "text": "hydrobromous acid"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "BrO4- is perbromate; the corresponding oxyacid is perbromic acid.",
+    "explanation": "BrO4- is perbromate; the corresponding oxyacid is perbromic acid.",
+    "chapter": "Ch02",
+    "topics": [
+      "acid nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 32,
+      "page": 7,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q33",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Give the definition of effusion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "gas molecules spread out in a concentration gradient"
+      },
+      {
+        "id": "B",
+        "text": "gas molecules escape from a container into a vacuum through a small hole"
+      },
+      {
+        "id": "C",
+        "text": "gas molecules mix equally"
+      },
+      {
+        "id": "D",
+        "text": "average distance between collisions"
+      },
+      {
+        "id": "E",
+        "text": "gas molecules mix unequally"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Effusion is escape through a tiny opening into a vacuum; diffusion is mixing through space.",
+    "explanation": "Effusion is escape through a tiny opening into a vacuum; diffusion is mixing through space.",
+    "chapter": "Ch05",
+    "topics": [
+      "effusion"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 33,
+      "page": 7,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q34",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "For which element does the lowest-energy electron configuration contain a partially filled d orbital?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ga"
+      },
+      {
+        "id": "B",
+        "text": "Cu"
+      },
+      {
+        "id": "C",
+        "text": "Kr"
+      },
+      {
+        "id": "D",
+        "text": "Rb"
+      },
+      {
+        "id": "E",
+        "text": "Ti"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Ti is [Ar]4s2 3d2, so its d subshell is partially filled; the others listed have filled d10 or no valence d occupation.",
+    "explanation": "Ti is [Ar]4s2 3d2, so its d subshell is partially filled; the others listed have filled d10 or no valence d occupation.",
+    "chapter": "Ch07",
+    "topics": [
+      "electron configuration"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 34,
+      "page": 8,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q35",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which quantum number describes the size and energy of an orbital?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Schrödinger quantum number"
+      },
+      {
+        "id": "B",
+        "text": "principal quantum number n"
+      },
+      {
+        "id": "C",
+        "text": "spin quantum number"
+      },
+      {
+        "id": "D",
+        "text": "angular momentum quantum number l"
+      },
+      {
+        "id": "E",
+        "text": "magnetic quantum number ml"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "The principal quantum number n primarily sets shell size and energy.",
+    "explanation": "The principal quantum number n primarily sets shell size and energy.",
+    "chapter": "Ch07",
+    "topics": [
+      "quantum numbers"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 35,
+      "page": 8,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q36",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which molecule has square-planar molecular geometry?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XeF2"
+      },
+      {
+        "id": "B",
+        "text": "PH3"
+      },
+      {
+        "id": "C",
+        "text": "XeF4"
+      },
+      {
+        "id": "D",
+        "text": "CCl4"
+      },
+      {
+        "id": "E",
+        "text": "ICl3"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "XeF4 is AX4E2: octahedral electron-domain geometry and square-planar molecular geometry.",
+    "explanation": "XeF4 is AX4E2: octahedral electron-domain geometry and square-planar molecular geometry.",
+    "chapter": "Ch08",
+    "topics": [
+      "VSEPR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 36,
+      "page": 8,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q37",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The hybridizations of bromine in BrF5 and arsenic in AsF5 are ______ and ______, respectively.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sp3d, sp3d2"
+      },
+      {
+        "id": "B",
+        "text": "sp3d, sp3"
+      },
+      {
+        "id": "C",
+        "text": "sp3d2, sp3d2"
+      },
+      {
+        "id": "D",
+        "text": "sp3, sp3d"
+      },
+      {
+        "id": "E",
+        "text": "sp3d2, sp3d"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "BrF5 has six domains (sp3d2); AsF5 has five domains (sp3d).",
+    "explanation": "BrF5 has six domains (sp3d2); AsF5 has five domains (sp3d).",
+    "chapter": "Ch09",
+    "topics": [
+      "hybridization",
+      "VSEPR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 37,
+      "page": 8,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q38",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "A student measures the density of a sugar solution as 1.71, 1.73, 1.67 and 1.69 g/mL. The accepted value is 1.40 g/mL. Which statement best describes the results?",
+    "options": [
+      {
+        "id": "A",
+        "text": "precise, but not accurate"
+      },
+      {
+        "id": "B",
+        "text": "accurate, but not precise"
+      },
+      {
+        "id": "C",
+        "text": "neither precise nor accurate"
+      },
+      {
+        "id": "D",
+        "text": "both precise and accurate"
+      },
+      {
+        "id": "E",
+        "text": "insufficient information"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The results cluster closely together but are far from the accepted value.",
+    "explanation": "The results cluster closely together but are far from the accepted value.",
+    "chapter": "Ch01",
+    "topics": [
+      "accuracy",
+      "precision"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 38,
+      "page": 8,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q39",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The photoelectric effect is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "production of current by silicon solar cells when exposed to sunlight"
+      },
+      {
+        "id": "B",
+        "text": "a relativistic effect"
+      },
+      {
+        "id": "C",
+        "text": "darkening of film in an electric field"
+      },
+      {
+        "id": "D",
+        "text": "total reflection of light by metals"
+      },
+      {
+        "id": "E",
+        "text": "ejection of electrons by a metal struck with light of sufficient energy"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "Photons above the threshold frequency eject electrons from a metal surface.",
+    "explanation": "Photons above the threshold frequency eject electrons from a metal surface.",
+    "chapter": "Ch07",
+    "topics": [
+      "photoelectric effect"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 39,
+      "page": 8,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q40",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "The basis of the VSEPR model of molecular bonding is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "regions of electron density arrange to maximize overlap"
+      },
+      {
+        "id": "B",
+        "text": "hybrid orbitals form as close as possible"
+      },
+      {
+        "id": "C",
+        "text": "atomic orbitals must overlap for any bond"
+      },
+      {
+        "id": "D",
+        "text": "electron domains in a valence shell arrange to minimize repulsions"
+      },
+      {
+        "id": "E",
+        "text": "electron-density regions arrange to maximize s-character"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "VSEPR predicts geometry by minimizing repulsions among valence-shell electron domains.",
+    "explanation": "VSEPR predicts geometry by minimizing repulsions among valence-shell electron domains.",
+    "chapter": "Ch08",
+    "topics": [
+      "VSEPR"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 40,
+      "page": 8,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q41",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which electron configuration violates Hund's rule for an atom in its ground state?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1s[↑] 2s[↑] 2p[↑][↑][↑]"
+      },
+      {
+        "id": "B",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑][↑][ ]"
+      },
+      {
+        "id": "C",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑][↑↓][ ]"
+      },
+      {
+        "id": "D",
+        "text": "1s[↑↓] 2s[↑] 2p[ ][ ][ ]"
+      },
+      {
+        "id": "E",
+        "text": "1s[↑↓] 2s[↑↓] 2p[↑↑][↑][↑]"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Option C pairs electrons in one degenerate 2p orbital before all three are singly occupied. (E violates Pauli instead.)",
+    "explanation": "Option C pairs electrons in one degenerate 2p orbital before all three are singly occupied. (E violates Pauli instead.)",
+    "chapter": "Ch07",
+    "topics": [
+      "Hund rule"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 41,
+      "page": 9,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q42",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "What is the formal charge on the central oxygen atom in ozone, O3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "+1"
+      },
+      {
+        "id": "D",
+        "text": "-1"
+      },
+      {
+        "id": "E",
+        "text": "+2"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "The central O has one lone pair, one single bond and one double bond: 6-(2+3)=+1.",
+    "explanation": "The central O has one lone pair, one single bond and one double bond: 6-(2+3)=+1.",
+    "chapter": "Ch08",
+    "topics": [
+      "formal charge",
+      "resonance"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 42,
+      "page": 9,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q43",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Using the average bond energies C≡C 839, C=C 614, H-I 299, C-I 240 and C-H 413 kJ/mol, estimate ΔH for HC≡CH(g)+HI(g)->H2C=CHI(g).",
+    "options": [
+      {
+        "id": "A",
+        "text": "+506"
+      },
+      {
+        "id": "B",
+        "text": "-129"
+      },
+      {
+        "id": "C",
+        "text": "-931"
+      },
+      {
+        "id": "D",
+        "text": "+129"
+      },
+      {
+        "id": "E",
+        "text": "-506"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Break one π component of C≡C and H-I; form C=C, C-H and C-I as represented. The bond-energy estimate is -129 kJ/mol.",
+    "explanation": "Break one π component of C≡C and H-I; form C=C, C-H and C-I as represented. The bond-energy estimate is -129 kJ/mol.",
+    "chapter": "Ch08",
+    "topics": [
+      "bond energies"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 43,
+      "page": 9,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q44",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Place NO2-, NO3- and NO in order of increasing bond length.",
+    "options": [
+      {
+        "id": "A",
+        "text": "NO < NO3- < NO2-"
+      },
+      {
+        "id": "B",
+        "text": "NO3- < NO2- < NO"
+      },
+      {
+        "id": "C",
+        "text": "NO < NO2- < NO3-"
+      },
+      {
+        "id": "D",
+        "text": "NO3- < NO < NO2-"
+      },
+      {
+        "id": "E",
+        "text": "NO2- < NO3- < NO"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Higher bond order means shorter bond: NO is shortest, nitrite intermediate, nitrate longest.",
+    "explanation": "Higher bond order means shorter bond: NO is shortest, nitrite intermediate, nitrate longest.",
+    "chapter": "Ch08-Ch09",
+    "topics": [
+      "bond order",
+      "resonance"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 44,
+      "page": 9,
+      "sourceAnswer": "C",
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q45",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "When waves of equal amplitude from two sources are in phase when they interact, this is called ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "destructive interference"
+      },
+      {
+        "id": "B",
+        "text": "diffraction"
+      },
+      {
+        "id": "C",
+        "text": "amplitude"
+      },
+      {
+        "id": "D",
+        "text": "constructive interference"
+      },
+      {
+        "id": "E",
+        "text": "effusion"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "In-phase waves add constructively.",
+    "explanation": "In-phase waves add constructively.",
+    "chapter": "Ch07",
+    "topics": [
+      "wave interference"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 45,
+      "page": 10,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q46",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which reaction is associated with the lattice energy of Li2O (ΔH°lattice)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Li2O(s)->2Li+(g)+O2-(g)"
+      },
+      {
+        "id": "B",
+        "text": "Li2O(s)->2Li+(aq)+O2-(aq)"
+      },
+      {
+        "id": "C",
+        "text": "2Li(s)+1/2O2(g)->Li2O(s)"
+      },
+      {
+        "id": "D",
+        "text": "2Li+(g)+O2-(g)->Li2O(s)"
+      },
+      {
+        "id": "E",
+        "text": "2Li+(aq)+O2-(aq)->Li2O(s)"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "In these lectures lattice energy is the enthalpy change when separated gaseous ions form the ionic solid.",
+    "explanation": "In these lectures lattice energy is the enthalpy change when separated gaseous ions form the ionic solid.",
+    "chapter": "Ch08",
+    "topics": [
+      "lattice energy",
+      "Born-Haber cycle"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 46,
+      "page": 10,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q47",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Determine the molecular formula of a compound that is 70.79% carbon, 8.91% hydrogen, 4.59% nitrogen and 15.72% oxygen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "C18H27NO3"
+      },
+      {
+        "id": "B",
+        "text": "C17H27NO3"
+      },
+      {
+        "id": "C",
+        "text": "C18H27NO2"
+      },
+      {
+        "id": "D",
+        "text": "C17H26NO3"
+      },
+      {
+        "id": "E",
+        "text": "C12H21NO3"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Converting 100 g to moles and dividing by the smallest gives approximately C18H27NO3.",
+    "explanation": "Converting 100 g to moles and dividing by the smallest gives approximately C18H27NO3.",
+    "chapter": "Ch03",
+    "topics": [
+      "percent composition",
+      "empirical formula"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 47,
+      "page": 10,
+      "sourceAnswer": "A",
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q48",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement is true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The principal quantum number n describes orbital shape."
+      },
+      {
+        "id": "B",
+        "text": "Equal l values force two electrons into the same orbital."
+      },
+      {
+        "id": "C",
+        "text": "l describes orbital size and energy."
+      },
+      {
+        "id": "D",
+        "text": "An orbital is a fixed path followed by an electron."
+      },
+      {
+        "id": "E",
+        "text": "The magnetic quantum number ml describes orbital orientation."
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "ml distinguishes orientations within a subshell.",
+    "explanation": "ml distinguishes orientations within a subshell.",
+    "chapter": "Ch07",
+    "topics": [
+      "quantum numbers"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 48,
+      "page": 10,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q49",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statements about a typical double bond are correct? (i) one σ and one π bond; (ii) shorter than a single bond; (iii) imparts rigidity; (iv) two shared electron pairs; (v) stronger than a single bond.",
+    "options": [
+      {
+        "id": "A",
+        "text": "i, ii, iii"
+      },
+      {
+        "id": "B",
+        "text": "ii, iii, v"
+      },
+      {
+        "id": "C",
+        "text": "i, ii, iv, v"
+      },
+      {
+        "id": "D",
+        "text": "ii, iii, iv, v"
+      },
+      {
+        "id": "E",
+        "text": "i, ii, iii, iv, v"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "All five statements describe a typical double bond.",
+    "explanation": "All five statements describe a typical double bond.",
+    "chapter": "Ch09",
+    "topics": [
+      "double bonds",
+      "sigma and pi bonds"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 49,
+      "page": 10,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q50",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Determine the numbers of protons, neutrons and electrons in the neutral isotope 65X where the atomic number is 29.",
+    "options": [
+      {
+        "id": "A",
+        "text": "p+=36, n=36, e-=29"
+      },
+      {
+        "id": "B",
+        "text": "p+=29, n=36, e-=29"
+      },
+      {
+        "id": "C",
+        "text": "p+=29, n=36, e-=36"
+      },
+      {
+        "id": "D",
+        "text": "p+=36, n=29, e-=36"
+      },
+      {
+        "id": "E",
+        "text": "p+=29, n=29, e-=36"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Atomic number gives 29 protons; a neutral atom has 29 electrons; neutrons=65-29=36.",
+    "explanation": "Atomic number gives 29 protons; a neutral atom has 29 electrons; neutrons=65-29=36.",
+    "chapter": "Ch02",
+    "topics": [
+      "isotope notation"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 50,
+      "page": 10,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q51",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Write the formula for copper(II) sulfate pentahydrate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cu5SH2O"
+      },
+      {
+        "id": "B",
+        "text": "(CuSO4)5"
+      },
+      {
+        "id": "C",
+        "text": "Cu2SO3·H5"
+      },
+      {
+        "id": "D",
+        "text": "CuSO4·5H2O"
+      },
+      {
+        "id": "E",
+        "text": "Cu2S·H2O"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "Copper(II) sulfate is CuSO4 and pentahydrate adds ·5H2O.",
+    "explanation": "Copper(II) sulfate is CuSO4 and pentahydrate adds ·5H2O.",
+    "chapter": "Ch02",
+    "topics": [
+      "hydrate nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 51,
+      "page": 11,
+      "sourceAnswer": "D",
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q52",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Using a Born-Haber cycle, which expression gives ΔH°f of KBr(s)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ΔH°f[K(g)]-ΔH°f[Br(g)]-I1(K)-E(Br)-ΔHlattice"
+      },
+      {
+        "id": "B",
+        "text": "ΔH°f[K(g)]-ΔH°f[Br(g)]-I1(K)-E(Br)+ΔHlattice"
+      },
+      {
+        "id": "C",
+        "text": "ΔH°f[K(g)]-ΔH°f[Br(g)]+I1(K)-E(Br)+ΔHlattice"
+      },
+      {
+        "id": "D",
+        "text": "ΔH°f[K(g)]-ΔH°f[Br(g)]+I1(K)+E(Br)+ΔHlattice"
+      },
+      {
+        "id": "E",
+        "text": "ΔH°f[K(g)]+ΔH°f[Br(g)]+I1(K)+E(Br)-ΔHlattice"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "answerText": "The source uses lattice energy as energy released on crystal formation; the formation enthalpy sums atomization, ionization, electron gain and lattice-formation terms with the signs shown in E.",
+    "explanation": "The source uses lattice energy as energy released on crystal formation; the formation enthalpy sums atomization, ionization, electron gain and lattice-formation terms with the signs shown in E.",
+    "chapter": "Ch08",
+    "topics": [
+      "Born-Haber cycle",
+      "lattice energy"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 52,
+      "page": 11,
+      "sourceAnswer": "E",
+      "verifiedAnswer": "E",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q53",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement is false according to Dalton's atomic theory?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atoms combine in simple whole-number ratios to form compounds."
+      },
+      {
+        "id": "B",
+        "text": "A nitrogen atom can be broken down into smaller particles that still retain nitrogen's unique properties."
+      },
+      {
+        "id": "C",
+        "text": "Sodium atoms do not change into another element during reaction with chlorine."
+      },
+      {
+        "id": "D",
+        "text": "One carbon atom can combine with one oxygen atom to form carbon monoxide."
+      },
+      {
+        "id": "E",
+        "text": "All chlorine atoms have characteristic properties distinguishing chlorine from other elements."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Subatomic particles do not retain the chemical identity of nitrogen.",
+    "explanation": "Subatomic particles do not retain the chemical identity of nitrogen.",
+    "chapter": "Ch02",
+    "topics": [
+      "Dalton atomic theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 53,
+      "page": 11,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q54",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "According to MO theory, overlap of two p atomic orbitals of compatible orientation produces ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "one π MO and one σ MO"
+      },
+      {
+        "id": "B",
+        "text": "one π MO and one π* MO"
+      },
+      {
+        "id": "C",
+        "text": "one π MO and one σ* MO"
+      },
+      {
+        "id": "D",
+        "text": "two π MOs, two π* MOs, one σ MO and one σ* MO"
+      },
+      {
+        "id": "E",
+        "text": "one π* MO and one σ* MO"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Two compatible p AOs combine into one bonding π and one antibonding π* MO.",
+    "explanation": "Two compatible p AOs combine into one bonding π and one antibonding π* MO.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 54,
+      "page": 11,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  },
+  {
+    "id": "exam2018-q55",
+    "bank": "exam",
+    "type": "single",
+    "prompt": "Which statement is NOT true concerning cathode rays?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They impart a negative charge to metals exposed to them."
+      },
+      {
+        "id": "B",
+        "text": "Their characteristics depend on the material from which they are emitted."
+      },
+      {
+        "id": "C",
+        "text": "They are made of electrons."
+      },
+      {
+        "id": "D",
+        "text": "They travel in straight lines without electric or magnetic fields."
+      },
+      {
+        "id": "E",
+        "text": "They originate from the negative electrode."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Cathode rays are electrons and their properties are independent of cathode material.",
+    "explanation": "Cathode rays are electrons and their properties are independent of cathode material.",
+    "chapter": "Ch02",
+    "topics": [
+      "cathode rays",
+      "atomic history"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "第一次期中考考古.pdf",
+      "question": 55,
+      "page": 11,
+      "sourceAnswer": "B",
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Answer transcribed from the first-page answer list; verified independently."
+    }
+  }
+]

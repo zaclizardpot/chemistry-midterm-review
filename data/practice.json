@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "practice-001",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which name-formula pair is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FeCl3 — iron chloride"
+      },
+      {
+        "id": "B",
+        "text": "Cu2O — copper(II) oxide"
+      },
+      {
+        "id": "C",
+        "text": "SnO2 — tin(IV) oxide"
+      },
+      {
+        "id": "D",
+        "text": "MgBr2 — magnesium dibromide"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Sn is +4 in SnO2, so tin(IV) oxide is correct. Variable-charge metals require Roman numerals; Type-I ionic compounds do not use prefixes.",
+    "explanation": "Sn is +4 in SnO2, so tin(IV) oxide is correct. Variable-charge metals require Roman numerals; Type-I ionic compounds do not use prefixes.",
+    "chapter": "Ch02",
+    "topics": [
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 1,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-002",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the correct name for N2O5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "nitrogen oxide"
+      },
+      {
+        "id": "B",
+        "text": "nitrogen(V) oxide"
+      },
+      {
+        "id": "C",
+        "text": "dinitrogen pentoxide"
+      },
+      {
+        "id": "D",
+        "text": "dinitrogen pentaoxide"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Binary molecular compounds use prefixes; the vowel is elided in pentoxide.",
+    "explanation": "Binary molecular compounds use prefixes; the vowel is elided in pentoxide.",
+    "chapter": "Ch02",
+    "topics": [
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 2,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-003",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the formula of iron(III) phosphate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FePO4"
+      },
+      {
+        "id": "B",
+        "text": "Fe3PO4"
+      },
+      {
+        "id": "C",
+        "text": "Fe(PO4)3"
+      },
+      {
+        "id": "D",
+        "text": "Fe3(PO4)2"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Fe3+ and PO4^3- combine 1:1 to form FePO4.",
+    "explanation": "Fe3+ and PO4^3- combine 1:1 to form FePO4.",
+    "chapter": "Ch02",
+    "topics": [
+      "ionic formulas"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 3,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-004",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which acid name is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HClO — chloric acid"
+      },
+      {
+        "id": "B",
+        "text": "HClO2 — chlorous acid"
+      },
+      {
+        "id": "C",
+        "text": "HClO3 — perchloric acid"
+      },
+      {
+        "id": "D",
+        "text": "HClO4 — hydrochloric acid"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "ClO2- is chlorite, so HClO2 is chlorous acid. Chlorate gives chloric; perchlorate gives perchloric.",
+    "explanation": "ClO2- is chlorite, so HClO2 is chlorous acid. Chlorate gives chloric; perchlorate gives perchloric.",
+    "chapter": "Ch02",
+    "topics": [
+      "acid nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 4,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-005",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the correct formula for ammonium sulfite?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NH4SO3"
+      },
+      {
+        "id": "B",
+        "text": "(NH4)2SO3"
+      },
+      {
+        "id": "C",
+        "text": "(NH4)2SO4"
+      },
+      {
+        "id": "D",
+        "text": "NH4HSO3"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Two NH4+ ions are needed to balance SO3^2-.",
+    "explanation": "Two NH4+ ions are needed to balance SO3^2-.",
+    "chapter": "Ch02",
+    "topics": [
+      "polyatomic ions",
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 5,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-006",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which compound should be named with a Roman numeral?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CaCl2"
+      },
+      {
+        "id": "B",
+        "text": "Al2O3"
+      },
+      {
+        "id": "C",
+        "text": "CoBr2"
+      },
+      {
+        "id": "D",
+        "text": "K2S"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Cobalt is a transition metal with multiple common charges; CoBr2 is cobalt(II) bromide.",
+    "explanation": "Cobalt is a transition metal with multiple common charges; CoBr2 is cobalt(II) bromide.",
+    "chapter": "Ch02",
+    "topics": [
+      "Type II ionic compounds"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 6,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-007",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the correct name of NaHCO3?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sodium carbonate"
+      },
+      {
+        "id": "B",
+        "text": "sodium hydrogen carbonate"
+      },
+      {
+        "id": "C",
+        "text": "sodium hydrogen carbonite"
+      },
+      {
+        "id": "D",
+        "text": "sodium hydride carbonate"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "HCO3- is hydrogen carbonate (bicarbonate).",
+    "explanation": "HCO3- is hydrogen carbonate (bicarbonate).",
+    "chapter": "Ch02",
+    "topics": [
+      "polyatomic ions",
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 7,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-008",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the formula of sulfuric acid?",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2SO3"
+      },
+      {
+        "id": "B",
+        "text": "H2SO4"
+      },
+      {
+        "id": "C",
+        "text": "HSO4"
+      },
+      {
+        "id": "D",
+        "text": "H2S"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Sulfate (-ate) forms sulfuric acid (-ic): H2SO4.",
+    "explanation": "Sulfate (-ate) forms sulfuric acid (-ic): H2SO4.",
+    "chapter": "Ch02",
+    "topics": [
+      "acid nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 8,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-009",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which hydrate name is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BaCl2·2H2O — barium chloride dihydrate"
+      },
+      {
+        "id": "B",
+        "text": "CuSO4·5H2O — copper sulfate pentoxide"
+      },
+      {
+        "id": "C",
+        "text": "MgSO4·7H2O — magnesium sulfate heptoxide"
+      },
+      {
+        "id": "D",
+        "text": "CoCl2·6H2O — cobalt dichloride hexahydrate"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Hydrates retain the ionic-compound name followed by a Greek prefix plus hydrate.",
+    "explanation": "Hydrates retain the ionic-compound name followed by a Greek prefix plus hydrate.",
+    "chapter": "Ch02",
+    "topics": [
+      "hydrate nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 9,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-010",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which formula-name pair is incorrect?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NaClO — sodium hypochlorite"
+      },
+      {
+        "id": "B",
+        "text": "NaClO2 — sodium chlorite"
+      },
+      {
+        "id": "C",
+        "text": "NaClO3 — sodium chlorate"
+      },
+      {
+        "id": "D",
+        "text": "NaClO4 — sodium hyperchlorate"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "ClO4- is perchlorate, not hyperchlorate.",
+    "explanation": "ClO4- is perchlorate, not hyperchlorate.",
+    "chapter": "Ch02",
+    "topics": [
+      "oxyanion nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 10,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-011",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which set contains only correctly named species?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NO2 nitrogen dioxide; PCl3 phosphorus trichloride"
+      },
+      {
+        "id": "B",
+        "text": "CO carbon oxide; SF6 sulfur fluoride"
+      },
+      {
+        "id": "C",
+        "text": "Fe2O3 iron(II) oxide; CuCl copper(II) chloride"
+      },
+      {
+        "id": "D",
+        "text": "HNO2 nitric acid; HNO3 nitrous acid"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "The other choices omit prefixes/oxidation states or reverse -ous and -ic acid names.",
+    "explanation": "The other choices omit prefixes/oxidation states or reverse -ous and -ic acid names.",
+    "chapter": "Ch02",
+    "topics": [
+      "nomenclature"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 11,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-012",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "What is the formula of calcium dihydrogen phosphate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CaHPO4"
+      },
+      {
+        "id": "B",
+        "text": "Ca(H2PO4)2"
+      },
+      {
+        "id": "C",
+        "text": "Ca2H2PO4"
+      },
+      {
+        "id": "D",
+        "text": "Ca3(PO4)2"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Ca2+ requires two H2PO4- anions.",
+    "explanation": "Ca2+ requires two H2PO4- anions.",
+    "chapter": "Ch02",
+    "topics": [
+      "ionic formulas",
+      "polyatomic ions"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 12,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-013",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which change increases the bond order of O2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add an electron to π*2p"
+      },
+      {
+        "id": "B",
+        "text": "Remove an electron from π*2p"
+      },
+      {
+        "id": "C",
+        "text": "Remove an electron from σ2p"
+      },
+      {
+        "id": "D",
+        "text": "Add an electron to σ*2s"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Removing an antibonding electron raises (Nb-Na)/2 by 0.5.",
+    "explanation": "Removing an antibonding electron raises (Nb-Na)/2 by 0.5.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "bond order"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 13,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-014",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "A diatomic species has 10 valence electrons in its MO diagram (N2 ordering). What are its expected bond order and magnetic behavior?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1; paramagnetic"
+      },
+      {
+        "id": "B",
+        "text": "2; diamagnetic"
+      },
+      {
+        "id": "C",
+        "text": "3; diamagnetic"
+      },
+      {
+        "id": "D",
+        "text": "2.5; paramagnetic"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Ten valence electrons fill through π2p, leaving no unpaired electrons and giving bond order 3.",
+    "explanation": "Ten valence electrons fill through π2p, leaving no unpaired electrons and giving bond order 3.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "magnetism"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 14,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-015",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Why is O2 paramagnetic while a localized Lewis structure suggests all electrons are paired?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O2 has one σ* electron"
+      },
+      {
+        "id": "B",
+        "text": "MO theory places two electrons singly in degenerate π* orbitals"
+      },
+      {
+        "id": "C",
+        "text": "O2 has an odd total electron count"
+      },
+      {
+        "id": "D",
+        "text": "The O-O bond has order one"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Hund filling of the degenerate π*2p orbitals leaves two unpaired electrons.",
+    "explanation": "Hund filling of the degenerate π*2p orbitals leaves two unpaired electrons.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "paramagnetism"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 15,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-016",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "For B2, C2 and N2, which MO ordering is used in the lecture model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "σ2p below π2p"
+      },
+      {
+        "id": "B",
+        "text": "π2p below σ2p"
+      },
+      {
+        "id": "C",
+        "text": "π*2p below σ2p"
+      },
+      {
+        "id": "D",
+        "text": "All 2p MOs are degenerate"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "For B2 through N2, s-p mixing places π2p below σ2p.",
+    "explanation": "For B2 through N2, s-p mixing places π2p below σ2p.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO ordering"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 16,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-017",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which species is predicted to have the shortest bond?",
+    "options": [
+      {
+        "id": "A",
+        "text": "N2"
+      },
+      {
+        "id": "B",
+        "text": "N2+"
+      },
+      {
+        "id": "C",
+        "text": "N2-"
+      },
+      {
+        "id": "D",
+        "text": "N2^2-"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "N2 has bond order 3; removing a bonding electron or adding an antibonding electron lowers the bond order.",
+    "explanation": "N2 has bond order 3; removing a bonding electron or adding an antibonding electron lowers the bond order.",
+    "chapter": "Ch09",
+    "topics": [
+      "bond order",
+      "bond length"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 17,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-018",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "In a heteronuclear MO diagram, why is the fluorine 2p AO lower than the hydrogen 1s AO in HF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorine is larger"
+      },
+      {
+        "id": "B",
+        "text": "Fluorine is more electronegative and binds its valence electrons more strongly"
+      },
+      {
+        "id": "C",
+        "text": "Hydrogen has d orbitals"
+      },
+      {
+        "id": "D",
+        "text": "The H-F bond is nonpolar"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "More electronegative atoms have lower-energy valence AOs.",
+    "explanation": "More electronegative atoms have lower-energy valence AOs.",
+    "chapter": "Ch09",
+    "topics": [
+      "heteronuclear MO"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 18,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-019",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which statement about an antibonding MO is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It concentrates electron density between nuclei"
+      },
+      {
+        "id": "B",
+        "text": "It has a node between nuclei and lies above the parent AOs in energy"
+      },
+      {
+        "id": "C",
+        "text": "It always contains unpaired electrons"
+      },
+      {
+        "id": "D",
+        "text": "It cannot be occupied"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Destructive combination produces a node between nuclei and destabilization.",
+    "explanation": "Destructive combination produces a node between nuclei and destabilization.",
+    "chapter": "Ch09",
+    "topics": [
+      "antibonding orbital"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 19,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-020",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "A species has 8 bonding and 5 antibonding electrons. What is its bond order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.5"
+      },
+      {
+        "id": "B",
+        "text": "1.0"
+      },
+      {
+        "id": "C",
+        "text": "1.5"
+      },
+      {
+        "id": "D",
+        "text": "3.0"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Bond order=(8-5)/2=1.5.",
+    "explanation": "Bond order=(8-5)/2=1.5.",
+    "chapter": "Ch09",
+    "topics": [
+      "bond order"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 20,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-021",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which statement correctly distinguishes localized-electron and MO descriptions of benzene?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both localize all π electrons in three fixed double bonds"
+      },
+      {
+        "id": "B",
+        "text": "The localized model uses resonance; the MO model treats the π electrons as delocalized"
+      },
+      {
+        "id": "C",
+        "text": "Only the localized model predicts equal C-C bonds without resonance"
+      },
+      {
+        "id": "D",
+        "text": "MO theory forbids σ bonds"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Resonance is the localized model's way to represent delocalization; MO theory describes delocalized π orbitals directly.",
+    "explanation": "Resonance is the localized model's way to represent delocalization; MO theory describes delocalized π orbitals directly.",
+    "chapter": "Ch09",
+    "topics": [
+      "delocalization",
+      "benzene"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 21,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-022",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which species has bond order 0 in the simple 1s MO model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2"
+      },
+      {
+        "id": "B",
+        "text": "H2+"
+      },
+      {
+        "id": "C",
+        "text": "He2+"
+      },
+      {
+        "id": "D",
+        "text": "He2"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "He2 has two σ1s and two σ*1s electrons, so bond order is zero.",
+    "explanation": "He2 has two σ1s and two σ*1s electrons, so bond order is zero.",
+    "chapter": "Ch09",
+    "topics": [
+      "MO theory",
+      "bond order"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 22,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-023",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "A measured value is 12.444 mL and the apparatus uncertainty requires reporting to 0.01 mL. How should it be recorded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 mL"
+      },
+      {
+        "id": "B",
+        "text": "12.4 mL"
+      },
+      {
+        "id": "C",
+        "text": "12.44 mL"
+      },
+      {
+        "id": "D",
+        "text": "12.4440 mL"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Round to the hundredths place: 12.44 mL.",
+    "explanation": "Round to the hundredths place: 12.44 mL.",
+    "chapter": "Ch01",
+    "topics": [
+      "significant figures",
+      "measurement"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 23,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-024",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which operation controls the final decimal place rather than the number of significant figures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "multiplication"
+      },
+      {
+        "id": "B",
+        "text": "division"
+      },
+      {
+        "id": "C",
+        "text": "addition"
+      },
+      {
+        "id": "D",
+        "text": "taking a square root"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Addition and subtraction are rounded by decimal place; multiplication and division are rounded by significant figures.",
+    "explanation": "Addition and subtraction are rounded by decimal place; multiplication and division are rounded by significant figures.",
+    "chapter": "Ch01",
+    "topics": [
+      "significant figures"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 24,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-025",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "A gas has Z=PV/nRT=0.82. Which effect dominates?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finite molecular volume"
+      },
+      {
+        "id": "B",
+        "text": "Attractive intermolecular forces"
+      },
+      {
+        "id": "C",
+        "text": "Ionization"
+      },
+      {
+        "id": "D",
+        "text": "Molecular dissociation"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Z<1 means measured pressure/volume is lower than ideal, typically because attractions dominate.",
+    "explanation": "Z<1 means measured pressure/volume is lower than ideal, typically because attractions dominate.",
+    "chapter": "Ch05",
+    "topics": [
+      "real gases",
+      "compressibility factor"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 25,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-026",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "At identical temperature, which gas has the greatest rms speed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Xe"
+      },
+      {
+        "id": "B",
+        "text": "Kr"
+      },
+      {
+        "id": "C",
+        "text": "Ar"
+      },
+      {
+        "id": "D",
+        "text": "Ne"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "answerText": "urms=sqrt(3RT/M), so the lightest gas is fastest.",
+    "explanation": "urms=sqrt(3RT/M), so the lightest gas is fastest.",
+    "chapter": "Ch05",
+    "topics": [
+      "rms speed",
+      "kinetic molecular theory"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 26,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "D",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-027",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which Lewis structure is generally preferred when several satisfy octets?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The one with the largest formal charges"
+      },
+      {
+        "id": "B",
+        "text": "The one with formal charges closest to zero and negative charge on the more electronegative atom"
+      },
+      {
+        "id": "C",
+        "text": "The one with the most single bonds regardless of charge"
+      },
+      {
+        "id": "D",
+        "text": "Any contributor is equally important"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "Formal-charge minimization and electronegativity guide the dominant resonance contributor.",
+    "explanation": "Formal-charge minimization and electronegativity guide the dominant resonance contributor.",
+    "chapter": "Ch08",
+    "topics": [
+      "formal charge",
+      "resonance"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 27,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-028",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which molecule is nonpolar even though every bond is polar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NH3"
+      },
+      {
+        "id": "B",
+        "text": "H2O"
+      },
+      {
+        "id": "C",
+        "text": "CO2"
+      },
+      {
+        "id": "D",
+        "text": "SO2"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Linear CO2 has equal and opposite bond dipoles that cancel.",
+    "explanation": "Linear CO2 has equal and opposite bond dipoles that cancel.",
+    "chapter": "Ch08",
+    "topics": [
+      "molecular polarity"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 28,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-029",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "For a reaction with theoretical yield 24.0 g and actual yield 18.0 g, what is the percent yield?",
+    "options": [
+      {
+        "id": "A",
+        "text": "75.0%"
+      },
+      {
+        "id": "B",
+        "text": "133%"
+      },
+      {
+        "id": "C",
+        "text": "42.0%"
+      },
+      {
+        "id": "D",
+        "text": "6.0%"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "Percent yield=(18.0/24.0)×100%=75.0%.",
+    "explanation": "Percent yield=(18.0/24.0)×100%=75.0%.",
+    "chapter": "Ch03",
+    "topics": [
+      "percent yield"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 29,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-030",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which reagent is limiting when 2.0 mol H2 reacts with 0.75 mol O2 according to 2H2+O2->2H2O?",
+    "options": [
+      {
+        "id": "A",
+        "text": "H2"
+      },
+      {
+        "id": "B",
+        "text": "O2"
+      },
+      {
+        "id": "C",
+        "text": "H2O"
+      },
+      {
+        "id": "D",
+        "text": "Neither"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "answerText": "2.0 mol H2 requires 1.0 mol O2, but only 0.75 mol is available.",
+    "explanation": "2.0 mol H2 requires 1.0 mol O2, but only 0.75 mol is available.",
+    "chapter": "Ch03",
+    "topics": [
+      "limiting reactant"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 30,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "B",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-031",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which net ionic equation represents precipitation when AgNO3(aq) and NaCl(aq) are mixed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ag+ + NO3- -> AgNO3(s)"
+      },
+      {
+        "id": "B",
+        "text": "Na+ + Cl- -> NaCl(s)"
+      },
+      {
+        "id": "C",
+        "text": "Ag+ + Cl- -> AgCl(s)"
+      },
+      {
+        "id": "D",
+        "text": "AgNO3 + NaCl -> AgCl + NaNO3"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "answerText": "Na+ and NO3- are spectator ions; AgCl is insoluble.",
+    "explanation": "Na+ and NO3- are spectator ions; AgCl is insoluble.",
+    "chapter": "Ch04",
+    "topics": [
+      "net ionic equations",
+      "precipitation"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 31,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "C",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  },
+  {
+    "id": "practice-032",
+    "bank": "practice",
+    "type": "single",
+    "prompt": "Which set gives the allowed quantum numbers for a 3d electron?",
+    "options": [
+      {
+        "id": "A",
+        "text": "n=3, l=2, ml=-2, ms=+1/2"
+      },
+      {
+        "id": "B",
+        "text": "n=3, l=3, ml=0, ms=+1/2"
+      },
+      {
+        "id": "C",
+        "text": "n=2, l=2, ml=1, ms=-1/2"
+      },
+      {
+        "id": "D",
+        "text": "n=3, l=2, ml=3, ms=+1/2"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "answerText": "For 3d: n=3, l=2, ml=-2…+2, and ms=±1/2.",
+    "explanation": "For 3d: n=3, l=2, ml=-2…+2, and ms=±1/2.",
+    "chapter": "Ch07",
+    "topics": [
+      "quantum numbers"
+    ],
+    "assets": [],
+    "status": "ready",
+    "excludeFromScoring": false,
+    "source": {
+      "file": "lecture-derived",
+      "question": 32,
+      "page": null,
+      "sourceAnswer": null,
+      "verifiedAnswer": "A",
+      "answerDiscrepancy": false,
+      "notes": "Original question derived from the listed lecture slides and high-frequency exam concepts."
+    }
+  }
+]

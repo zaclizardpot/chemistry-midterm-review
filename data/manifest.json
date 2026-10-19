@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-19",
+  "scope": [
+    "Ch01",
+    "Ch02",
+    "Ch03",
+    "Ch04",
+    "Ch05",
+    "Ch07",
+    "Ch08",
+    "Ch09"
+  ],
+  "excludedChapter": "Ch06",
+  "counts": {
+    "exam": 130,
+    "examReady": 129,
+    "examSourceIncomplete": 1,
+    "practice": 32,
+    "total": 162
+  },
+  "sourceCounts": {
+    "DD116 化原第一次考試.pdf": 50,
+    "112第一次期中考考古.pdf": 25,
+    "第一次期中考考古.pdf": 55
+  },
+  "answerPolicy": {
+    "sourceAnswer": "Literal red response / first-page answer-list transcription where available.",
+    "verifiedAnswer": "Answer independently checked against general-chemistry principles and intended as the scoring key.",
+    "defaultWebsiteScoringField": "correctAnswers"
+  },
+  "answerDiscrepancies": [
+    {
+      "id": "dd116-q02",
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B"
+    },
+    {
+      "id": "dd116-q03",
+      "sourceAnswer": "A",
+      "verifiedAnswer": "D"
+    },
+    {
+      "id": "dd116-q09",
+      "sourceAnswer": "B",
+      "verifiedAnswer": "E"
+    },
+    {
+      "id": "dd116-q13",
+      "sourceAnswer": "E",
+      "verifiedAnswer": "D"
+    },
+    {
+      "id": "dd116-q20",
+      "sourceAnswer": "C",
+      "verifiedAnswer": "B"
+    },
+    {
+      "id": "dd116-q22",
+      "sourceAnswer": "A",
+      "verifiedAnswer": "C"
+    },
+    {
+      "id": "dd116-q26",
+      "sourceAnswer": "A",
+      "verifiedAnswer": "E"
+    },
+    {
+      "id": "dd116-q27",
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B"
+    },
+    {
+      "id": "dd116-q28",
+      "sourceAnswer": "E",
+      "verifiedAnswer": "B"
+    },
+    {
+      "id": "dd116-q39",
+      "sourceAnswer": "B",
+      "verifiedAnswer": "E"
+    },
+    {
+      "id": "dd116-q44",
+      "sourceAnswer": "E",
+      "verifiedAnswer": "D"
+    },
+    {
+      "id": "dd116-q45",
+      "sourceAnswer": "C",
+      "verifiedAnswer": "E"
+    },
+    {
+      "id": "exam2018-q16",
+      "sourceAnswer": "C",
+      "verifiedAnswer": "B"
+    }
+  ],
+  "skippedFrom112": {
+    "1": "Only a topic note about accuracy/precision remains; no complete question.",
+    "5": "Question absent.",
+    "12": "Question and figure absent.",
+    "14": "Question absent.",
+    "15": "Question absent.",
+    "19": "Question absent.",
+    "24": "Question absent.",
+    "25": "Question absent.",
+    "27": "Question absent.",
+    "31": "Only 'significant figures' is written; no numerical prompt.",
+    "32": "Question absent.",
+    "33": "The required particle diagram is absent, so theoretical/percent yield cannot be determined.",
+    "35": "Question absent.",
+    "38": "Only a list of tested concepts remains; the option statements are absent.",
+    "40": "Only the prompt remains; all molecular structures/options are absent."
+  },
+  "files": {
+    "exam": "data/exam.json",
+    "practice": "data/practice.json"
+  }
+}
