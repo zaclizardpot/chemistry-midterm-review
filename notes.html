@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#080b11">
   <meta name="description" content="化學原理期中考命名規則筆記">
-  <title>化原筆記｜化合物命名判讀</title>
-  <link rel="stylesheet" href="style.css?v=20261019-notes1">
+  <title>化原筆記</title>
+  <link rel="stylesheet" href="style.css?v=20261020-notes2">
 </head>
 <body>
   <main class="notes-shell">
@@ -14,8 +14,8 @@
       <div class="notes-hero-row">
         <div>
           <p class="eyebrow">GENERAL CHEMISTRY NOTES</p>
-          <h1>化合物命名判讀</h1>
-          <p class="subtitle">依老師 Ch02 投影片第 32–49 頁整理：二元離子、共價化合物、多原子離子與酸。</p>
+          <h1>化原筆記</h1>
+          <!--<p class="subtitle">依老師 Ch02 投影片第 32–49 頁整理：二元離子、共價化合物、多原子離子與酸。</p>-->
         </div>
         <div class="hero-actions">
           <button class="button ghost compact" type="button" onclick="window.print()">列印／存成 PDF</button>
@@ -23,27 +23,126 @@
         </div>
       </div>
       <div class="notes-meta">
-        <span class="badge">Ch02 Section 2.8</span>
         <span class="badge">考前判讀版</span>
-        <span class="badge">更新：2026-10-19</span>
+        <span class="badge">更新：2026-10-20</span>
       </div>
     </header>
 
     <div class="notes-layout">
       <nav class="notes-toc" aria-label="筆記目錄">
         <strong>本頁目錄</strong>
-        <a href="#flow">快速判斷流程</a>
-        <a href="#basics">基礎概念</a>
-        <a href="#type1">Type I 固定電荷</a>
-        <a href="#type2">Type II 羅馬數字</a>
-        <a href="#polyatomic">多原子離子</a>
-        <a href="#covalent">Type III 共價</a>
-        <a href="#acids">酸的命名</a>
-        <a href="#traps">常見陷阱</a>
-        <a href="#checklist">考前必背</a>
+        <!--Ch01-->
+        <a class="toc-chapter" href="#ch01">Ch01</a>
+
+        <div class="toc-subitems">
+          <a href="#ch01-sigfig">有效位數判斷</a>
+          <a href="#ch01-calculation">有效位數運算</a>
+          <a href="#ch01-scientific">科學記號</a>
+        </div>
+        <!--Ch02-->
+        <a class="toc-chapter" href="#ch02">Ch02</a>
+        <div class="toc-subitems">
+          <a href="#flow">快速判斷流程</a>
+          <a href="#basics">基礎概念</a>
+          <a href="#type1">Type I 固定電荷</a>
+          <a href="#type2">Type II 羅馬數字</a>
+          <a href="#polyatomic">多原子離子</a>
+          <a href="#covalent">Type III 共價</a>
+          <a href="#acids">酸的命名</a>
+          <a href="#traps">常見陷阱</a>
+          <a href="#checklist">考前必背</a>
+        </div>
+
       </nav>
 
       <article class="notes-content">
+        <!--Ch01內容-->
+        <section class="chapter-heading" id="ch01">
+          <h2 class="eyebrow">CHAPTER 01</h2>
+        </section>
+        <section class="note-section" id="ch01-sigfig">
+          <h2>一、有效位數判斷</h2>
+          <p class="note-lead">有效位數（significant figures）表示一個測量值中具有意義的數字；判斷時要分清楚哪些 0 是測量資訊，哪些只是用來標示小數點位置。</p>
+
+          <h3>算有效位數的數字</h3>
+          <ol>
+            <li><strong>所有非 0 的數字都有效。</strong></li>
+            <li><strong>夾在非 0 數字之間的 0 有效。</strong>例如 <span class="chem">16.07</span> 有 4 位有效數字。</li>
+            <li><strong>有小數點時，末尾的 0 有效。</strong>例如 <span class="chem">13.00</span> 有 4 位有效數字。</li>
+          </ol>
+
+          <h3>不算有效位數的 0</h3>
+          <ol>
+            <li><strong>第一個非 0 數字前面的 0 無效。</strong>例如 <span class="chem">0.0012</span> 有 2 位有效數字，<span class="chem">0.3</span> 有 1 位有效數字。</li>
+            <li><strong>沒有小數點時，整數末尾的 0 通常視為無效。</strong>例如依本章採用的規則，<span class="chem">150</span> 通常表示 2 位有效數字。</li>
+          </ol>
+
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>數值</th><th>有效位數</th><th>判斷原因</th></tr></thead>
+            <tbody>
+              <tr><td class="chem">16.07</td><td>4</td><td>夾在非 0 數字之間的 0 有效。</td></tr>
+              <tr><td class="chem">13.00</td><td>4</td><td>有小數點，結尾的兩個 0 有效。</td></tr>
+              <tr><td class="chem">0.0012</td><td>2</td><td>前面的 0 只用來定位小數點。</td></tr>
+              <tr><td class="chem">0.3</td><td>1</td><td>小數點後、第一個非 0 前的 0 無效。</td></tr>
+              <tr><td class="chem">150</td><td>通常為 2</td><td>沒有小數點，末尾 0 通常不視為有效。</td></tr>
+            </tbody>
+          </table></div>
+
+          <div class="note-callout warning"><strong>整數末尾 0 可能有歧義：</strong><span class="chem">300</span> 無法清楚表示想保留幾位有效數字。要表達 1、2、3 位有效數字時，最好分別寫成 <span class="chem">3 × 10<sup>2</sup></span>、<span class="chem">3.0 × 10<sup>2</sup></span>、<span class="chem">3.00 × 10<sup>2</sup></span>。</div>
+        </section>
+        <section class="note-section" id="ch01-calculation">
+          <h2>二、有效位數運算</h2>
+          <p class="note-lead">不是所有運算都使用同一種判斷方式：乘除看「有效位數」，加減看「小數位數」。</p>
+
+          <h3>乘法與除法</h3>
+          <div class="memory-rule">答案的有效位數，等於題目中有效位數最少的數值。</div>
+          <p>例如：</p>
+          <div class="note-callout"><span class="chem">2.5 × 3.42 = 8.55</span><br><span class="chem">2.5</span> 只有 2 位有效數字，因此答案寫成 <strong>8.6</strong>（2 位有效數字）。</div>
+
+          <h3>加法與減法</h3>
+          <div class="memory-rule">答案保留的小數位數，等於題目中小數位數最少的數值。</div>
+          <p>例如：</p>
+          <div class="note-callout"><span class="chem">12.11 + 0.3 = 12.41</span><br><span class="chem">0.3</span> 只精確到小數第 1 位，因此答案寫成 <strong>12.4</strong>。</div>
+
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>運算</th><th>判斷標準</th><th>要找最少的什麼？</th></tr></thead>
+            <tbody>
+              <tr><td>乘法、除法</td><td>有效位數</td><td>最少有效位數</td></tr>
+              <tr><td>加法、減法</td><td>小數位置</td><td>最少小數位數／最不精確位</td></tr>
+            </tbody>
+          </table></div>
+
+          <div class="note-callout warning"><strong>不要混在一起：</strong>「least digit」若是指最不精確的位置，只適合用來理解加減法；乘除法必須直接比較有效位數的數量。</div>
+        </section>
+        <section class="note-section" id="ch01-scientific">
+          <h2>三、科學記號</h2>
+          <p class="note-lead">把數字改寫成科學記號時，數值不能改變，而且原本的有效位數也要完整保留。</p>
+
+          <div class="memory-rule">標準形式：a × 10<sup>n</sup>，其中 1 ≤ |a| &lt; 10。</div>
+
+          <ul>
+            <li>小數點向左移，指數為正。</li>
+            <li>小數點向右移，指數為負。</li>
+            <li>小數點移動幾格，就決定指數的大小。</li>
+            <li>係數 <span class="chem">a</span> 保留幾位數，就代表幾位有效數字。</li>
+          </ul>
+
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>原數字</th><th>科學記號</th><th>有效位數</th><th>說明</th></tr></thead>
+            <tbody>
+              <tr><td class="chem">300.</td><td class="chem">3.00 × 10<sup>2</sup></td><td>3</td><td>小數點表示兩個末尾 0 都有效。</td></tr>
+              <tr><td class="chem">3000</td><td class="chem">3 × 10<sup>3</sup></td><td>1</td><td>沒有小數點，末尾 0 只用來定位。</td></tr>
+              <tr><td class="chem">16.1870</td><td class="chem">1.61870 × 10<sup>1</sup></td><td>6</td><td>最後的 0 是有效數字，不能刪除。</td></tr>
+              <tr><td class="chem">0.00300</td><td class="chem">3.00 × 10<sup>−3</sup></td><td>3</td><td>開頭的 0 無效，3 後面的兩個 0 有效。</td></tr>
+            </tbody>
+          </table></div>
+
+          <div class="note-callout"><strong>兩件事要分開：</strong>小數點移動格數決定 10 的指數；係數中保留的數字決定有效位數。</div>
+        </section>
+        <!--Ch02內容-->
+        <section class="chapter-heading" id="ch02">
+          <h2 class="eyebrow">CHAPTER 02</h2>
+        </section>
         <section class="note-section" id="flow">
           <h2>一、先用這個流程判斷</h2>
           <p class="note-lead">不要一看到下標就加 <em>di-</em>、<em>tri-</em>。先判斷化合物是哪一類，再套用規則。</p>
@@ -257,7 +356,7 @@
         </section>
       </article>
     </div>
-    <footer class="notes-footer">本頁依 115_YM_GenChem_Ch02.pdf Section 2.8 整理；後續可持續加入新筆記章節。</footer>
+    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02 依 115_YM_GenChem_Ch02.pdf Section 2.8 整理。後續可持續加入新筆記章節。</footer>
   </main>
 </body>
 </html>
