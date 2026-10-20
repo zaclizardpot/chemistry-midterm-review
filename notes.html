@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#080b11">
   <meta name="description" content="化學原理期中考複習筆記">
   <title>化原筆記</title>
-  <link rel="stylesheet" href="style.css?v=20261020-notes3">
+  <link rel="stylesheet" href="style.css?v=20261020-notes4">
 </head>
 <body>
   <main class="notes-shell">
@@ -57,7 +57,17 @@
         <!--Ch04-->
         <a class="toc-chapter" href="#ch04">Ch04</a>
         <div class="toc-subitems">
-          <a href="#precipitation">簡單沉澱判讀</a>
+          <a href="#ch04-precipitation">簡單沉澱判讀</a>
+        </div>
+        <!--Ch05-->
+        <a class="toc-chapter" href="#ch05">Ch05</a>
+        <div class="toc-subitems">
+          <a href="#ch05-units">單位換算</a>
+          <a href="#ch05-laws">氣體定律</a>
+          <a href="#ch05-speed">氣體速率</a>
+          <a href="#ch05-correction">理想氣體方程式修正</a>
+          <a href="#ch05-real-gas">真實氣體</a>
+          <a href="#ch05-air-pollution">空汙</a>
         </div>
       </nav>
 
@@ -370,9 +380,8 @@
         <!--Ch04內容-->
         <section class="chapter-heading" id="ch04">
           <h2 class="eyebrow">CHAPTER 04</h2>
-          <p>水溶液反應：沉澱反應與簡易溶解度規則</p>
         </section>
-        <section class="note-section" id="precipitation">
+        <section class="note-section" id="ch04-precipitation">
           <h2>一、簡易沉澱判讀</h2>
           <p class="note-lead">先用溶解度規則判斷生成物是否可溶。若產物只微溶（slightly soluble），在這類沉澱反應題中通常視為形成固體沉澱 <span class="chem">(s)</span>。</p>
 
@@ -451,9 +460,133 @@
 
           <div class="note-callout warning"><strong>用詞注意：</strong>老師投影片寫的是 <em>only slightly soluble</em>，嚴格來說不等於絕對不溶；但在一般沉澱反應與淨離子方程式題目中，通常把它們視為會形成沉澱。</div>
         </section>
+
+        <!--Ch05內容-->
+        <section class="chapter-heading" id="ch05">
+          <h2 class="eyebrow">CHAPTER 05</h2>
+        </section>
+        <section class="note-section" id="ch05-units">
+          <h2>一、壓力單位</h2>
+          <p class="note-lead">壓力是單位面積所受的力；SI 單位為 pascal（Pa）。</p>
+          <div class="formula-grid formula-grid-2">
+            <div class="formula-card"><span>1 Pa = 1 N/m<sup>2</sup></span></div>
+            <div class="formula-card"><span>1 atm = 101,325 Pa</span></div>
+          </div>
+          <div class="memory-rule">常用換算：1 atm = 101,325 Pa = 760 mmHg = 760 torr</div>
+        </section>
+        <section class="note-section" id="ch05-laws">
+          <h2>二、氣體定律</h2>
+          <p class="note-lead">使用氣體定律前，先確認哪些變數保持不變；溫度一律換成 kelvin（K）。</p>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>定律</th><th>固定條件</th><th>關係</th><th>常用比較式</th></tr></thead>
+            <tbody>
+              <tr><td>Boyle's law<br>波以耳定律</td><td><span class="chem">T、n</span> 固定</td><td class="chem">PV = k</td><td class="chem">P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></td></tr>
+              <tr><td>Charles's law<br>查理定律</td><td><span class="chem">P、n</span> 固定</td><td class="chem">V = kT</td><td class="chem">V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></td></tr>
+              <tr><td>Avogadro's law<br>亞佛加厥定律</td><td><span class="chem">T、P</span> 固定</td><td class="chem">V = kn</td><td class="chem">V<sub>1</sub>/n<sub>1</sub> = V<sub>2</sub>/n<sub>2</sub></td></tr>
+            </tbody>
+          </table></div>
+          <div class="note-callout"><strong>判讀：</strong>Boyle 是反比；Charles 與 Avogadro 是正比。Charles 定律的溫度必須使用 K，<span class="chem">T(K) = t(°C) + 273.15</span>。</div>
+        </section>
+        <section class="note-section" id="ch05-speed">
+          <h2>三、分子速率與逸散</h2>
+          <h3>方均根速率（root-mean-square speed）</h3>
+          <div class="formula-card formula-large" aria-label="u rms equals square root of 3 R T over M">
+            <i>u</i><sub>rms</sub> = <span class="radical">√</span><span class="radicand"><span class="formula-fraction"><span>3RT</span><span>M</span></span></span>
+          </div>
+          <ul>
+            <li><span class="chem">R = 8.314 J·mol<sup>−1</sup>·K<sup>−1</sup></span> 時，<span class="chem">M</span> 必須用 <strong>kg/mol</strong>。</li>
+            <li>所得速率單位為 <span class="chem">m/s</span>；同溫下，摩爾質量越小，方均根速率越大。</li>
+          </ul>
+
+          <h3>Graham 逸散定律</h3>
+          <div class="formula-card formula-large" aria-label="effusion rate of gas 1 over gas 2 equals square root of molar mass 2 over molar mass 1">
+            <span class="formula-fraction"><span><i>v</i><sub>g1</sub></span><span><i>v</i><sub>g2</sub></span></span>
+            <span>=</span>
+            <span class="radical">√</span><span class="radicand"><span class="formula-fraction"><span>M<sub>2</sub></span><span>M<sub>1</sub></span></span></span>
+          </div>
+          <p><span class="chem">v<sub>g</sub></span> 表示氣體的逸散速率；速率與摩爾質量的平方根成反比，所以較輕的氣體逸散較快。</p>
+          <div class="note-callout"><strong>名詞：</strong>diffusion（擴散）是不同氣體彼此混合；effusion（逸散）是氣體通過小孔進入低壓或真空空間。上式是 <strong>逸散速率</strong> 的比較式。</div>
+        </section>
+        <section class="note-section" id="ch05-correction">
+          <h2>四、真實氣體方程式修正</h2>
+          <p class="note-lead">理想氣體忽略分子本身的體積與分子間作用力；高壓或低溫時，這兩項假設容易失效。</p>
+
+          <h3>1. 高壓：修正分子本身占有的體積</h3>
+          <p>高壓時分子被擠得很近，分子本身的體積已占據容器中不可忽略的部分。真正可供分子移動的自由體積為 <span class="chem">V − nb</span>，因此實際容積會比理想氣體式預測的值大。</p>
+          <div class="formula-card formula-large">
+            V = <span class="formula-fraction"><span>nRT</span><span>P</span></span> + nb
+          </div>
+
+          <h3>2. 低溫：修正分子間吸引力</h3>
+          <p>低溫時分子動能較小，分子間吸引力的影響變明顯；分子較少、也較弱地撞擊容器壁，使觀察到的壓力低於理想值。</p>
+          <div class="formula-card formula-large">
+            P = <span class="formula-fraction"><span>nRT</span><span>V</span></span> − a<span class="formula-paren">(</span><span class="formula-fraction"><span>n</span><span>V</span></span><span class="formula-paren">)</span><sup>2</sup>
+          </div>
+
+          <h3>3. van der Waals 方程式：兩項一起修正</h3>
+          <div class="formula-card formula-large formula-wrap">
+            <span class="formula-bracket">[</span>P + a<span class="formula-paren">(</span><span class="formula-fraction"><span>n</span><span>V</span></span><span class="formula-paren">)</span><sup>2</sup><span class="formula-bracket">]</span>
+            <span class="formula-times">×</span>
+            <span class="formula-bracket">[</span>V − nb<span class="formula-bracket">]</span> = nRT
+          </div>
+
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>常數</th><th>物理意義</th><th>數值變大代表</th></tr></thead>
+            <tbody>
+              <tr><td class="chem">a</td><td>分子間吸引力的壓力修正</td><td>分子間吸引力較強。對大小相近的分子而言，極性分子通常比非極性分子有較大的 <span class="chem">a</span>。</td></tr>
+              <tr><td class="chem">b</td><td>分子有限體積的容積修正</td><td>分子本身的有效體積較大。</td></tr>
+            </tbody>
+          </table></div>
+          <ul>
+            <li>同族非極性粒子通常原子序越高、電子越多、可極化性越大，London dispersion force 越強，因此 <span class="chem">a</span> 往往上升。</li>
+            <li>粒子半徑或分子尺寸越大，排除體積越大，因此 <span class="chem">b</span> 往往上升。</li>
+          </ul>
+        </section>
+        <section class="note-section" id="ch05-real-gas">
+          <h2>五、真實氣體與理想氣體的差異</h2>
+          <p class="note-lead">用壓縮因子（compressibility factor）判斷真實氣體偏離理想行為的方向。</p>
+          <div class="formula-card formula-large">
+            Z = <span class="formula-fraction"><span>PV</span><span>nRT</span></span>
+          </div>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>條件</th><th>主導因素</th><th>Z 的結果</th><th>要聯想到</th></tr></thead>
+            <tbody>
+              <tr><td>理想氣體</td><td>忽略吸引力與分子體積</td><td class="chem">Z = 1</td><td><span class="chem">PV = nRT</span></td></tr>
+              <tr><td>壓力趨近 0</td><td>分子相距極遠，作用力與分子體積影響都趨小</td><td class="chem">Z → 1</td><td>所有真實氣體逐漸接近理想行為</td></tr>
+              <tr><td>低至中等壓力</td><td>分子間吸引力通常先占優勢，使測得壓力與 <span class="chem">PV</span> 偏低</td><td class="chem">Z &lt; 1</td><td>attraction dominates</td></tr>
+              <tr><td>很高壓力</td><td>有限分子體積與短距離排斥占優勢，使實際體積效應變大</td><td class="chem">Z &gt; 1</td><td>excluded volume dominates</td></tr>
+            </tbody>
+          </table></div>
+          <figure class="note-figure">
+            <img src="真實氣體差異.png" alt="數種真實氣體在 200 K 時，壓縮因子 PV 除以 nRT 隨壓力變化的曲線">
+            <figcaption>虛線 <span class="chem">Z = 1</span> 代表理想氣體；曲線低於 1 表示吸引力效應占優勢，高於 1 表示有限體積與排斥效應占優勢。</figcaption>
+          </figure>
+        </section>
+        <section class="note-section" id="ch05-air-pollution">
+          <h2>六、空氣污染</h2>
+          <h3>光化學煙霧（photochemical smog）</h3>
+          <div class="memory-rule">時間順序：NO → NO<sub>2</sub> → O<sub>3</sub></div>
+          <ol>
+            <li>汽、機車引擎的高溫使 <span class="chem">N<sub>2</sub></span> 與 <span class="chem">O<sub>2</sub></span> 生成 <span class="chem">NO</span>。</li>
+            <li><span class="chem">NO</span> 在空氣中進一步被氧化成 <span class="chem">NO<sub>2</sub></span>。</li>
+            <li>中午附近的日光／紫外線使 <span class="chem">NO<sub>2</sub> → NO + O</span>。</li>
+            <li>游離氧原子再與氧氣反應：<span class="chem">O + O<sub>2</sub> → O<sub>3</sub></span>，形成臭氧。</li>
+          </ol>
+
+          <h3>酸雨與燃煤脫硫</h3>
+          <div class="reaction-flow" aria-label="sulfur to sulfur dioxide to sulfur trioxide to sulfuric acid">
+            <span>S</span><b>→</b><span>SO<sub>2</sub></span><b>→</b><span>SO<sub>3</sub></span><b>+ H<sub>2</sub>O →</b><span>H<sub>2</sub>SO<sub>4</sub></span>
+          </div>
+          <p>煤中的硫燃燒生成 <span class="chem">SO<sub>2</sub></span>，再氧化成 <span class="chem">SO<sub>3</sub></span>；<span class="chem">SO<sub>3</sub></span> 與水形成具腐蝕性的硫酸，是酸雨來源之一。</p>
+          <p>煙道氣洗滌器（scrubber）可利用石灰石除去 <span class="chem">SO<sub>2</sub></span>：</p>
+          <div class="formula-grid formula-grid-2">
+            <div class="formula-card">CaCO<sub>3</sub> → CaO + CO<sub>2</sub></div>
+            <div class="formula-card">CaO + SO<sub>2</sub> → CaSO<sub>3</sub>(s)</div>
+          </div>
+        </section>
       </article>
     </div>
-    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02 與 Ch04 依老師投影片整理。後續可持續加入新筆記章節。</footer>
+    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02、Ch04 與 Ch05 依老師投影片整理。後續可持續加入新筆記章節。</footer>
   </main>
 </body>
 </html>

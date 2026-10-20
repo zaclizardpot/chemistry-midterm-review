@@ -170,3 +170,135 @@ textarea.answer-input { min-height: 140px; resize: vertical; }
   .toolbar .button:first-child { grid-column: auto; }
   .card-actions { margin-left: auto; }
 }
+/* 筆記目錄中的 Chapter 大標題 */
+.notes-toc .toc-chapter {
+  margin-top: 14px;
+  padding: 10px 9px;
+  color: var(--text);
+  background: #1a2333;
+  border-left: 3px solid var(--accent);
+  font-weight: 900;
+}
+
+/* 第一個 Chapter 上方不需要太大的間距 */
+.notes-toc .toc-chapter:first-of-type {
+  margin-top: 4px;
+}
+
+/* Chapter 底下的小標題 */
+.toc-subitems {
+  margin: 5px 0 10px 13px;
+  padding-left: 9px;
+  border-left: 1px solid var(--line);
+}
+
+.notes-toc .toc-subitems a {
+  padding: 6px 8px;
+  font-size: 0.88rem;
+}
+
+/* 右側每個 Chapter 的大標題 */
+.chapter-heading {
+  margin: 8px 0 18px;
+  padding: 24px 28px;
+  border: 1px solid #42557b;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 90% 0, #263859, transparent 22rem),
+    #121824;
+  scroll-margin-top: 18px;
+}
+
+.chapter-heading h2 {
+  margin: 0;
+  font-size: clamp(1.55rem, 4vw, 2.1rem);
+}
+
+.chapter-heading p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* Ch05 公式與圖表 */
+.formula-grid {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.formula-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.formula-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .35em;
+  min-height: 76px;
+  margin: 16px 0;
+  padding: 16px 20px;
+  overflow-x: auto;
+  border: 1px solid #42557b;
+  border-radius: 14px;
+  color: #f4f7ff;
+  background: linear-gradient(135deg, #151e30, #101622);
+  font-family: Cambria, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 4vw, 2rem);
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.formula-grid .formula-card { margin: 0; }
+.formula-large { font-size: clamp(1.6rem, 5vw, 2.55rem); }
+.formula-wrap { flex-wrap: wrap; white-space: normal; }
+.formula-card sub { font-size: .56em; }
+.formula-card sup { font-size: .56em; align-self: flex-start; margin-left: -.25em; }
+.formula-fraction {
+  display: inline-grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  min-width: 2.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+.formula-fraction > span:first-child { padding: 0 .18em .08em; border-bottom: .075em solid currentColor; }
+.formula-fraction > span:last-child { padding: .08em .18em 0; }
+.radical { margin-right: -.32em; font-size: 1.35em; font-weight: 400; }
+.radicand { padding: .03em .1em 0 .22em; border-top: .075em solid currentColor; }
+.formula-paren, .formula-bracket { font-size: 1.28em; font-weight: 400; }
+.formula-times { padding: 0 .12em; }
+
+.note-figure {
+  margin: 20px auto 8px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #f5f7fb;
+}
+.note-figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.note-figure figcaption { padding: 12px 6px 2px; color: #33405a; line-height: 1.6; text-align: center; }
+
+.reaction-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0;
+  padding: 16px;
+  border: 1px solid #42557b;
+  border-radius: 13px;
+  background: #121c30;
+  font-size: clamp(1.15rem, 3vw, 1.55rem);
+  font-weight: 800;
+}
+.reaction-flow span { padding: 7px 12px; border-radius: 9px; background: #1b2740; }
+.reaction-flow b { color: var(--accent-2); }
+
+@media (max-width: 600px) {
+  .formula-grid-2 { grid-template-columns: 1fr; }
+  .formula-card { justify-content: flex-start; }
+}
