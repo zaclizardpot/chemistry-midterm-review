@@ -298,7 +298,16 @@ textarea.answer-input { min-height: 140px; resize: vertical; }
 .reaction-flow span { padding: 7px 12px; border-radius: 9px; background: #1b2740; }
 .reaction-flow b { color: var(--accent-2); }
 
+.orbital-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+.orbital-grid .note-figure { margin: 8px 0; }
+
 @media (max-width: 600px) {
   .formula-grid-2 { grid-template-columns: 1fr; }
+  .orbital-grid { grid-template-columns: 1fr; }
   .formula-card { justify-content: flex-start; }
 }

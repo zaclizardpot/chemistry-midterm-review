@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#080b11">
   <meta name="description" content="化學原理期中考複習筆記">
   <title>化原筆記</title>
-  <link rel="stylesheet" href="style.css?v=20261020-notes4">
+  <link rel="stylesheet" href="style.css?v=20261021-notes5">
 </head>
 <body>
   <main class="notes-shell">
@@ -68,6 +68,14 @@
           <a href="#ch05-correction">理想氣體方程式修正</a>
           <a href="#ch05-real-gas">真實氣體</a>
           <a href="#ch05-air-pollution">空汙</a>
+        </div>
+        <!--Ch07-->
+        <a class="toc-chapter" href="#ch07">Ch07</a>
+        <div class="toc-subitems">
+          <a href="#ch07-energy">電子能階</a>
+          <a href="#ch07-quantum">量子力學與軌域</a>
+          <a href="#ch07-ie">游離能</a>
+          <a href="#ch07-ea">電子親和力</a>
         </div>
       </nav>
 
@@ -584,9 +592,107 @@
             <div class="formula-card">CaO + SO<sub>2</sub> → CaSO<sub>3</sub>(s)</div>
           </div>
         </section>
+        
+        <!--Ch07內容-->
+        <section class="chapter-heading" id="ch07">
+          <h2 class="eyebrow">CHAPTER 07</h2>
+        </section>
+        <section class="note-section" id="ch07-energy">
+          <h2>一、電子能階</h2>
+          <ul>
+            <li><strong>光子的能量是量子化的：</strong>原子吸收一個光子時，只有在 <span class="chem">hν = ΔE</span> 恰好等於兩能階差時才會發生躍遷；不能只吸收光子的一部分。</li>
+            <li><strong>粒子碰撞：</strong>入射粒子的動能只要大於或等於能階差，就能把部分動能轉給電子；剩餘能量仍可成為粒子的動能。</li>
+            <li>電子往較高能階躍遷會吸收能量；降到較低能階會放出光子，且 <span class="chem">E<sub>photon</sub> = |ΔE| = hν = hc/λ</span>。</li>
+          </ul>
+          <h3>氫原子的能階差</h3>
+          <div class="formula-card formula-large formula-wrap" aria-label="delta E equals negative 2.178 times ten to the negative 18 joule times one over n final squared minus one over n initial squared">
+            ΔE = −2.178 × 10<sup>−18</sup> J
+            <span class="formula-paren">(</span>
+            <span class="formula-fraction"><span>1</span><span>n<sub>final</sub><sup>2</sup></span></span>
+            −
+            <span class="formula-fraction"><span>1</span><span>n<sub>initial</sub><sup>2</sup></span></span>
+            <span class="formula-paren">)</span>
+          </div>
+          <div class="memory-rule">ΔE &gt; 0：吸收光子、躍遷到高能階；ΔE &lt; 0：放出光子、降到低能階。</div>
+        </section>
+        <section class="note-section" id="ch07-quantum">
+          <h2>二、量子力學、軌域與電子組態</h2>
+          <h3>Heisenberg 測不準原理</h3>
+          <div class="formula-card formula-large">
+            Δx · Δ(mv) ≥ <span class="formula-fraction"><span>h</span><span>4π</span></span>
+          </div>
+          <p>位置的不確定度 <span class="chem">Δx</span> 與動量的不確定度 <span class="chem">Δ(mv)</span> 無法同時任意縮小，因此不能把電子描述成具有確定路徑的行星式軌道。</p>
+
+          <h3>波函數與軌域</h3>
+          <ul>
+            <li>de Broglie：電子同時具有粒子與波的性質；允許的電子狀態必須形成符合邊界條件的駐波。</li>
+            <li><span class="chem">ψ(r,θ,φ) = R(r)Y(θ,φ)</span>：<span class="chem">R(r)</span> 描述徑向分布；<span class="chem">Y(θ,φ)</span> 決定角向形狀與方向。</li>
+            <li><span class="chem">|ψ|<sup>2</sup></span> 表示在某處找到電子的機率密度；orbital（軌域）不是電子的固定運行路線。</li>
+          </ul>
+
+          <h3>四個量子數</h3>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>量子數</th><th>允許值</th><th>決定</th></tr></thead>
+            <tbody>
+              <tr><td class="chem">n</td><td>1, 2, 3, …</td><td>主能階、軌域大小與大致能量</td></tr>
+              <tr><td class="chem">ℓ</td><td>0 到 <span class="chem">n−1</span></td><td>副層／形狀；0、1、2、3 對應 s、p、d、f</td></tr>
+              <tr><td class="chem">m<sub>ℓ</sub></td><td><span class="chem">−ℓ</span> 到 <span class="chem">+ℓ</span></td><td>軌域方向；一個副層有 <span class="chem">2ℓ+1</span> 個軌域</td></tr>
+              <tr><td class="chem">m<sub>s</sub></td><td><span class="chem">+½、−½</span></td><td>電子自旋；正負是兩種自旋狀態的量子標記</td></tr>
+            </tbody>
+          </table></div>
+          <div class="memory-rule">s、p、d、f：分別有 1、3、5、7 個軌域，最多容納 2、6、10、14 個電子。</div>
+
+          <h3>d 與 f 軌域形狀</h3>
+          <div class="orbital-grid">
+            <figure class="note-figure">
+              <img src="圖片/d.png" alt="五種 d 軌域的方向與形狀">
+              <figcaption><span class="chem">d<sub>xy</sub>、d<sub>xz</sub>、d<sub>yz</sub></span> 的葉瓣位於指定平面的兩軸之間；<span class="chem">d<sub>x²−y²</sub></span> 沿 x、y 軸；<span class="chem">d<sub>z²</sub></span> 沿 z 軸，並在 xy 平面有環。</figcaption>
+            </figure>
+            <figure class="note-figure">
+              <img src="圖片/f.png" alt="七種 f 軌域的方向與形狀">
+              <figcaption>f 副層共有 7 個軌域，形狀複雜；普通化學通常以認得「7 個軌域、最多 14 電子」及能由圖判讀方向為主。</figcaption>
+            </figure>
+          </div>
+
+          <h3>穿透、屏蔽與填電子規則</h3>
+          <ul>
+            <li><strong>同一主能階的穿透能力：</strong><span class="chem">s &gt; p &gt; d &gt; f</span>。穿透越強，越常靠近原子核，受到的有效核吸引越強，能量通常越低。</li>
+            <li><strong>Pauli exclusion principle：</strong>一個軌域最多 2 個電子，且自旋相反；同一原子中沒有兩電子具有完全相同的四個量子數。</li>
+            <li><strong>Hund's rule：</strong>同能量軌域先各自放入一個平行自旋電子，再開始配對。</li>
+            <li><strong>Aufbau principle：</strong>電子先填較低能量的軌域；常用順序為 <span class="chem">1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s</span>。</li>
+          </ul>
+        </section>
+        <section class="note-section" id="ch07-ie">
+          <h2>三、游離能（ionization energy, IE）</h2>
+          <p class="note-lead">從氣態原子或離子移走一個電子所需的能量：<span class="chem">X(g) → X<sup>+</sup>(g) + e<sup>−</sup></span>。</p>
+          <ol>
+            <li><strong>同週期由左到右通常上升：</strong>同價層電子無法完全屏蔽增加的核電荷，有效核電荷上升，電子束縛更強。</li>
+            <li><strong>同族由上到下通常下降：</strong>價電子離核更遠且屏蔽增加，較容易移除。</li>
+            <li><strong>連續游離能：</strong>移完所有價電子後，再移核心電子會出現巨大跳升；可用跳升位置判斷價電子數。</li>
+          </ol>
+          <h3>同週期的兩組重要例外</h3>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>比較</th><th>結果</th><th>原因</th></tr></thead>
+            <tbody>
+              <tr><td>s 副層全滿 → 第一個 p 電子</td><td class="chem">IIA &gt; IIIA</td><td>p 電子能量較高、穿透較差，比全滿 s 電子容易移除。</td></tr>
+              <tr><td>p 副層半滿 → 開始配對</td><td class="chem">VA &gt; VIA</td><td>半滿 p 較穩定；VIA 的成對電子排斥使其中一個較容易移除。</td></tr>
+            </tbody>
+          </table></div>
+          <div class="memory-rule">第一游離能由小到大的週期口訣：1 → 3 → 2 → 4 → 6 → 5 → 7 → 8（表示 A 族次序）。</div>
+        </section>
+        <section class="note-section" id="ch07-ea">
+          <h2>四、電子親和力（electron affinity, EA）</h2>
+          <p class="note-lead">氣態原子得到電子時的能量變化：<span class="chem">X(g) + e<sup>−</sup> → X<sup>−</sup>(g)</span>。</p>
+          <ol>
+            <li><strong>同週期由左到右：</strong>通常變得更負，表示得到電子更有利。</li>
+            <li><strong>同族由上到下：</strong>通常變得較不負（更正），表示得到電子的吸引力減弱。</li>
+            <li><strong>Cl 比 F 更有利：</strong>F 的 2p 軌域很小且擁擠，新電子受到較強排斥；Cl 的電子親和力因此比 F 更負。</li>
+          </ol>
+          <div class="note-callout"><strong>看清楚題目的正負號定義：</strong>若 EA 指反應能量變化，越有利通常寫成「越負」；若題目把 EA 當作放出能量的大小，則會說數值越大。兩種說法都可能出現。</div>
+        </section>
       </article>
     </div>
-    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02、Ch04 與 Ch05 依老師投影片整理。後續可持續加入新筆記章節。</footer>
+    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02、Ch04、Ch05 與 Ch07 依老師投影片整理。後續可持續加入新筆記章節。</footer>
   </main>
 </body>
 </html>
