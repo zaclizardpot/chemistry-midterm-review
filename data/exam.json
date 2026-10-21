@@ -1154,8 +1154,8 @@
     "correctAnswers": [
       "C"
     ],
-    "answerText": "Identical electric charges repel.",
-    "explanation": "Identical electric charges repel.",
+    "answerText": "C. is a force of repulsion",
+    "explanation": "Identical electric charges repel. By Coulomb's law, F = k|q1q2|/r^2, so the force is not independent of distance; it decreases as the distance increases.",
     "chapter": "Ch01-Ch09",
     "topics": [
       "general chemistry"
@@ -3456,8 +3456,8 @@
     "correctAnswers": [
       "A"
     ],
-    "answerText": "A is a statement from Dalton's atomic theory; B-H are kinetic-molecular postulates or consequences.",
-    "explanation": "A is a statement from Dalton's atomic theory; B-H are kinetic-molecular postulates or consequences.",
+    "answerText": "A. Atoms are neither created nor destroyed by ordinary chemical reactions.",
+    "explanation": "A 是 Dalton 原子論的內容，不是理想氣體動力論的假設。F 並沒有錯：老師 Ch05 投影片明列氣體粒子的平均動能與 Kelvin 絕對溫度成正比；B、C、D、E、G、H 也都是氣體動力論的假設或等價敘述。",
     "chapter": "Ch05",
     "topics": [
       "kinetic molecular theory"
@@ -5156,7 +5156,7 @@
     "id": "exam2018-q33",
     "bank": "exam",
     "type": "single",
-    "prompt": "Give the definition of effusion.",
+    "prompt": "Give the definition for diffusion.",
     "options": [
       {
         "id": "A",
@@ -5182,11 +5182,11 @@
     "correctAnswers": [
       "A"
     ],
-    "answerText": "Effusion is escape through a tiny opening into a vacuum; diffusion is mixing through space.",
-    "explanation": "Effusion is escape through a tiny opening into a vacuum; diffusion is mixing through space.",
+    "answerText": "A. gas molecules spread out in a concentration gradient",
+    "explanation": "Diffusion is the spreading and mixing of gas molecules, generally from a region of higher concentration toward a region of lower concentration.",
     "chapter": "Ch05",
     "topics": [
-      "effusion"
+      "diffusion"
     ],
     "assets": [],
     "status": "ready",

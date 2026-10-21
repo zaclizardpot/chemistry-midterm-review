@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#080b11">
   <meta name="description" content="化學原理期中考複習筆記">
   <title>化原筆記</title>
-  <link rel="stylesheet" href="style.css?v=20261021-notes5">
+  <link rel="stylesheet" href="style.css?v=20261021-notes7">
 </head>
 <body>
   <main class="notes-shell">
@@ -24,7 +24,7 @@
       </div>
       <div class="notes-meta">
         <span class="badge">考前判讀版</span>
-        <span class="badge">更新：2026-10-20</span>
+        <span class="badge">更新：2026-10-21</span>
       </div>
     </header>
 
@@ -77,6 +77,20 @@
           <a href="#ch07-ie">游離能</a>
           <a href="#ch07-ea">電子親和力</a>
         </div>
+        <!--Ch08-->
+        <a class="toc-chapter" href="#ch08">Ch08</a>
+        <div class="toc-subitems">
+          <a href="#ch08-en">電負度</a>
+          <a href="#ch08-lewis">路易士電子模型</a>
+          <a href="#ch08-fc">形式電荷</a>
+          <a href="#ch08-vsepr">VSEPR</a>
+        </div>
+        <!--Ch09-->
+        <a class="toc-chapter" href="#ch09">Ch09</a>
+        <div class="toc-subitems">
+          <a href="#ch09-hybrid">混成軌域</a>
+          <a href="#ch09-mo">MO模型</a>
+        </div>
       </nav>
 
       <article class="notes-content">
@@ -90,15 +104,15 @@
 
           <h3>算有效位數的數字</h3>
           <ol>
-            <li><strong>所有非 0 的數字都有效。</strong></li>
-            <li><strong>夾在非 0 數字之間的 0 有效。</strong>例如 <span class="chem">16.07</span> 有 4 位有效數字。</li>
-            <li><strong>有小數點時，末尾的 0 有效。</strong>例如 <span class="chem">13.00</span> 有 4 位有效數字。</li>
+            <li><strong>所有非 0 的數字。</strong></li>
+            <li><strong>夾在非 0 數字之間的 0 。</strong></li>
+            <li><strong>有小數點時，結尾 0 。</strong></li>
           </ol>
 
           <h3>不算有效位數的 0</h3>
           <ol>
-            <li><strong>第一個非 0 數字前面的 0 無效。</strong>例如 <span class="chem">0.0012</span> 有 2 位有效數字，<span class="chem">0.3</span> 有 1 位有效數字。</li>
-            <li><strong>沒有小數點時，整數末尾的 0 通常視為無效。</strong>例如依本章採用的規則，<span class="chem">150</span> 通常表示 2 位有效數字。</li>
+            <li><strong>第一個非 0 數字前面的 0 。</strong></li>
+            <li><strong>沒有小數點時，整數結尾 0 。</strong></li>
           </ol>
 
           <div class="table-wrap"><table class="notes-table">
@@ -145,8 +159,6 @@
           <div class="memory-rule">標準形式：a × 10<sup>n</sup>，其中 1 ≤ |a| &lt; 10。</div>
 
           <ul>
-            <li>小數點向左移，指數為正。</li>
-            <li>小數點向右移，指數為負。</li>
             <li>小數點移動幾格，就決定指數的大小。</li>
             <li>係數 <span class="chem">a</span> 保留幾位數，就代表幾位有效數字。</li>
           </ul>
@@ -169,38 +181,34 @@
         </section>
         <section class="note-section" id="flow">
           <h2>一、先用這個流程判斷</h2>
-          <p class="note-lead">不要一看到下標就加 <em>di-</em>、<em>tri-</em>。先判斷化合物是哪一類，再套用規則。</p>
           <ol class="decision-flow">
             <li><strong>化學式是否以 H 開頭，而且題目把它當酸？</strong><br>是 → 使用酸的命名規則；否 → 繼續判斷。</li>
             <li><strong>是否為 metal + nonmetal？</strong><br>是 → ionic compound；固定電荷用 Type I，多種電荷用 Type II。</li>
             <li><strong>是否為 nonmetal + nonmetal？</strong><br>是 → binary covalent compound，使用數量前綴。</li>
             <li><strong>是否含有 polyatomic ion？</strong><br>把多原子離子視為完整的一組，保留它的名稱，不拆開命名。</li>
           </ol>
-          <div class="note-callout warning"><strong>為什麼會覺得沒學過？</strong>投影片第 38 頁只寫「多原子離子必須背」，並請學生參考課本 Table 2.5，卻沒有在投影片完整列出那張表。</div>
         </section>
 
         <section class="note-section" id="basics">
           <h2>二、先認得這些字</h2>
           <div class="table-wrap"><table class="notes-table">
-            <thead><tr><th>英文</th><th>中文</th><th>命名時要想到</th></tr></thead>
+            <thead><tr><th>英文</th><th>中文</th><th>屬性</th></tr></thead>
             <tbody>
               <tr><td>binary compound</td><td>二元化合物</td><td>只含兩種元素，不代表只有兩顆原子。</td></tr>
-              <tr><td>cation</td><td>陽離子</td><td>帶正電；離子化合物命名時放前面。</td></tr>
-              <tr><td>anion</td><td>陰離子</td><td>帶負電；命名時放後面。</td></tr>
+              <tr><td>cation</td><td>陽離子</td><td>離子化合物命名時放前面。</td></tr>
+              <tr><td>anion</td><td>陰離子</td><td>命名時放後面。</td></tr>
               <tr><td>monatomic ion</td><td>單原子離子</td><td>陰離子通常改成元素字根 + <em>-ide</em>。</td></tr>
               <tr><td>polyatomic ion</td><td>多原子離子</td><td>整組共同帶電，名稱要整組記住。</td></tr>
-              <tr><td>ionic compound</td><td>離子化合物</td><td>通常是金屬 + 非金屬，或含多原子離子。</td></tr>
-              <tr><td>covalent compound</td><td>共價化合物</td><td>非金屬 + 非金屬，使用數量前綴。</td></tr>
             </tbody>
           </table></div>
           <h3>投影片列出的常見族電荷</h3>
           <div class="table-wrap"><table class="notes-table">
             <thead><tr><th>族</th><th>常見電荷</th></tr></thead>
             <tbody>
-              <tr><td>Alkali metals，第 1A 族</td><td>+1</td></tr>
-              <tr><td>Alkaline earth metals，第 2A 族</td><td>+2</td></tr>
-              <tr><td>Halogens，第 7A 族</td><td>−1</td></tr>
-              <tr><td>Noble gases，第 8A 族</td><td>0</td></tr>
+              <tr><td>Alkali metals，1A 族</td><td>+1</td></tr>
+              <tr><td>Alkaline earth metals，2A 族</td><td>+2</td></tr>
+              <tr><td>Halogens，7A 族</td><td>−1</td></tr>
+              <tr><td>Noble gases，8A 族</td><td>0</td></tr>
             </tbody>
           </table></div>
         </section>
@@ -209,15 +217,15 @@
           <h2>三、Type I：固定電荷的二元離子化合物</h2>
           <ol>
             <li>先念陽離子，再念陰離子。</li>
-            <li>單原子陽離子直接使用元素名稱。</li>
-            <li>單原子陰離子改成元素字根 + <em>-ide</em>。</li>
+            <li>陽離子直接使用元素名稱。</li>
+            <li>陰離子改成元素字根 + <em>-ide</em>。</li>
             <li>不使用 <em>mono-</em>、<em>di-</em>、<em>tri-</em>。</li>
-            <li>固定電荷金屬不寫羅馬數字。</li>
+            <li>金屬電荷固定，不寫羅馬數字。</li>
           </ol>
           <div class="table-wrap"><table class="notes-table">
             <thead><tr><th>化學式</th><th>正確名稱</th><th>提醒</th></tr></thead>
             <tbody>
-              <tr><td class="chem">KCl</td><td>potassium chloride</td><td>K<sup>+</sup> + Cl<sup>−</sup></td></tr>
+              <tr><td class="chem">KCl</td><td>potassium chloride</td><td></td></tr>
               <tr><td class="chem">MgBr<sub>2</sub></td><td>magnesium bromide</td><td>不是 magnesium dibromide。</td></tr>
               <tr><td class="chem">CaO</td><td>calcium oxide</td><td>不寫 calcium(II) oxide。</td></tr>
             </tbody>
@@ -239,10 +247,9 @@
           <ol>
             <li>根據陰離子的總負電荷，反推出金屬的正電荷。</li>
             <li>在金屬名稱後用羅馬數字標出電荷。</li>
-            <li>羅馬數字代表金屬電荷，不是原子數量。</li>
           </ol>
           <div class="table-wrap"><table class="notes-table">
-            <thead><tr><th>電荷</th><th>羅馬數字</th><th>投影片例子</th><th>名稱</th></tr></thead>
+            <thead><tr><th>電荷</th><th>羅馬數字</th><th>例子</th><th>名稱</th></tr></thead>
             <tbody>
               <tr><td>+1</td><td>(I)</td><td class="chem">CuBr</td><td>copper(I) bromide</td></tr>
               <tr><td>+2</td><td>(II)</td><td class="chem">FeS</td><td>iron(II) sulfide</td></tr>
@@ -250,7 +257,6 @@
               <tr><td>+4</td><td>(IV)</td><td class="chem">PbO<sub>2</sub></td><td>lead(IV) oxide</td></tr>
             </tbody>
           </table></div>
-          <div class="note-callout"><strong>TiO<sub>2</sub>：</strong>兩個 O<sup>2−</sup> 的總電荷是 −4，所以 Ti 必須是 +4，名稱是 <strong>titanium(IV) oxide</strong>。投影片第 49 頁特別用 titanium(II) oxide 當錯誤選項。</div>
         </section>
 
         <section class="note-section" id="polyatomic">
@@ -272,7 +278,7 @@
             </tbody>
           </table></div>
           <div class="table-wrap"><table class="notes-table">
-            <thead><tr><th>化學式</th><th>正確名稱</th></tr></thead>
+            <thead><tr><th>化學式</th><th>名稱</th></tr></thead>
             <tbody>
               <tr><td class="chem">NaOH</td><td>sodium hydroxide</td></tr>
               <tr><td class="chem">Mg(NO<sub>3</sub>)<sub>2</sub></td><td>magnesium nitrate</td></tr>
@@ -281,7 +287,7 @@
               <tr><td class="chem">CaCrO<sub>4</sub></td><td>calcium chromate</td></tr>
             </tbody>
           </table></div>
-          <div class="note-callout"><strong>Sn(OH)<sub>4</sub>：</strong>四組 OH<sup>−</sup> 合計 −4，因此 Sn 是 +4。寫成 <strong>tin(IV) hydroxide</strong>，不是 tin tetrahydroxide。</div>
+          <div class="note-callout"><strong>Sn(OH)<sub>4</sub>：</strong>四組 OH<sup>−</sup> 合計 −4，因此 Sn 是 +4。寫成 <strong>tin(IV) hydroxide</strong></div>
         </section>
 
         <section class="note-section" id="covalent">
@@ -391,14 +397,10 @@
         </section>
         <section class="note-section" id="ch04-precipitation">
           <h2>一、簡易沉澱判讀</h2>
-          <p class="note-lead">先用溶解度規則判斷生成物是否可溶。若產物只微溶（slightly soluble），在這類沉澱反應題中通常視為形成固體沉澱 <span class="chem">(s)</span>。</p>
+          <p class="note-lead">先用溶解度規則判斷生成物是否可溶。若產物只微溶(slightly soluble)，通常視為沉澱。</p>
 
           <h3>優先記住：一定先檢查的可溶規則</h3>
           <div class="memory-rule">NO<sub>3</sub><sup>−</sup>／IA 族／NH<sub>4</sub><sup>+</sup>：通常可溶</div>
-          <ol>
-            <li><strong>硝酸鹽（NO<sub>3</sub><sup>−</sup>）通常可溶。</strong></li>
-            <li><strong>含 IA 族陽離子或 NH<sub>4</sub><sup>+</sup> 的鹽通常可溶。</strong></li>
-          </ol>
 
           <h3>完整沉澱表</h3>
           <div class="table-wrap"><table class="notes-table">
@@ -409,50 +411,41 @@
               <tr>
                 <td class="chem">NO<sub>3</sub><sup>−</sup></td>
                 <td>可溶</td>
-                <td>本投影片未列例外</td>
-                <td>硝酸根通常溶</td>
+                <td>尚無</td>
+                <td></td>
               </tr>
               <tr>
                 <td>IA 族、<span class="chem">NH<sub>4</sub><sup>+</sup></span></td>
                 <td>可溶</td>
-                <td>本投影片未列例外</td>
-                <td>一族、銨根通常溶</td>
+                <td>尚無</td>
+                <td></td>
               </tr>
               <tr>
                 <td class="chem">Cl<sup>−</sup>、Br<sup>−</sup>、I<sup>−</sup></td>
-                <td>通常可溶</td>
-                <td><span class="chem">Ag<sup>+</sup>、Pb<sup>2+</sup>、Hg<sub>2</sub><sup>2+</sup></span></td>
-                <td>氯溴碘，遇銀、鉛、亞汞就沉澱</td>
+                <td>可溶</td>
+                <td><span class="chem">Ag<sup>+</sup>、Pb<sup>2+</sup>、Hg<sub>2</sub><sup>2+</sup>、Cu<sup>+</sup></span></td>
+                <td>氯溴碘(呂秀蓮)不可<br>汞銅鉛銀(共同牽引)</td>
               </tr>
               <tr>
                 <td class="chem">SO<sub>4</sub><sup>2−</sup></td>
-                <td>通常可溶</td>
-                <td><span class="chem">BaSO<sub>4</sub>、PbSO<sub>4</sub>、Hg<sub>2</sub>SO<sub>4</sub>、CaSO<sub>4</sub></span></td>
-                <td>硫酸根遇鋇、鉛、亞汞、鈣例外</td>
+                <td>可溶</td>
+                <td><span class="chem">Ba<sup>2+</sup>、Pb<sup>2+</sup>、Hg<sub>2</sub><sup>2+</sup>、Ca<sup>2+</sup></span></td>
+                <td>硫酸根不可<br>汞鈣鋇鉛(公蓋被牽)</td>
               </tr>
               <tr>
                 <td class="chem">OH<sup>−</sup></td>
-                <td>大多只微溶</td>
-                <td><span class="chem">NaOH、KOH</span> 可溶；<span class="chem">Ba(OH)<sub>2</sub>、Ca(OH)<sub>2</sub></span> 僅 marginally soluble</td>
-                <td>OH<sup>−</sup> 多半沉；Na、K 溶，Ca、Ba 僅有限度溶解</td>
+                <td>微溶</td>
+                <td><span class="chem">Ca<sup>2+</sup></span> 微溶<span class="chem">；Ba<sup>2+</sup>、Sr<sup>2+</sup></span> 可溶</td>
+                <td>IA、NH<sub>4</sub><sup>+</sup>皆可溶；IIA族原子序越大溶解度越高</td>
               </tr>
               <tr>
                 <td class="chem">S<sup>2−</sup>、CO<sub>3</sub><sup>2−</sup>、CrO<sub>4</sub><sup>2−</sup>、PO<sub>4</sub><sup>3−</sup></td>
-                <td>大多只微溶</td>
-                <td>含 IA 族陽離子或 <span class="chem">NH<sub>4</sub><sup>+</sup></span> 時可溶</td>
-                <td>磷、碳、鉻、硫通常沉；遇一族或銨才溶</td>
+                <td>微溶</td>
+                <td>含 IA 族、<span class="chem">NH<sub>4</sub><sup>+</sup></span> 時可溶</td>
+                <td>硫磷碳鉻(留林探各)不喜歡溶解</td>
               </tr>
             </tbody>
           </table></div>
-
-          <h3>你的五句筆記，修正後這樣背</h3>
-          <ol class="decision-flow">
-            <li><strong>NO<sub>3</sub><sup>−</sup>、IA、NH<sub>4</sub><sup>+</sup> 通常可溶。</strong><br>其中 NO<sub>3</sub><sup>−</sup> 是陰離子規則；IA 與 NH<sub>4</sub><sup>+</sup> 是陽離子規則。</li>
-            <li><strong>Cl<sup>−</sup>、Br<sup>−</sup>、I<sup>−</sup> 通常可溶，遇 Ag<sup>+</sup>、Pb<sup>2+</sup>、Hg<sub>2</sub><sup>2+</sup> 例外。</strong></li>
-            <li><strong>SO<sub>4</sub><sup>2−</sup> 通常可溶，但 BaSO<sub>4</sub>、PbSO<sub>4</sub>、Hg<sub>2</sub>SO<sub>4</sub>、CaSO<sub>4</sub> 例外。</strong></li>
-            <li><strong>OH<sup>−</sup> 不能直接背成「IA／IIA 都可溶」。</strong><br>投影片只明列 NaOH、KOH 可溶；Ca(OH)<sub>2</sub>、Ba(OH)<sub>2</sub> 是 marginally soluble。</li>
-            <li><strong>PO<sub>4</sub><sup>3−</sup>、CO<sub>3</sub><sup>2−</sup>、CrO<sub>4</sub><sup>2−</sup>、S<sup>2−</sup> 通常只微溶。</strong><br>只有搭配 IA 族陽離子或 NH<sub>4</sub><sup>+</sup> 時，才套用可溶例外。</li>
-          </ol>
 
           <h3>快速例子</h3>
           <div class="table-wrap"><table class="notes-table">
@@ -465,8 +458,6 @@
               <tr><td class="chem">KOH</td><td>可溶</td><td>K<sup>+</sup> 是 IA 族，也是投影片明列例子。</td></tr>
             </tbody>
           </table></div>
-
-          <div class="note-callout warning"><strong>用詞注意：</strong>老師投影片寫的是 <em>only slightly soluble</em>，嚴格來說不等於絕對不溶；但在一般沉澱反應與淨離子方程式題目中，通常把它們視為會形成沉澱。</div>
         </section>
 
         <!--Ch05內容-->
@@ -493,13 +484,12 @@
               <tr><td>Avogadro's law<br>亞佛加厥定律</td><td><span class="chem">T、P</span> 固定</td><td class="chem">V = kn</td><td class="chem">V<sub>1</sub>/n<sub>1</sub> = V<sub>2</sub>/n<sub>2</sub></td></tr>
             </tbody>
           </table></div>
-          <div class="note-callout"><strong>判讀：</strong>Boyle 是反比；Charles 與 Avogadro 是正比。Charles 定律的溫度必須使用 K，<span class="chem">T(K) = t(°C) + 273.15</span>。</div>
         </section>
         <section class="note-section" id="ch05-speed">
           <h2>三、分子速率與逸散</h2>
           <h3>方均根速率（root-mean-square speed）</h3>
           <div class="formula-card formula-large" aria-label="u rms equals square root of 3 R T over M">
-            <i>u</i><sub>rms</sub> = <span class="radical">√</span><span class="radicand"><span class="formula-fraction"><span>3RT</span><span>M</span></span></span>
+            <span><i>u</i><sub>rms</sub></span> = <span class="radical">√</span><span class="radicand"><span class="formula-fraction"><span>3RT</span><span>M</span></span></span>
           </div>
           <ul>
             <li><span class="chem">R = 8.314 J·mol<sup>−1</sup>·K<sup>−1</sup></span> 時，<span class="chem">M</span> 必須用 <strong>kg/mol</strong>。</li>
@@ -517,37 +507,35 @@
         </section>
         <section class="note-section" id="ch05-correction">
           <h2>四、真實氣體方程式修正</h2>
-          <p class="note-lead">理想氣體忽略分子本身的體積與分子間作用力；高壓或低溫時，這兩項假設容易失效。</p>
 
           <h3>1. 高壓：修正分子本身占有的體積</h3>
-          <p>高壓時分子被擠得很近，分子本身的體積已占據容器中不可忽略的部分。真正可供分子移動的自由體積為 <span class="chem">V − nb</span>，因此實際容積會比理想氣體式預測的值大。</p>
+          <p>高壓時分子被擠得很近，分子本身的體積已不可忽略，因此實際容積會比理想預測的大。</p>
           <div class="formula-card formula-large">
             V = <span class="formula-fraction"><span>nRT</span><span>P</span></span> + nb
           </div>
 
           <h3>2. 低溫：修正分子間吸引力</h3>
-          <p>低溫時分子動能較小，分子間吸引力的影響變明顯；分子較少、也較弱地撞擊容器壁，使觀察到的壓力低於理想值。</p>
+          <p>低溫時分子動能較小，分子間吸引力的影響變明顯，導致分子較少、弱地撞擊器壁，使觀察到的壓力低於理想值。</p>
           <div class="formula-card formula-large">
             P = <span class="formula-fraction"><span>nRT</span><span>V</span></span> − a<span class="formula-paren">(</span><span class="formula-fraction"><span>n</span><span>V</span></span><span class="formula-paren">)</span><sup>2</sup>
           </div>
 
           <h3>3. van der Waals 方程式：兩項一起修正</h3>
           <div class="formula-card formula-large formula-wrap">
-            <span class="formula-bracket">[</span>P + a<span class="formula-paren">(</span><span class="formula-fraction"><span>n</span><span>V</span></span><span class="formula-paren">)</span><sup>2</sup><span class="formula-bracket">]</span>
+            <span class="formula-bracket">[</span><span>P<sub>obs</sub></span> + a<span class="formula-paren">(</span><span class="formula-fraction"><span>n</span><span>V</span></span><span class="formula-paren">)</span><sup>2</sup><span class="formula-bracket">]</span>
             <span class="formula-times">×</span>
-            <span class="formula-bracket">[</span>V − nb<span class="formula-bracket">]</span> = nRT
+            <span class="formula-bracket">[</span><span>V<sub>obs</sub></span> − nb<span class="formula-bracket">]</span> = nRT
           </div>
 
           <div class="table-wrap"><table class="notes-table">
-            <thead><tr><th>常數</th><th>物理意義</th><th>數值變大代表</th></tr></thead>
+            <thead><tr><th>常數</th><th>物理意義</th><th>數值意義</th></tr></thead>
             <tbody>
-              <tr><td class="chem">a</td><td>分子間吸引力的壓力修正</td><td>分子間吸引力較強。對大小相近的分子而言，極性分子通常比非極性分子有較大的 <span class="chem">a</span>。</td></tr>
-              <tr><td class="chem">b</td><td>分子有限體積的容積修正</td><td>分子本身的有效體積較大。</td></tr>
+              <tr><td class="chem">a</td><td>分子間吸引力的壓力修正</td><td>分子間吸引力較強數值上升；對大小相近的分子而言，極性分子通常比非極性分子大。</td></tr>
+              <tr><td class="chem">b</td><td>分子有限體積的容積修正</td><td>分子本身體積大數值上升。</td></tr>
             </tbody>
           </table></div>
           <ul>
-            <li>同族非極性粒子通常原子序越高、電子越多、可極化性越大，London dispersion force 越強，因此 <span class="chem">a</span> 往往上升。</li>
-            <li>粒子半徑或分子尺寸越大，排除體積越大，因此 <span class="chem">b</span> 往往上升。</li>
+            <li>同族非極性粒子通常原子序越高、電子越多、可極化性越大，分散力越強，因此 <span class="chem">a</span> 往往上升。</li>
           </ul>
         </section>
         <section class="note-section" id="ch05-real-gas">
@@ -566,8 +554,8 @@
             </tbody>
           </table></div>
           <figure class="note-figure">
-            <img src="真實氣體差異.png" alt="數種真實氣體在 200 K 時，壓縮因子 PV 除以 nRT 隨壓力變化的曲線">
-            <figcaption>虛線 <span class="chem">Z = 1</span> 代表理想氣體；曲線低於 1 表示吸引力效應占優勢，高於 1 表示有限體積與排斥效應占優勢。</figcaption>
+            <img src="圖片\真實氣體差異.png" alt="數種真實氣體在 200 K 時，壓縮因子 PV 除以 nRT 隨壓力變化的曲線">
+            <figcaption>虛線 Z = 1 代表理想氣體；曲線低於 1 表示吸引力效應占優勢，高於 1 表示有限體積與排斥效應占優勢。</figcaption>
           </figure>
         </section>
         <section class="note-section" id="ch05-air-pollution">
@@ -575,9 +563,9 @@
           <h3>光化學煙霧（photochemical smog）</h3>
           <div class="memory-rule">時間順序：NO → NO<sub>2</sub> → O<sub>3</sub></div>
           <ol>
-            <li>汽、機車引擎的高溫使 <span class="chem">N<sub>2</sub></span> 與 <span class="chem">O<sub>2</sub></span> 生成 <span class="chem">NO</span>。</li>
-            <li><span class="chem">NO</span> 在空氣中進一步被氧化成 <span class="chem">NO<sub>2</sub></span>。</li>
-            <li>中午附近的日光／紫外線使 <span class="chem">NO<sub>2</sub> → NO + O</span>。</li>
+            <li>引擎高溫使 <span class="chem">N<sub>2</sub></span> 與 <span class="chem">O<sub>2</sub></span> 生成 <span class="chem">NO</span>。</li>
+            <li><span class="chem">NO</span> 在空氣中被氧化成 <span class="chem">NO<sub>2</sub></span>。</li>
+            <li>中午的紫外線使 <span class="chem">NO<sub>2</sub> → NO + O</span>。</li>
             <li>游離氧原子再與氧氣反應：<span class="chem">O + O<sub>2</sub> → O<sub>3</sub></span>，形成臭氧。</li>
           </ol>
 
@@ -588,8 +576,12 @@
           <p>煤中的硫燃燒生成 <span class="chem">SO<sub>2</sub></span>，再氧化成 <span class="chem">SO<sub>3</sub></span>；<span class="chem">SO<sub>3</sub></span> 與水形成具腐蝕性的硫酸，是酸雨來源之一。</p>
           <p>煙道氣洗滌器（scrubber）可利用石灰石除去 <span class="chem">SO<sub>2</sub></span>：</p>
           <div class="formula-grid formula-grid-2">
-            <div class="formula-card">CaCO<sub>3</sub> → CaO + CO<sub>2</sub></div>
-            <div class="formula-card">CaO + SO<sub>2</sub> → CaSO<sub>3</sub>(s)</div>
+            <div class="formula-card">
+              <span>CaCO<sub>3</sub> → CaO + CO<sub>2</sub></span>
+            </div>
+            <div class="formula-card">
+              <span>CaO + SO<sub>2</sub> → CaSO<sub>3</sub>(s)</span>
+            </div>
           </div>
         </section>
         
@@ -690,9 +682,142 @@
           </ol>
           <div class="note-callout"><strong>看清楚題目的正負號定義：</strong>若 EA 指反應能量變化，越有利通常寫成「越負」；若題目把 EA 當作放出能量的大小，則會說數值越大。兩種說法都可能出現。</div>
         </section>
+        <!--Ch08內容-->
+        <section class="chapter-heading" id="ch08">
+          <h2 class="eyebrow">CHAPTER 08</h2>
+        </section>
+        <section class="note-section" id="ch08-en">
+          <h2>一、電負度（electronegativity, EN）</h2>
+          <p class="note-lead">原子在分子中吸引共用電子的能力。</p>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>元素</th><th>Pauling 電負度</th><th>重點</th></tr></thead>
+            <tbody>
+              <tr><td>F</td><td>4.0</td><td>最高</td></tr>
+              <tr><td>O</td><td>3.5</td><td rowspan="4">常用比較值</td></tr>
+              <tr><td>N</td><td>3.0</td></tr>
+              <tr><td>C</td><td>2.5</td></tr>
+              <tr><td>H</td><td>2.1</td></tr>
+              <tr><td>Cs</td><td>0.7</td><td>最低</td></tr>
+            </tbody>
+          </table></div>
+          <ul>
+            <li><strong>同週期由左到右上升：</strong>有效核電荷增加、原子半徑減小，吸引鍵結電子的能力增強。</li>
+            <li><strong>同族由上到下降低：</strong>價層離核更遠、屏蔽增加，吸引鍵結電子的能力減弱。</li>
+          </ul>
+
+          <h3>偶極矩與分子極性</h3>
+          <p>鍵偶極箭頭由部分正電端指向部分負電端，箭尾以十字符號標示正端。分子是否具有淨偶極矩，還要看所有鍵偶極的<strong>向量和</strong>；對稱分子可能互相抵消。</p>
+
+          <h3>晶格能</h3>
+          <div class="formula-card formula-large">
+            <span>晶格能大小 = k<span class="formula-paren">(</span><span class="formula-fraction"><span>|Q<sub>1</sub>Q<sub>2</sub>|</span><span>r</span></span><span class="formula-paren">)</span></span>
+          </div>
+          <p><span class="chem">Q<sub>1</sub>、Q<sub>2</sub></span> 是離子電荷，<span class="chem">r</span> 是正、負離子中心間距離。<strong>電荷乘積越大、離子距離越小，晶格能大小越大。</strong></p>
+
+          <h3>百分比離子性</h3>
+          <div class="formula-card formula-large formula-wrap">
+            <span>% 離子性 = <span class="formula-fraction"><span>測量的偶極矩</span><span>電子完全轉移時的理論偶極矩</span></span> × 100%</span>
+          </div>
+          <p>實際鍵結是連續變化的；即使電負度差很大，也沒有鍵達到完全 100% 離子性。</p>
+        </section>
+        <section class="note-section" id="ch08-lewis">
+          <h2>二、Lewis 電子模型</h2>
+          <ul>
+            <li>H 遵守 duet rule，周圍最多 2 個電子。</li>
+            <li>C、N、O、F 等第二週期元素不可超過八隅體。</li>
+            <li>第三週期以後的<strong>中心原子</strong>才可能形成 expanded octet。</li>
+            <li>Be、B 常形成不足八隅體；常見情況分別為中心原子周圍 4、6 個電子。</li>
+            <li>分配剩餘電子時，通常先滿足外圍、電負度較大的原子，再處理中心原子。</li>
+          </ul>
+        </section>
+        <section class="note-section" id="ch08-fc">
+          <h2>三、形式電荷（formal charge）</h2>
+          <div class="formula-card formula-large">
+            <span>形式電荷 = 自由原子的價電子數 − 分子中分配給該原子的有效電子數</span>
+          </div>
+          <ol>
+            <li>所有原子的形式電荷總和，必須等於分子或離子的總電荷。</li>
+            <li>比較非等價 Lewis 結構時，形式電荷越接近 0 越好。</li>
+            <li>若必須出現負形式電荷，應盡量放在電負度較大的原子上。</li>
+          </ol>
+        </section>
+        <section class="note-section" id="ch08-vsepr">
+          <h2>四、VSEPR</h2>
+          <p class="note-lead">先畫 Lewis 結構，再數中心原子的電子域。單鍵、雙鍵、三鍵都各算 1 個電子域；每一對孤電子也算 1 個。</p>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>電子域數</th><th>電子域幾何</th><th>理想鍵角</th><th>混成</th></tr></thead>
+            <tbody>
+              <tr><td>2</td><td>linear</td><td>180°</td><td>sp</td></tr>
+              <tr><td>3</td><td>trigonal planar</td><td>120°</td><td>sp²</td></tr>
+              <tr><td>4</td><td>tetrahedral</td><td>109.5°</td><td>sp³</td></tr>
+              <tr><td>5</td><td>trigonal bipyramidal</td><td>90°、120°、180°</td><td>dsp³</td></tr>
+              <tr><td>6</td><td>octahedral</td><td>90°、180°</td><td>d²sp³</td></tr>
+            </tbody>
+          </table></div>
+          <ul>
+            <li><strong>5 電子域：</strong>孤電子優先放在 equatorial position，因為只有兩個 90° 排斥。</li>
+            <li><strong>6 電子域：</strong>六個位置原本等價；若有兩對孤電子，兩者優先互相呈 180°，形成 square planar 的原子排列。</li>
+            <li>孤電子排斥力大於鍵結電子，通常會把實際鍵角壓得比理想鍵角小。</li>
+          </ul>
+        </section>
+        <!--Ch09內容-->
+        <section class="chapter-heading" id="ch09">
+          <h2 class="eyebrow">CHAPTER 09</h2>
+        </section>
+        <section class="note-section" id="ch09-hybrid">
+          <h2>一、混成軌域與 π 鍵</h2>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>電子域數</th><th>混成</th><th>混成軌域數</th><th>剩餘未混成 p 軌域</th><th>幾何</th></tr></thead>
+            <tbody>
+              <tr><td>2</td><td>sp</td><td>2</td><td>2</td><td>linear</td></tr>
+              <tr><td>3</td><td>sp²</td><td>3</td><td>1</td><td>trigonal planar</td></tr>
+              <tr><td>4</td><td>sp³</td><td>4</td><td>0</td><td>tetrahedral</td></tr>
+              <tr><td>5</td><td>dsp³</td><td>5</td><td>—</td><td>trigonal bipyramidal</td></tr>
+              <tr><td>6</td><td>d²sp³</td><td>6</td><td>—</td><td>octahedral</td></tr>
+            </tbody>
+          </table></div>
+          <ul>
+            <li>混成是原生原子軌域混合，產生方向與能量適合鍵結的新軌域；混成前後的軌域總數守恆。</li>
+            <li>σ 鍵沿核間軸頭對頭重疊；π 鍵由兩個平行、未混成的 p 軌域側向重疊。</li>
+            <li>單鍵 = 1σ；雙鍵 = 1σ + 1π；三鍵 = 1σ + 2π。</li>
+            <li>π 鍵上下兩側的電子雲要求 p 軌域保持平行，因此會限制鍵的自由旋轉。</li>
+          </ul>
+        </section>
+        <section class="note-section" id="ch09-mo">
+          <h2>二、分子軌域模型（MO model）</h2>
+          <ul>
+            <li>原子軌域組合成延伸於整個分子的分子軌域；組合前後軌域數守恆。</li>
+            <li>bonding MO 能量較低；antibonding MO 能量較高，使用星號 <span class="chem">*</span> 標示。</li>
+          </ul>
+
+          <h3>鍵級（bond order）</h3>
+          <div class="formula-card formula-large">
+            <span>鍵級 = <span class="formula-fraction"><span>鍵結電子數 − 反鍵結電子數</span><span>2</span></span></span>
+          </div>
+          <p>鍵級越大，通常鍵越強、鍵長越短；鍵級大於 0 才預測有淨鍵結。</p>
+
+          <h3>第二週期同核雙原子的 2p 能階順序</h3>
+          <div class="table-wrap"><table class="notes-table">
+            <thead><tr><th>分子</th><th>重要順序</th><th>原因</th></tr></thead>
+            <tbody>
+              <tr><td class="chem">B<sub>2</sub>、C<sub>2</sub>、N<sub>2</sub></td><td class="chem">π2p &lt; σ2p</td><td>s-p mixing 使 σ2p 能量被推高。</td></tr>
+              <tr><td class="chem">O<sub>2</sub>、F<sub>2</sub>、Ne<sub>2</sub></td><td class="chem">σ2p &lt; π2p</td><td>2s、2p 能量差變大，s-p mixing 減弱。</td></tr>
+            </tbody>
+          </table></div>
+
+          <h3>磁性</h3>
+          <ul>
+            <li>有一個以上未配對電子：<strong>paramagnetic，順磁性</strong>，會被磁場吸引。</li>
+            <li>所有電子都成對：<strong>diamagnetic，反磁性</strong>。</li>
+          </ul>
+
+          <h3>異核雙原子：HF</h3>
+          <p>F 的電負度較大，2p 原子軌域能量低於 H 的 1s；因此 HF 的鍵結電子機率較偏向 F。一般而言，同週期原子序增加時，有效核電荷上升，價軌域能量下降。</p>
+          <div class="note-callout"><strong>MO 組合條件：</strong>兩個原子軌域要有相容的對稱性，且能量越接近，混合越有效。</div>
+        </section>
       </article>
     </div>
-    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02、Ch04、Ch05 與 Ch07 依老師投影片整理。後續可持續加入新筆記章節。</footer>
+    <footer class="notes-footer">Ch01 依個人課堂筆記整理；Ch02、Ch04、Ch05、Ch07、Ch08 與 Ch09 依老師投影片整理。後續可持續加入新筆記章節。</footer>
   </main>
 </body>
 </html>
