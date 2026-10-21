@@ -104,7 +104,19 @@ textarea.answer-input { min-height: 140px; resize: vertical; }
 .notes-hero-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
 .notes-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .notes-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 30px; margin-top: 28px; }
-.notes-toc { position: sticky; top: 18px; align-self: start; padding: 17px; border: 1px solid var(--line); border-radius: 16px; background: rgba(13,17,25,.92); }
+.notes-toc {
+  position: sticky;
+  top: 18px;
+  align-self: start;
+  max-height: calc(100vh - 36px);
+  padding: 17px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(13,17,25,.92);
+}
 .notes-toc strong { display: block; margin-bottom: 10px; color: var(--accent-2); }
 .notes-toc a { display: block; padding: 7px 8px; border-radius: 8px; color: var(--muted); text-decoration: none; line-height: 1.35; }
 .notes-toc a:hover { color: var(--text); background: var(--surface-2); }
@@ -158,7 +170,12 @@ textarea.answer-input { min-height: 140px; resize: vertical; }
   .card-footer { align-items: flex-end; }
   .history-controls { grid-template-columns: 1fr; }
   .notes-layout { grid-template-columns: 1fr; }
-  .notes-toc { position: static; }
+  .notes-toc {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    scrollbar-gutter: auto;
+  }
   .trap-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 440px) {
