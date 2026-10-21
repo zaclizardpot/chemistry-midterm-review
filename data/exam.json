@@ -639,6 +639,7 @@
     "bank": "exam",
     "type": "single",
     "prompt": "Consider the following gas samples: Sample A Sample B S2(g) O2(g) n = 1 mol n = 2 mol T = 800 K T = 400 K P = 0.20 atm P = 0.40 atm Which of the following statements is false?",
+    "promptHtml": "<p>Consider the following gas samples:</p><div class=\"question-table-wrap\"><table class=\"question-table\"><thead><tr><th scope=\"col\">Sample A</th><th scope=\"col\">Sample B</th></tr></thead><tbody><tr><td>S<sub>2</sub>(g)</td><td>O<sub>2</sub>(g)</td></tr><tr><td>n = 1 mol</td><td>n = 2 mol</td></tr><tr><td>T = 800 K</td><td>T = 400 K</td></tr><tr><td>P = 0.20 atm</td><td>P = 0.40 atm</td></tr></tbody></table></div><p>Which of the following statements is false?</p>",
     "options": [
       {
         "id": "A",

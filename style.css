@@ -51,7 +51,16 @@ h2 { margin: 0; font-size: 1.45rem; }
 .meta-row { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; color: var(--muted); font-size: .9rem; }
 .badge { padding: 5px 10px; border-radius: 999px; color: var(--accent-2); background: #1a2231; font-weight: 800; }
 .badge.warning { color: #251b05; background: var(--warn); }
-.question-card h2 { margin: 26px 0 10px; font-size: clamp(1.3rem, 3.2vw, 1.85rem); line-height: 1.42; white-space: pre-line; }
+.question-card h2, .question-prompt { margin: 26px 0 10px; font-size: clamp(1.3rem, 3.2vw, 1.85rem); line-height: 1.42; white-space: pre-line; font-weight: 700; }
+.question-prompt p { margin: 0 0 14px; }
+.question-prompt sub, .option sub, .result sub { font-size: .7em; vertical-align: sub; }
+.question-prompt sup, .option sup, .result sup { font-size: .7em; vertical-align: super; }
+.question-table-wrap { width: 100%; margin: 16px 0 20px; overflow-x: auto; }
+.question-table { width: min(720px, 100%); border-collapse: collapse; color: var(--text); background: #111722; font-size: clamp(.94rem, 2vw, 1.08rem); font-weight: 500; text-align: center; white-space: normal; }
+.question-table th, .question-table td { padding: 9px 14px; border: 1px solid #536078; text-align: center; }
+.question-table th { color: #dce7ff; background: #1a2333; font-weight: 800; }
+.result-copy { line-height: 1.65; }
+.result-copy p { margin: 0 0 10px; }
 .instruction { margin: 0 0 20px; color: var(--muted); }
 .question-assets { display: grid; gap: 12px; margin: 18px 0 22px; }
 .question-assets img { display: block; width: min(100%, 900px); max-height: 560px; margin: 0 auto; object-fit: contain; border: 1px solid var(--line); border-radius: 14px; background: #fff; }

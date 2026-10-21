@@ -2,7 +2,7 @@
   'use strict';
 
   const STORAGE_KEY = 'chemistry-midterm-review-v1';
-  const DATA_VERSION = '20261019-1';
+  const DATA_VERSION = '20261022-rich1';
   const BANK_META = {
     exam: {
       label: '考古原題',
@@ -98,14 +98,53 @@
     }[character]));
   }
 
+  const RICH_TEXT_TAGS = new Set([
+    'sub', 'sup', 'br', 'span', 'strong', 'em', 'p', 'div',
+    'table', 'thead', 'tbody', 'tr', 'th', 'td'
+  ]);
+  const RICH_TEXT_ATTRIBUTES = new Set(['class', 'colspan', 'rowspan', 'scope']);
+
+  function sanitizeRichHtml(value) {
+    const source = document.createElement('template');
+    source.innerHTML = String(value ?? '');
+    const output = document.createElement('template');
+
+    function clean(node) {
+      if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent || '');
+      if (node.nodeType !== Node.ELEMENT_NODE) return document.createDocumentFragment();
+      const tag = node.tagName.toLowerCase();
+      if (!RICH_TEXT_TAGS.has(tag)) return document.createTextNode(node.textContent || '');
+      const element = document.createElement(tag);
+      [...node.attributes].forEach(attribute => {
+        if (RICH_TEXT_ATTRIBUTES.has(attribute.name.toLowerCase())) {
+          element.setAttribute(attribute.name, attribute.value);
+        }
+      });
+      [...node.childNodes].forEach(child => element.append(clean(child)));
+      return element;
+    }
+
+    [...source.content.childNodes].forEach(node => output.content.append(clean(node)));
+    return output.innerHTML;
+  }
+
+  function renderRichText(html, plainText) {
+    return html ? sanitizeRichHtml(html) : escapeHtml(plainText);
+  }
+
   function normalizeAnswer(value) {
     return String(value ?? '').normalize('NFKC').trim().toLowerCase().replace(/\s+/g, ' ');
   }
 
   function normalizeQuestion(raw, bankName) {
     const options = (raw.options || []).map((option, index) => typeof option === 'string'
-      ? { id: String.fromCharCode(65 + index), text: option }
-      : { id: String(option.id ?? String.fromCharCode(65 + index)), text: String(option.text ?? '') });
+      ? { id: String.fromCharCode(65 + index), text: option, html: '' }
+      : {
+          ...option,
+          id: String(option.id ?? String.fromCharCode(65 + index)),
+          text: String(option.text ?? ''),
+          html: option.html ? String(option.html) : ''
+        });
     const source = raw.source && typeof raw.source === 'object' ? raw.source : {};
     const sourceParts = [];
     if (source.file) sourceParts.push(source.file);
@@ -211,7 +250,7 @@
     if (question.type === 'single' || question.type === 'multiple') {
       const inputType = question.type === 'single' ? 'radio' : 'checkbox';
       return `<div class="options">${question.options.map(option => `
-        <label class="option"><input type="${inputType}" name="answer" value="${escapeHtml(option.id)}"><span>${escapeHtml(option.id)}. ${escapeHtml(option.text)}</span></label>`).join('')}</div>`;
+        <label class="option"><input type="${inputType}" name="answer" value="${escapeHtml(option.id)}"><span>${escapeHtml(option.id)}. ${renderRichText(option.html, option.text)}</span></label>`).join('')}</div>`;
     }
     if (question.type === 'short_answer') {
       return '<textarea id="short-answer" class="answer-input" placeholder="先在這裡整理你的作答，再查看參考答案。"></textarea>';
@@ -240,7 +279,7 @@
         <span>${escapeHtml(question.sourceLabel)}</span>
         ${topic ? `<span>${escapeHtml(topic)}</span>` : ''}
       </div>
-      <h2>${escapeHtml(question.prompt)}</h2>
+      <div class="question-prompt">${renderRichText(question.promptHtml, question.prompt)}</div>
       <p class="instruction">${escapeHtml(instructionFor(question))}</p>
       ${renderAssets(question)}
       <div id="answer-area">${renderInputs(question)}</div>
@@ -317,9 +356,9 @@
       : '';
     $('#result-area').innerHTML = `<div class="result ${statusClass}">
       <h3>${statusText}</h3>
-      <p>${escapeHtml(currentQuestion.explanation || source.notes || '請用老師投影片核對此題的判斷依據。')}</p>
+      <div class="result-copy">${renderRichText(currentQuestion.explanationHtml, currentQuestion.explanation || source.notes || '請用老師投影片核對此題的判斷依據。')}</div>
       ${discrepancy}
-      <p class="answer-line"><strong>參考答案：</strong>${escapeHtml(answerText(currentQuestion))}</p>
+      <p class="answer-line"><strong>參考答案：</strong>${renderRichText(currentQuestion.answerHtml, answerText(currentQuestion))}</p>
     </div>`;
     const actions = card.querySelector('.card-actions');
     actions.innerHTML = `
